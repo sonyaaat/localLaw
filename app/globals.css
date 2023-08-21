@@ -33,3 +33,9 @@ body {
   line-height: 137.5% ;
 letter-spacing: 0.048px;
 }
+.container{
+  width:1294px ;
+  padding-right: 15px;
+  padding-left: 15px;
+
+}
