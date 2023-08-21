@@ -1,4 +1,5 @@
 
+
 :root{
   --text-primary: #17181B;
   --brand-primary-normal: #83BFC4;
@@ -20,29 +21,30 @@ body {
   box-sizing: border-box;
 }
 
-
-li{
+li {
   list-style: none;
 }
 
 a {
   color: inherit;
   text-decoration: none;
+  cursor: pointer;
 }
 
 body {
   font-family: "Poppins", sans-serif;
   font-weight: 500;
   font-size: 16px;
-  color: #17181B;
-  line-height: 137.5% ;
-letter-spacing: 0.048px;
+  color: #17181b;
+  line-height: 137.5%;
+  letter-spacing: 0.048px;
 }
-.container{
-  width:1294px ;
+.container {
+  width: 1294px;
   padding-right: 15px;
   padding-left: 15px;
   border: 1px solid red;
   margin-left: auto;
   margin-right: auto;
 }
+

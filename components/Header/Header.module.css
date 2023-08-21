@@ -1,0 +1,78 @@
+.header__container {
+  display: flex;
+  padding: 32px 88px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__list {
+  display: flex;
+  padding: 15px 32px;
+  align-items: flex-start;
+  gap: 24px;
+  border-radius: 56px;
+  background: var(--additional-blue-light, #eff5fb);
+  backdrop-filter: blur(0px);
+}
+
+.header__item {
+  color: var(--text-secondary);
+  text-align: center;
+
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.375;
+  letter-spacing: 0.048px;
+}
+.header__btn {
+  display: flex;
+  padding: 17px 32px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 40px;
+  border: none;
+  background: var(--brand-primary-normal);
+}
+
+.header__registr {
+  color: var(--text-quaternary);
+  text-align: center;
+
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.375;
+  letter-spacing: -0.064px;
+}
+
+.header__logotext {
+  color: var(--text-primary);
+  font-family: Sweet Sans Pro;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100%;
+  letter-spacing: -1px;
+  text-transform: uppercase;
+}
+.header__logotextsecond {
+  color: var(--text-primary);
+  font-family: Sweet Sans Pro;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 100%;
+  letter-spacing: -1px;
+}
+.header_logospans {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.header__iconspans {
+  display: flex;
+}
