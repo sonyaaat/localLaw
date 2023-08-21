@@ -19,7 +19,7 @@
   color: var(--text-secondary);
   text-align: center;
 
-  font-family: Poppins;
+  font-family: "Poppins",sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
@@ -41,7 +41,7 @@
   color: var(--text-quaternary);
   text-align: center;
 
-  font-family: Poppins;
+  font-family: "Poppins",sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;

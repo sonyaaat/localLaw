@@ -1,12 +1,13 @@
+import Image from "next/image";
 import css from "../Header/Header.module.css";
 
-const Header = () => {
+export default function Header() {
   return (
     <header className={css.header}>
       <div className={css.header__container}>
         <div className={css.header__iconspans}>
           <a className={css.header__linklogo} href="/src/index.html">
-            <img src="/src/images/film.svg" alt="logo" width="38" height="38" />
+            <Image src="/src/images/film.svg" alt="logo" width="38" height="38" />
             <div className={css.header_logospans}>
               <span className={css.header__logotext}>Local</span>
               <span className={css.header__logotextsecond}>Law</span>
