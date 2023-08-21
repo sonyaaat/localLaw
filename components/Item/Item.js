@@ -1,8 +1,9 @@
 import css from "./Item.module.css"
 export default function Item({ data }) {
   return (
-    <li className={css.item}>
-      <div className={css.circle}> 1</div>
+    <li >
+     <a className={css.item} href="#">
+     <div className={css.circle}> 1</div>
       <div className={css.wrapper}>
         <h3 className={css.title}>{data.name}</h3>
         <p className={css.text}>
@@ -15,6 +16,7 @@ export default function Item({ data }) {
           <use href={`/sprite.svg#icon-download`}></use>
         </svg>
       </div>
+     </a>
     </li>
   );
 }
