@@ -2,6 +2,9 @@
 :root{
   --text-primary: #17181B;
   --brand-primary-normal: #83BFC4;
+  --background-octonary:#FFF;
+  --background-light-senary:#F5F5F5;
+  --brand-primary-dark: #5C8689;
 }
 * {
   box-sizing: border-box;
@@ -37,5 +40,7 @@ letter-spacing: 0.048px;
   width:1294px ;
   padding-right: 15px;
   padding-left: 15px;
-
+  border: 1px solid red;
+  margin-left: auto;
+  margin-right: auto;
 }
