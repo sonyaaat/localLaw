@@ -1,14 +1,16 @@
-import data from "../../public/data.json";
+
 import Item from "../Item/Item";
 import css from "./List.module.css"
-export default function List() {
+export default function List({data}) {
   return (
-    <ul className={css.list}>
+   <>
+   {data &&  <ul className={css.list}>
       {data.map((el) => (
         <ul key={el.id}>
           <Item data={el}/>
         </ul>
       ))}
-    </ul>
+    </ul>}
+    </>
   );
 }

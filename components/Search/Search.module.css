@@ -64,6 +64,9 @@
 .submitButton:focus {
   background-color: var(--brand-primary-dark);
 }
+.submitButton:disabled{
+  background-color: var(--background-senary);
+}
 .fullSearchButton {
   width: 185px;
   display: flex;

@@ -4,10 +4,6 @@ import React, { useEffect ,useRef, useState} from "react";
 import css from "./RadioButton.module.css";
 
 function RadioButton({ value, checked, label, onChange, name }) {
-    //const [ref,setRef] = useState(checked);
-  useEffect(() => {
-    console.log(label, checked);
-  }, [checked, label]);
   return (
     <label className={`${css.label} ${checked ? css.activeLabel :"h"}`}>
       <input

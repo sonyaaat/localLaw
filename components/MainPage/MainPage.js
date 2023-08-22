@@ -1,9 +1,19 @@
 "use client";
+import data from "../../public/data.json";
 import { useState } from "react";
-import List from "../List/List";
+
 import Search from "../Search/Search";
-import css from "./MainPage.module.css"
+import css from "./MainPage.module.css";
+import PaginatedItems from "../Pagination/Pagination";
 export default function MainPage() {
+  const [searchWord, setSearchWord] = useState("");
+  const [searchParams, setSearchParams] = useState("");
+
+  const filterFunction = () => {
+    if (!searchWord) {
+      return data;
+    }
+  };
   return (
     <div className="container">
       <div className={css.top}>
@@ -14,8 +24,15 @@ export default function MainPage() {
           </svg>
         </button>
       </div>
-      <Search/>
-      <List />
+      {data && (
+        <>
+          <Search
+            setSearchWord={setSearchWord}
+            setSearchParams={setSearchParams}
+          />
+          <PaginatedItems itemsPerPage={10} items={filterFunction()} />
+        </>
+      )}
     </div>
   );
 }

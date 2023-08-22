@@ -3,11 +3,13 @@
 :root{
   --text-primary: #17181B;
   --text-secondary:#6C6D78;
+  --text-quaternary: #FFF;
   --brand-primary-normal: #83BFC4;
+  --background-primary: #17181B;
   --background-octonary:#FFF;
   --background-light-senary:#F5F5F5;
   --brand-primary-dark: #5C8689;
-  --text-quaternary: #FFF;
+  --background-senary: #F5F8FE;
 }
 * {
   box-sizing: border-box;
@@ -48,4 +50,3 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
-
