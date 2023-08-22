@@ -30,3 +30,12 @@
 .openMenuBtn:focus .openSvg {
   fill: var(--brand-primary-dark);
 }
+.mainWrapper{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    
+}
+.openWrapper{
+    
+}

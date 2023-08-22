@@ -1,0 +1,60 @@
+.modal{
+    background-color: aqua;
+    width: 298px;
+    height: 392px;
+    padding: 44px 24px 44px 24px;
+    margin-left: 32px;
+
+    border-radius: 16px;
+border: 1px solid #000;
+background: var(--color-6, #FFF);
+/* 01 */
+box-shadow: 0px 4px 40px 0px rgba(43, 89, 255, 0.08);
+margin-top: -60px;
+}
+.svgCross{
+   
+    width: 24px;
+    height: 24px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.crossButton{
+    display: flex;
+    margin-left: auto;
+    background-color: transparent;
+    border: none;
+}
+.link{
+    display: flex;
+}
+.list{
+    display: flex;
+    flex-direction: column;
+    gap: 37px;
+}
+.svgIcon{
+    width: 20px;
+    height: 20px;
+fill: #000;
+}
+.svgCross:hover,.svgCross:focus{
+    fill: var(--brand-primary-dark);
+
+}
+.text{
+    margin-left: 16px;
+}
+.link:hover .text,.link:focus .text{
+    color:var(--brand-primary-dark);
+}
+.link:hover .svgIcon,.link:focus .svgIcon{
+    fill:var(--brand-primary-dark);
+}
+.activeLink{
+    color:var(--brand-primary-dark);
+   
+}
+.activeLink .svgIcon{
+    fill:var(--brand-primary-dark);
+}
