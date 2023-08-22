@@ -5,7 +5,7 @@ import RadioButton from "../RadioButton/RadioButton";
 
 export default function Search() {
   const [searchText, setSearchText] = useState("");
-  const [selectedSearch, setSelectedSearch] = useState("all");
+  const [selectedSearch, setSelectedSearch] = useState("");
   const handleClearClick = () => {
     setSearchText("");
   };
@@ -13,13 +13,16 @@ export default function Search() {
     console.log("CHHH",event.target.value)
     setSelectedSearch(event.target.value);
   };
+  const onSearch=(event)=>{
+
+  }
   useEffect(() => {
-    console.log(selectedSearch);
-  }, [selectedSearch]);
+    setSelectedSearch("all")
+  }, []);
 
 
   return (
-    <div>
+   
       <form className={css.form}>
         <div className={css.formTop}>
           <div className={css.inputWrapper}>
@@ -63,10 +66,10 @@ export default function Search() {
         onChange={handleSearchChange}
         name={"search"}
       />
-      <RadioButton
+       <RadioButton
         value="all"
         checked={selectedSearch === 'all'}
-        label="Всюди"
+        label="В назві"
         onChange={handleSearchChange}
         name={"search"}
       />
@@ -74,6 +77,5 @@ export default function Search() {
         <div>
         </div>
       </form>
-    </div>
   );
 }

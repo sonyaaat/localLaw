@@ -1,9 +1,10 @@
 // CustomRadioButton.js
 "use client";
-import React, { useEffect } from "react";
+import React, { useEffect ,useRef, useState} from "react";
 import css from "./RadioButton.module.css";
 
 function RadioButton({ value, checked, label, onChange, name }) {
+    //const [ref,setRef] = useState(checked);
   useEffect(() => {
     console.log(label, checked);
   }, [checked, label]);
@@ -16,6 +17,7 @@ function RadioButton({ value, checked, label, onChange, name }) {
         className={css.radioButton}
         checked={checked}
         onChange={onChange}
+        
       />
      
      {label} 
