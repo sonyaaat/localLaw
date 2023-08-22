@@ -1,6 +1,7 @@
 "use client";
-import { useState } from "react";
+import { useState,useEffect } from "react";
 import css from "./Search.module.css";
+import RadioButton from "../RadioButton/RadioButton";
 
 export default function Search() {
   const [searchText, setSearchText] = useState("");
@@ -9,8 +10,13 @@ export default function Search() {
     setSearchText("");
   };
   const handleSearchChange = (event) => {
+    console.log("CHHH",event.target.value)
     setSelectedSearch(event.target.value);
   };
+  useEffect(() => {
+    console.log(selectedSearch);
+  }, [selectedSearch]);
+
 
   return (
     <div>
@@ -42,40 +48,30 @@ export default function Search() {
             Розширений пошук
           </button>
         </div>
+       <div className={css.radioButtons}>
+       <RadioButton
+        value="inName"
+        checked={selectedSearch === 'inName'}
+        label="В назві"
+        onChange={handleSearchChange}
+        name={"search"}
+      />
+      <RadioButton
+        value="inText"
+        checked={selectedSearch === 'inText'}
+        label="В тексті"
+        onChange={handleSearchChange}
+        name={"search"}
+      />
+      <RadioButton
+        value="all"
+        checked={selectedSearch === 'all'}
+        label="Всюди"
+        onChange={handleSearchChange}
+        name={"search"}
+      />
+       </div>
         <div>
-          <label className={css.label}>
-            <input
-              type="radio"
-              name="search"
-              value="inName"
-              className={css.radioButton}
-              checked={selectedSearch === "inName"}
-              onChange={handleSearchChange}
-            />
-            В назві
-          </label>
-          <label className={css.label}>
-            <input
-              type="radio"
-              name="search"
-              value="inText"
-              className={css.radioButton}
-              checked={selectedSearch === 'inText'}
-              onChange={handleSearchChange}
-            />
-            В тексті
-          </label>
-          <label className={css.label}>
-            <input
-              type="radio"
-              name="search"
-              value="all"
-              className={css.radioButton}
-              checked={selectedSearch === 'all'}
-              onChange={handleSearchChange}
-            />
-            Всюди
-          </label>
         </div>
       </form>
     </div>

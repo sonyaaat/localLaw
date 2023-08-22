@@ -1,0 +1,33 @@
+/* styles.module.css */
+.label {
+  color: var(--text-secondary);
+  display: flex;
+}
+.customRadioButtonNot {
+  margin: 0;
+  margin-left: 8px;
+}
+.radioButton {
+  /* Hide the default radio button */
+  display: none;
+}
+
+.radioButton:not(:checked) ~ .customRadioButton {
+  /* visibility: hidden; */
+  display: none;
+}
+
+.radioButton:checked + .customRadioButton {
+  visibility: visible;
+}
+
+.radioButton:not(:checked) + .customRadioButtonNot {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  border: 1px solid #9ca3af;
+}
+
+.activeLabel {
+  color: black;
+}
