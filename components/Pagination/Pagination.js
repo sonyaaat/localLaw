@@ -26,7 +26,7 @@ export default function PaginatedItems({ itemsPerPage, items }) {
   };
 
   return (
-    <>
+    <div >
       <List data={currentItems} />
       <ReactPaginate
         onPageChange={handlePageClick}
@@ -52,6 +52,6 @@ export default function PaginatedItems({ itemsPerPage, items }) {
         pageRangeDisplayed={3}
         marginPagesDisplayed={1}
       />
-    </>
+    </div>
   );
 }
