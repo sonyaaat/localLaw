@@ -7,7 +7,8 @@
     "acceptDate": "2018-01-10",
     "effectiveDate": "2018-06-10",
     "terminationMatter": "123-123",
-    "revisionDate": "2017-01-12"
+    "revisionDate": "2017-01-12",
+    "text":"На виконання Закону України `Про правовий режим воєнного стану` постановляю: Утворити Вільхуватську сільську військову адміністрацію Куп'янського району Харківської області; Савинську селищну військову адміністрацію Ізюмського району Харківської області; Старосалтівську селищну військову адміністрацію Чугуївського району Харківської області; Шевченківську селищну військову адміністрацію Куп'янського району Харківської області. 2. Генеральному штабу Збройних Сил України, Харківській обласній державній адміністрації здійснити відповідно до Закону України `Про правовий режим воєнного стану` заходи, пов'язані з утворенням військових адміністрацій, зазначених у статті 1 цього Указу. 3. Цей Указ набирає чинності з дня його опублікування."
   },
 
   {
@@ -18,7 +19,10 @@
     "acceptDate": "2020-03-15",
     "effectiveDate": "2020-04-01",
     "terminationMatter": "567-890",
-    "revisionDate": "2019-12-20"
+    "revisionDate": "2019-12-20",
+    "text":"На виконання положень Закону про розвиток місцевого самоврядування та з метою підвищення ефективності роботи органів влади, сторони угоди домовилися:1. Утворити міжміську робочу групу, що включатиме представників виконавчих органів влади з обох міст.2. Здійснювати обмін досвідом та кращими практиками у галузях житлово-комунального господарства, культури, екології та інших сферах.3. Організувати спільні навчальні заходи, семінари та тренінги для працівників місцевих органів влади.4. Регулярно проводити зустрічі для обговорення актуальних питань розвитку обох міст та пошуку спільних рішень.5. Ця угода набирає чинності з моменту підписання та діє протягом 2 років з можливістю подовження за згодою обох сторін."
+    
+
   },
   {
     "id": 3,
@@ -28,7 +32,8 @@
     "acceptDate": "2021-08-10",
     "effectiveDate": "2021-09-01",
     "terminationMatter": "789-012",
-    "revisionDate": "2021-05-15"
+    "revisionDate": "2021-05-15",
+    "text":"Vestibulum ornare rhoncus sapien sit amet euismod. Donec sollicitudin metus dui, id vestibulum dui tempus sed. Pellentesque orci neque, dapibus non elementum in, congue at velit. Etiam mollis lorem nec ex bibendum dignissim. Nulla ac velit rutrum mauris fringilla cursus at vel nisl. In metus turpis, mattis eu libero ac, posuere efficitur purus. Integer sed bibendum odio, eu sodales lectus. Nam non justo nec arcu sagittis posuere. Donec consequat tortor a pellentesque pharetra. In neque ipsum, dapibus sed neque id, lobortis ultrices sapien. Suspendisse ornare nunc justo, eu pretium quam tempor eu. Nulla nec dolor at quam cursus gravida. Vestibulum justo lectus, semper a ex ac, tincidunt molestie nulla. Donec felis lacus, iaculis ac facilisis sit amet, commodo at felis. Quisque dapibus mattis sodales. Duis non mi nunc. Integer pulvinar eleifend ex eget volutpat. Sed pharetra imperdiet felis et tincidunt. Integer efficitur, velit at aliquam ullamcorper, odio augue euismod velit, vel luctus mi libero fringilla dolor. Pellentesque euismod hendrerit eros at dictum. Nam elementum ex quis ullamcorper interdum. Sed mollis elementum mi, sit amet pretium nisi ornare at. Sed suscipit massa mi, eu iaculis risus mollis vitae."
   },
   {
     "id": 4,

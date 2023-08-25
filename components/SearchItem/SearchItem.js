@@ -1,9 +1,10 @@
-import css from "./Item.module.css"
-export default function Item({ data,index,pageNumber }) {
-  return (
-    <li >
+import css from "../Item/Item.module.css"
+export default function SearchItem({data}){
+    return(
+        <>
+         <li >
      <a className={css.item} href="#">
-     <div className={css.circle}> {index+(pageNumber*10)}</div>
+     <div className={css.circle}> 1</div>
       <div className={css.wrapper}>
         <h3 className={css.title}>{data.name}</h3>
         <p className={css.text}>
@@ -18,5 +19,6 @@ export default function Item({ data,index,pageNumber }) {
       </div>
      </a>
     </li>
-  );
+        </>
+    )
 }

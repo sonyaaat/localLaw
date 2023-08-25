@@ -8,6 +8,12 @@ export default function PaginatedItems({ itemsPerPage, items }) {
   const [currentItems, setCurrentItems] = useState(null);
   const [pageCount, setPageCount] = useState(0);
   const [itemOffset, setItemOffset] = useState(0);
+  const [pageNumber,setPageNumber]=useState((itemOffset)/itemsPerPage)
+  useEffect(()=>{
+console.log(itemOffset)
+setPageNumber((itemOffset)/itemsPerPage)
+  },[itemOffset]
+  )
   useEffect(() => {
     // Fetch items from another resources.
     const endOffset = itemOffset + itemsPerPage;
@@ -27,7 +33,7 @@ export default function PaginatedItems({ itemsPerPage, items }) {
 
   return (
     <div >
-      <List data={currentItems} />
+      <List data={currentItems} pageNumber={pageNumber}/>
       <ReactPaginate
         onPageChange={handlePageClick}
         nextLabel={

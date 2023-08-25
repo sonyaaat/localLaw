@@ -10,6 +10,7 @@
   --background-light-senary:#F5F5F5;
   --brand-primary-dark: #5C8689;
   --background-senary: #F5F8FE;
+  --additional-blue-light: #EFF5FB;
 }
 * {
   box-sizing: border-box;
@@ -50,3 +51,4 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
+/* //// */
