@@ -11,7 +11,7 @@ import List from "../List/List";
 import SearchList from "../SearchList/SearchList";
 import SearchResults from "../SearchResults/SearchResults";
 export default function MainPage() {
-  const [searchWord, setSearchWord] = useState("g");
+  const [searchWord, setSearchWord] = useState("");
   const [searchParams, setSearchParams] = useState("");
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
@@ -27,9 +27,9 @@ export default function MainPage() {
   return (
     <div className="container">
       {/* <ModalNav/> */}
-     {!searchWord &&  <Search setSearchWord={setSearchWord} setSearchParams={setSearchParams} />}
+     <Search setSearchWord={setSearchWord} setSearchParams={setSearchParams} />
       <div className={css.top}>
-        {!searchWord && <h2 className={css.header}>Останні новини</h2>}
+         <h2 className={css.header}>Останні новини</h2>
         {!isMenuOpen && (
           <button className={css.openMenuBtn} onClick={changeMenu}>
             <svg className={css.openSvg}>
@@ -38,20 +38,13 @@ export default function MainPage() {
           </button>
         )}
       </div>
-      {/* {data && (
-        <div className={isMenuOpen ? `${css.mainWrapper}` : ""}>
-          <Pagination itemsPerPage={10} items={filterFunction()}/>
-          {isMenuOpen && <ModalNav changeMenu={changeMenu} />}
-        </div>
-      )} */}
-        <SearchResults/>
       {data && (
-        <div className={isMenuOpen ? ` ${css.mainWrapper} ` : ``}>
-        
-          <SearchList data={filterFunction()}/>
-          {isMenuOpen && <ModalNav changeMenu={changeMenu} />}
+        <div className={isMenuOpen ? `${css.mainWrapper}` : ""}>
+          <Pagination itemsPerPage={10} items={filterFunction()} list={<List/>} isMenuOpen={isMenuOpen}/>
+          {isMenuOpen && <ModalNav changeMenu={changeMenu} toTop={true} />}
         </div>
       )}
+       
       
      
 

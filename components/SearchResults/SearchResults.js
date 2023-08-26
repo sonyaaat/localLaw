@@ -6,10 +6,19 @@ const data = [
   { id: 2, label: "За назвою1" },
   { id: 3, label: "За назвою2" },
 ];
-export default function SearchResults() {
+export default function SearchResults({ searchField, searchText }) {
   const [isOpen, setOpen] = useState(false);
   const [items, setItem] = useState(data);
   const [selectedItem, setSelectedItem] = useState("0");
+  const searchWhere = (searchField) => {
+    if (searchField === "all") {
+      return "Cлова всюди";
+    } else if (searchField === "inText") {
+      return "Cлова в тексті";
+    } else if (searchField === "inName") {
+      return "Cлова в назві";
+    }
+  };
 
   const toggleDropdown = () => setOpen(!isOpen);
   const findItem = (id) => {
@@ -48,7 +57,6 @@ export default function SearchResults() {
                 .filter((item) => item.id != selectedItem)
                 .map((item) => (
                   <div
-                  
                     key={item.id}
                     className={css.dropdownItem}
                     onClick={(e) => {
@@ -78,13 +86,15 @@ export default function SearchResults() {
       <div>
         <label className={css.label}>Параметри пошуку</label>
         <div className={`${css.dropdownHeader} ${css.dropdownHeaderActive}`}>
-          Слова в тексті — знайти{" "}
-          <span className={css.searchResActive}> «харківська»</span>
+          {searchWhere(searchField)} — знайти{" "}
+          <span className={css.searchResActive}> «{searchText}»</span>
         </div>
       </div>
       <div>
         <label className={css.label}>Результати пошуку</label>
-        <div className={`${css.dropdownHeader} ${css.dropdownSmall} ${css.dropdownHeaderActive}`}>
+        <div
+          className={`${css.dropdownHeader} ${css.dropdownSmall} ${css.dropdownHeaderActive}`}
+        >
           Знайдено <span className={css.searchResActive}> 327 </span> документів
         </div>
       </div>{" "}

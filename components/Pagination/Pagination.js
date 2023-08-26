@@ -4,7 +4,7 @@ import ReactPaginate from "react-paginate";
 import List from "../List/List";
 import css from "./Pagination.module.css";
 
-export default function PaginatedItems({ itemsPerPage, items }) {
+export default function PaginatedItems({ itemsPerPage, items,list,isMenuOpen }) {
   const [currentItems, setCurrentItems] = useState(null);
   const [pageCount, setPageCount] = useState(0);
   const [itemOffset, setItemOffset] = useState(0);
@@ -32,8 +32,12 @@ setPageNumber((itemOffset)/itemsPerPage)
   };
 
   return (
-    <div >
-      <List data={currentItems} pageNumber={pageNumber}/>
+    <div className={!isMenuOpen? ``: `${css.paginationWrapperOpen}`}>
+       {React.cloneElement(list, {
+        data: currentItems,
+        pageNumber: pageNumber
+      })}
+      {/* <List data={currentItems} pageNumber={pageNumber}/> */}
       <ReactPaginate
         onPageChange={handlePageClick}
         nextLabel={

@@ -78,3 +78,7 @@ line-height: normal;
     display: flex;
     flex-direction: column;
   }
+  .paginationWrapperOpen{
+    max-width: 934px;
+
+  }
