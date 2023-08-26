@@ -1,15 +1,26 @@
 import { useState, useEffect } from "react";
 import css from "./SearchResults.module.css";
 const data = [
-  { id: 0, label: "За датою прийняття1" },
-  { id: 1, label: "За датою прийняття2" },
-  { id: 2, label: "За назвою1" },
-  { id: 3, label: "За назвою2" },
+  { id: 0, label: "За датою прийняття1",type:"dateIncrease" },
+  { id: 1, label: "За датою прийняття2",type: "dateDecreasing"},
+  { id: 2, label: "За назвою1",type:"inAlphabet" },
+  { id: 3, label: "За назвою2",type: "notAlphabet"},
 ];
-export default function SearchResults({ searchField, searchText ,searchLenght}) {
+// const data = [
+//   { id: "dateAscending", label: "За датою прийняття1" },
+//   { id: "dateDecreasing", label: "За датою прийняття2" },
+//   { id: "inAlphabet", label: "За назвою1" },
+//   { id: "notAlphabet", label: "За назвою2" },
+// ];
+export default function SearchResults({ searchField, searchText ,searchLenght,setFilterOption}) {
+ 
   const [isOpen, setOpen] = useState(false);
   const [items, setItem] = useState(data);
   const [selectedItem, setSelectedItem] = useState("0");
+  useEffect(()=>{
+    setFilterOption(findItem(selectedItem).type)
+    
+      },[selectedItem])
   const searchWhere = (searchField) => {
     if (searchField === "all") {
       return "Cлова всюди";
@@ -37,14 +48,14 @@ export default function SearchResults({ searchField, searchText ,searchLenght}) 
               {selectedItem
                 ? findItem(selectedItem).label
                 : "Select sort option"}
-              {(findItem(selectedItem).id === 0 ||
-                findItem(selectedItem).id == 2) && (
+              {(findItem(selectedItem).id === "dateAscending" ||
+                findItem(selectedItem).id == "inAlphabet") && (
                 <svg className={css.arrowActive}>
                   <use href={`/sprite.svg#icon-arrow-up`}></use>
                 </svg>
               )}
-              {(findItem(selectedItem).id == 1 ||
-                findItem(selectedItem).id == 3) && (
+              {(findItem(selectedItem).id == "dateDecreasing" ||
+                findItem(selectedItem).id ==  "notAlphabet") && (
                 <svg className={css.arrowActive}>
                   <use href={`/sprite.svg#icon-arrow-down`}></use>
                 </svg>
