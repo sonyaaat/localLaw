@@ -1,13 +1,17 @@
 
+import { useEffect } from "react";
 import Item from "../Item/Item";
 import css from "./List.module.css"
-export default function List({data}) {
+export default function List({data,pageNumber}) {
+  useEffect(()=>{
+console.log("pc",pageNumber)
+  },[pageNumber])
   return (
    <>
    {data &&  <ul className={css.list}>
-      {data.map((el) => (
+      {data.map((el,index) => (
         <ul key={el.id}>
-          <Item data={el}/>
+          <Item data={el} index={index+1} pageNumber={pageNumber}/>
         </ul>
       ))}
     </ul>}

@@ -1,0 +1,121 @@
+.resWrapper{
+    display: flex;
+flex-direction: column;
+/* padding: 20px; */
+gap: 16px;
+/* border-radius: 16px;
+border: 1px solid #F5F5F5;
+background: var(--background-octonary, #FFF);
+box-shadow: 0px 0px 25px 0px rgba(43, 89, 255, 0.04); */
+
+}.arrowSelect{
+   width: 20px;
+   height: 20px; 
+   margin-left: 8px;
+   fill: #9CA3AF;
+   stroke: #9CA3AF;
+}
+.arrowActive{
+    width: 20px;
+    height: 20px; 
+    margin-left: 8px;
+    fill: #17181B;
+   stroke:  #17181B;
+   
+}
+.label{
+    display: block;
+    margin-bottom: 4px;
+    color: var(--text-secondary);
+font-family: "Poppins",sans-serif;
+font-size: 12px;
+font-style: normal;
+font-weight: 500;
+line-height: 166.667% ;
+letter-spacing: -0.024px;
+}
+.searchResActive{
+    margin-left: 4px;
+    margin-right: 4px;
+    color: var(--text-primary, #17181B);
+font-size: 14px;
+font-style: normal;
+font-weight: 600;
+line-height: 24px;
+letter-spacing: 0.014px;
+text-decoration-line: underline;
+}
+
+.dropdown {
+    font-family: "Poppins",sans-serif;
+    font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 171.429% */
+  letter-spacing: 0.014px;
+    width: 100%;
+   /* padding: 20px; */
+  
+  
+  
+  /* display: flex;
+  flex-direction: column;
+  padding: 20px;
+  gap: 16px; */
+  }
+  .dropdownWrapper{
+    border-radius: 16px;
+  background: var(--background-light-octonary, #FFF);
+  box-shadow: 0px 32px 72px -8px rgba(91, 95, 99, 0.08);
+  
+  }
+  .dropdownHeader {
+    border-radius: 8px;
+  border: 1px solid #F3F3F3;
+  background: var(--background-octonary, #FFF);
+    padding: 16px 20px;
+    cursor: pointer;
+    display: flex;
+    
+    align-items: center;
+  }
+  .dropdownSmall{
+    width: 400px;
+  }
+  .dropdownHeaderActive{
+    background: var(--additional-blue-light);
+  }
+  
+  .dropdownBody {
+    padding: 5px;
+    border-top: 1px solid #E5E8EC;
+    display: none;
+  }
+  
+  .dropdownBody.open {
+    display: block;
+    border-radius: 16px;
+  background: var(--background-light-octonary, #FFF);
+  box-shadow: 0px 32px 72px -8px rgba(91, 95, 99, 0.08);
+  }
+  
+  .dropdownItem {
+    color: var(--text-secondary);
+    padding: 10px;
+  }
+  
+  .dropdownItem:hover {
+    cursor: pointer;
+  }
+  
+  
+  .icon {
+    font-size: 13px;
+    color: #91A5BE;
+    transform: rotate(0deg);
+    transition: all .2s ease-in-out;
+  }
+  
+  .icon.open {
+    transform: rotate(90deg);
+  }

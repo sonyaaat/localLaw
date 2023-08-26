@@ -5,27 +5,35 @@ import { useState } from "react";
 import Search from "../Search/Search";
 import css from "./MainPage.module.css";
 
-import PaginatedItems from "../Pagination/Pagination";
+import Pagination from "../Pagination/Pagination";
 import ModalNav from "../ModalNav/ModalNav";
+import { useEffect } from "react";
+import List from "../List/List";
+import SearchList from "../SearchList/SearchList";
+import SearchResults from "../SearchResults/SearchResults";
 
 export default function MainPage() {
   const [searchWord, setSearchWord] = useState("");
   const [searchParams, setSearchParams] = useState("");
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+
   const changeMenu = () => {
     setIsMenuOpen((prev) => !prev);
   };
   const filterFunction = () => {
-    if (!searchWord) {
-      return data;
-    }
+    // if (!searchWord) {
+    return data;
+    // }
   };
+
   return (
     <div className="container">
-      {/* <ModalNav /> */}
-      <Search setSearchWord={setSearchWord} setSearchParams={setSearchParams} />
+
+      {/* <ModalNav/> */}
+     <Search setSearchWord={setSearchWord} setSearchParams={setSearchParams} />
+
       <div className={css.top}>
-        <h2 className={css.header}>Останні новини</h2>
+         <h2 className={css.header}>Останні новини</h2>
         {!isMenuOpen && (
           <button className={css.openMenuBtn} onClick={changeMenu}>
             <svg className={css.openSvg}>
@@ -37,11 +45,10 @@ export default function MainPage() {
 
       {data && (
         <div className={isMenuOpen ? `${css.mainWrapper}` : ""}>
-          <PaginatedItems itemsPerPage={10} items={filterFunction()} />
-          {isMenuOpen && <ModalNav changeMenu={changeMenu} />}
+          <Pagination itemsPerPage={10} items={filterFunction()} list={<List/>} isMenuOpen={isMenuOpen}/>
+          {isMenuOpen && <ModalNav changeMenu={changeMenu} toTop={true} />}
         </div>
       )}
-
     </div>
   );
 }

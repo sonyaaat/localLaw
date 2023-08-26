@@ -1,14 +1,16 @@
 import Link from "next/link";
 import css from "./ModalNav.module.css";
 import { usePathname } from "next/navigation";
-export default function ModalNav({ changeMenu }) {
+
+export default function ModalNav({changeMenu,toTop=false}) {
   const currentRoute = usePathname();
   return (
-    <div className={css.modal}>
-      <button onClick={changeMenu} className={css.crossButton}>
-        <svg className={css.svgCross}>
-          <use href={`/sprite.svg#icon-close`}></use>
-        </svg>
+    <div className={toTop?`${css.modal} ${css.modalToTop}`:`${css.modal}`}>
+      <button onClick={changeMenu} className={css.crossButton} >
+      <svg className={css.svgCross} >
+        <use href={`/sprite.svg#icon-close`}></use>
+      </svg>
+
       </button>
 
       <nav>

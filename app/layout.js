@@ -10,15 +10,14 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body
-      // className={`${poppins.className} ${merriweather.variable}`}
-      //  className={poppins.className}
-      >
+
+      <body>
         <Header />
         {/* <HeaderBox /> */}
         {children}
         <Footer />
       </body>
+
     </html>
   );
 }

@@ -39,7 +39,7 @@ align-items: center;
     font-weight: 500;
     line-height:137.5% ;
     letter-spacing: 0.048px;
-
+max-width: 1048px;
     margin-bottom: 8px;
 }
 .text{
@@ -53,6 +53,11 @@ align-items: center;
 .textAccent{
     color: var(--brand-primary-dark);
 }
+.textBold{
+  
+font-weight: 600;
+
+}
 .downloadSvg{
     width: 20px;
     height: 20px;
@@ -64,4 +69,7 @@ align-items: center;
 }
 .download:hover,.download:focus .downloadSvg{
     fill:var(--brand-primary-dark)
+}
+.highlight{
+    color: red;
 }

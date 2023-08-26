@@ -1,9 +1,12 @@
 "use client";
+import { useRouter } from "next/navigation";
 import { useState, useEffect } from "react";
 import css from "./Search.module.css";
 import RadioButton from "../RadioButton/RadioButton";
+import Link from "next/link";
 
 export default function Search({ setSearchParams, setSearchWord }) {
+  const router = useRouter();
   const [searchText, setSearchText] = useState("");
   const [selectedSearch, setSelectedSearch] = useState("");
   const handleClearClick = () => {
@@ -13,13 +16,22 @@ export default function Search({ setSearchParams, setSearchWord }) {
     setSelectedSearch(event.target.value);
   };
   const onSubmit = (event) => {
-    event.preventDefault()
+    event.preventDefault();
     setSearchParams(selectedSearch);
     setSearchWord(searchText);
+    const params = new URLSearchParams({
+      text: searchText,
+      params: selectedSearch,
+    });
+    const newParams = params.toString();
+    router.push(`/search/?${newParams}`);
   };
   useEffect(() => {
-    setSelectedSearch("all");
+    setSelectedSearch("inName");
   }, []);
+  useEffect(() => {
+    console.log(searchText);
+  }, [searchText]);
 
   return (
     <form className={css.form} onSubmit={onSubmit}>
@@ -42,8 +54,11 @@ export default function Search({ setSearchParams, setSearchWord }) {
               </svg>
             </button>
           )}
+
           <button className={`${css.button} ${css.submitButton}`} type="submit">
+            {/* <Link  href={searchText ? { pathname: '/search', query: { text: searchText,params:selectedSearch } }:"/search"} > */}
             Знайти
+            {/* </Link> */}
           </button>
         </div>
 
@@ -69,7 +84,7 @@ export default function Search({ setSearchParams, setSearchWord }) {
         <RadioButton
           value="all"
           checked={selectedSearch === "all"}
-          label="В назві"
+          label="Всюди"
           onChange={handleSearchChange}
           name={"search"}
         />
