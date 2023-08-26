@@ -20,7 +20,7 @@ export default function MainPage() {
   };
   return (
     <div className="container">
-      {/* <ModalNav/> */}
+      <ModalNav />
       <Search setSearchWord={setSearchWord} setSearchParams={setSearchParams} />
       <div className={css.top}>
         <h2 className={css.header}>Останні новини</h2>
