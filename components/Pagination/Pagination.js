@@ -5,6 +5,7 @@ import List from "../List/List";
 import css from "./Pagination.module.css";
 
 export default function PaginatedItems({ itemsPerPage, items,list,isMenuOpen }) {
+  console.log("items1",items)
   const [currentItems, setCurrentItems] = useState(null);
   const [pageCount, setPageCount] = useState(0);
   const [itemOffset, setItemOffset] = useState(0);
@@ -38,7 +39,8 @@ setPageNumber((itemOffset)/itemsPerPage)
         pageNumber: pageNumber
       })}
       {/* <List data={currentItems} pageNumber={pageNumber}/> */}
-      <ReactPaginate
+      { (currentItems && currentItems.length>0 ) &&
+        <ReactPaginate
         onPageChange={handlePageClick}
         nextLabel={
           <svg className={css.nextSvg}>
@@ -62,6 +64,7 @@ setPageNumber((itemOffset)/itemsPerPage)
         pageRangeDisplayed={3}
         marginPagesDisplayed={1}
       />
+      }
     </div>
   );
 }

@@ -1,7 +1,7 @@
 "use client";
 import css from "../../components/MainPage/MainPage.module.css";
 import { useSearchParams } from "next/navigation";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import data from "../../public/data.json";
 import SearchResults from "@/components/SearchResults/SearchResults";
 import SearchList from "@/components/SearchList/SearchList";
@@ -12,14 +12,35 @@ export default function SearchPage() {
     setIsMenuOpen((prev) => !prev);
   };
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const filterFunction = () => {
-    return data;
-  };
+  
   const searchParams = useSearchParams();
   const searchText = searchParams.get("text");
   const searchField = searchParams.get("params");
   console.log("searchText", searchText);
   console.log("searchField", searchField);
+  const [filteredData,setFilteredData]=useState(data)
+  const sort=  data.filter((el)=>el.name.includes("Про"))
+  console.log(sort)
+  useEffect(()=>{
+    
+    console.log("AAA")
+      if(searchField==="inName"){
+        console.log(2)
+         const filter=data.filter((el)=>el.name.toLowerCase().includes(searchText.toLowerCase()))
+         setFilteredData(filter)
+      }
+      if(searchField==="inText"){
+        console.log(3)
+        const filter=data.filter((el)=>el.text.toLowerCase().includes(searchText.toLowerCase()))
+        setFilteredData(filter)
+      }
+      if(searchField==="all"){
+        console.log(4)
+        const filter= data.filter((el)=>(el.name.toLowerCase().includes(searchText.toLowerCase())|| el.text.includes(searchText)))
+        setFilteredData(filter)
+      }
+    
+  },[searchText,searchField])
   return (
     <div className="container">
       {!isMenuOpen && (
@@ -37,12 +58,12 @@ export default function SearchPage() {
       {data && (
         <div className={isMenuOpen ? `${css.mainWrapper} ` : ""}>
          <div className={css.mainWrapperBorder}>
-         <SearchResults searchField={searchField} searchText={searchText} />
+         <SearchResults searchField={searchField} searchText={searchText} searchLenght={filteredData.length} />
           <PaginatedItems
           isMenuOpen={isMenuOpen}
             itemsPerPage={10}
-            items={filterFunction()}
-            list={<SearchList searchField={searchField} searchText={searchText} />}
+            items={filteredData}
+            list={<SearchList searchField={searchField} searchText={searchText}  />}
           />
             </div>
           {isMenuOpen && <ModalNav changeMenu={changeMenu} />}

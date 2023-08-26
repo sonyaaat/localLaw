@@ -6,7 +6,7 @@ const data = [
   { id: 2, label: "За назвою1" },
   { id: 3, label: "За назвою2" },
 ];
-export default function SearchResults({ searchField, searchText }) {
+export default function SearchResults({ searchField, searchText ,searchLenght}) {
   const [isOpen, setOpen] = useState(false);
   const [items, setItem] = useState(data);
   const [selectedItem, setSelectedItem] = useState("0");
@@ -95,7 +95,7 @@ export default function SearchResults({ searchField, searchText }) {
         <div
           className={`${css.dropdownHeader} ${css.dropdownSmall} ${css.dropdownHeaderActive}`}
         >
-          Знайдено <span className={css.searchResActive}> 327 </span> документів
+          Знайдено <span className={css.searchResActive}> {searchLenght} </span> документів
         </div>
       </div>{" "}
     </div>

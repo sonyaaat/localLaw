@@ -8,7 +8,8 @@
     "effectiveDate": "2018-06-10",
     "terminationMatter": "123-123",
     "revisionDate": "2017-01-12",
-    "text":"На виконання Закону України `Про правовий режим воєнного стану` постановляю: Утворити Вільхуватську сільську військову адміністрацію Куп'янського району Харківської області; Савинську селищну військову адміністрацію Ізюмського району Харківської області; Старосалтівську селищну військову адміністрацію Чугуївського району Харківської області; Шевченківську селищну військову адміністрацію Куп'янського району Харківської області. 2. Генеральному штабу Збройних Сил України, Харківській обласній державній адміністрації здійснити відповідно до Закону України `Про правовий режим воєнного стану` заходи, пов'язані з утворенням військових адміністрацій, зазначених у статті 1 цього Указу. 3. Цей Указ набирає чинності з дня його опублікування."
+    "text":"На виконання Закону України `Про правовий режим воєнного стану` постановляю: Утворити Вільхуватську сільську військову адміністрацію Куп'янського району Харківської області; Савинську селищну військову адміністрацію Ізюмського району Харківської області; Старосалтівську селищну військову адміністрацію Чугуївського району Харківської області; Шевченківську селищну військову адміністрацію Куп'янського району Харківської області. 2. Генеральному штабу Збройних Сил України, Харківській обласній державній адміністрації здійснити відповідно до Закону України `Про правовий режим воєнного стану` заходи, пов'язані з утворенням військових адміністрацій, зазначених у статті 1 цього Указу. 3. Цей Указ набирає чинності з дня його опублікування.",
+    "revisionNumber":5
   },
 
   {
@@ -20,8 +21,8 @@
     "effectiveDate": "2020-04-01",
     "terminationMatter": "567-890",
     "revisionDate": "2019-12-20",
-    "text":"На виконання положень Закону про розвиток місцевого самоврядування та з метою підвищення ефективності роботи органів влади, сторони угоди домовилися:1. Утворити міжміську робочу групу, що включатиме представників виконавчих органів влади з обох міст.2. Здійснювати обмін досвідом та кращими практиками у галузях житлово-комунального господарства, культури, екології та інших сферах.3. Організувати спільні навчальні заходи, семінари та тренінги для працівників місцевих органів влади.4. Регулярно проводити зустрічі для обговорення актуальних питань розвитку обох міст та пошуку спільних рішень.5. Ця угода набирає чинності з моменту підписання та діє протягом 2 років з можливістю подовження за згодою обох сторін."
-    
+    "text":"На виконання положень Закону про розвиток місцевого самоврядування та з метою підвищення ефективності роботи органів влади, сторони угоди домовилися:1. Утворити міжміську робочу групу, що включатиме представників виконавчих органів влади з обох міст.2. Здійснювати обмін досвідом та кращими практиками у галузях житлово-комунального господарства, культури, екології та інших сферах.3. Організувати спільні навчальні заходи, семінари та тренінги для працівників місцевих органів влади.4. Регулярно проводити зустрічі для обговорення актуальних питань розвитку обох міст та пошуку спільних рішень.5. Ця угода набирає чинності з моменту підписання та діє протягом 2 років з можливістю подовження за згодою обох сторін.",
+    "revisionNumber":5
 
   },
   {
@@ -43,7 +44,8 @@
     "acceptDate": "2023-05-20",
     "effectiveDate": "2023-06-01",
     "terminationMatter": "901-234",
-    "revisionDate": "2023-03-10"
+    "revisionDate": "2023-03-10",
+    "text":"Donec vel ullamcorper leo. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Integer felis magna, pharetra ac lectus eget, mattis placerat quam. Mauris nec mauris cursus, malesuada lorem quis, malesuada sem. Nullam a interdum libero. Integer auctor porttitor sagittis. Ut vel commodo risus. Nunc eu porttitor eros, nec efficitur tellus. Integer feugiat nulla vitae porttitor eleifend.Suspendisse eget faucibus elit, ac malesuada arcu. Cras non porttitor massa, vel vehicula est. Vestibulum sed tincidunt turpis. Nulla eu suscipit dui. Suspendisse eu tincidunt quam, eget lacinia nisi. In hac habitasse platea dictumst. Duis velit mauris, pharetra quis tempor eu, blandit ut diam. Etiam justo dui, commodo nec vulputate sit amet, dapibus id massa. Ut in magna est. Cras in nisl nunc. Integer vehicula leo enim, in scelerisque enim viverra ac. Morbi interdum elit vel laoreet accumsan."
   },
   {
     "id": 5,
@@ -54,6 +56,9 @@
     "effectiveDate": "2024-02-01",
     "terminationMatter": "123-456",
     "revisionDate": "2023-11-15"
+    ,
+    "text":"Donec vel ullamcorper leo. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Integer felis magna, pharetra ac lectus eget, mattis placerat quam. Mauris nec mauris cursus, malesuada lorem quis, malesuada sem. Nullam a interdum libero. Integer auctor porttitor sagittis. Ut vel commodo risus. Nunc eu porttitor eros, nec efficitur tellus. Integer feugiat nulla vitae porttitor eleifend.Suspendisse eget faucibus elit, ac malesuada arcu. Cras non porttitor massa, vel vehicula est. Vestibulum sed tincidunt turpis. Nulla eu suscipit dui. Suspendisse eu tincidunt quam, eget lacinia nisi. In hac habitasse platea dictumst. Duis velit mauris, pharetra quis tempor eu, blandit ut diam. Etiam justo dui, commodo nec vulputate sit amet, dapibus id massa. Ut in magna est. Cras in nisl nunc. Integer vehicula leo enim, in scelerisque enim viverra ac. Morbi interdum elit vel laoreet accumsan."
+  
   },
   {
     "id": 6,
@@ -64,6 +69,9 @@
     "effectiveDate": "2026-03-01",
     "terminationMatter": "234-567",
     "revisionDate": "2025-12-20"
+    ,
+    "text":"Donec vel ullamcorper leo. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Integer felis magna, pharetra ac lectus eget, mattis placerat quam. Mauris nec mauris cursus, malesuada lorem quis, malesuada sem. Nullam a interdum libero. Integer auctor porttitor sagittis. Ut vel commodo risus. Nunc eu porttitor eros, nec efficitur tellus. Integer feugiat nulla vitae porttitor eleifend.Suspendisse eget faucibus elit, ac malesuada arcu. Cras non porttitor massa, vel vehicula est. Vestibulum sed tincidunt turpis. Nulla eu suscipit dui. Suspendisse eu tincidunt quam, eget lacinia nisi. In hac habitasse platea dictumst. Duis velit mauris, pharetra quis tempor eu, blandit ut diam. Etiam justo dui, commodo nec vulputate sit amet, dapibus id massa. Ut in magna est. Cras in nisl nunc. Integer vehicula leo enim, in scelerisque enim viverra ac. Morbi interdum elit vel laoreet accumsan."
+  
   },
   {
     "id": 7,
@@ -74,6 +82,9 @@
     "effectiveDate": "2027-11-01",
     "terminationMatter": "567-890",
     "revisionDate": "2027-08-15"
+    ,
+    "text":"Donec vel ullamcorper leo. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Integer felis magna, pharetra ac lectus eget, mattis placerat quam. Mauris nec mauris cursus, malesuada lorem quis, malesuada sem. Nullam a interdum libero. Integer auctor porttitor sagittis. Ut vel commodo risus. Nunc eu porttitor eros, nec efficitur tellus. Integer feugiat nulla vitae porttitor eleifend.Suspendisse eget faucibus elit, ac malesuada arcu. Cras non porttitor massa, vel vehicula est. Vestibulum sed tincidunt turpis. Nulla eu suscipit dui. Suspendisse eu tincidunt quam, eget lacinia nisi. In hac habitasse platea dictumst. Duis velit mauris, pharetra quis tempor eu, blandit ut diam. Etiam justo dui, commodo nec vulputate sit amet, dapibus id massa. Ut in magna est. Cras in nisl nunc. Integer vehicula leo enim, in scelerisque enim viverra ac. Morbi interdum elit vel laoreet accumsan."
+  
   },
   {
     "id": 8,
@@ -84,6 +95,9 @@
     "effectiveDate": "2029-01-01",
     "terminationMatter": "890-123",
     "revisionDate": "2028-10-15"
+    ,
+    "text":"Donec vel ullamcorper leo. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Integer felis magna, pharetra ac lectus eget, mattis placerat quam. Mauris nec mauris cursus, malesuada lorem quis, malesuada sem. Nullam a interdum libero. Integer auctor porttitor sagittis. Ut vel commodo risus. Nunc eu porttitor eros, nec efficitur tellus. Integer feugiat nulla vitae porttitor eleifend.Suspendisse eget faucibus elit, ac malesuada arcu. Cras non porttitor massa, vel vehicula est. Vestibulum sed tincidunt turpis. Nulla eu suscipit dui. Suspendisse eu tincidunt quam, eget lacinia nisi. In hac habitasse platea dictumst. Duis velit mauris, pharetra quis tempor eu, blandit ut diam. Etiam justo dui, commodo nec vulputate sit amet, dapibus id massa. Ut in magna est. Cras in nisl nunc. Integer vehicula leo enim, in scelerisque enim viverra ac. Morbi interdum elit vel laoreet accumsan."
+  
   },
   {
     "id": 9,
@@ -94,6 +108,9 @@
     "effectiveDate": "2030-08-01",
     "terminationMatter": "456-789",
     "revisionDate": "2030-05-10"
+    ,
+    "text":"Donec vel ullamcorper leo. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Integer felis magna, pharetra ac lectus eget, mattis placerat quam. Mauris nec mauris cursus, malesuada lorem quis, malesuada sem. Nullam a interdum libero. Integer auctor porttitor sagittis. Ut vel commodo risus. Nunc eu porttitor eros, nec efficitur tellus. Integer feugiat nulla vitae porttitor eleifend.Suspendisse eget faucibus elit, ac malesuada arcu. Cras non porttitor massa, vel vehicula est. Vestibulum sed tincidunt turpis. Nulla eu suscipit dui. Suspendisse eu tincidunt quam, eget lacinia nisi. In hac habitasse platea dictumst. Duis velit mauris, pharetra quis tempor eu, blandit ut diam. Etiam justo dui, commodo nec vulputate sit amet, dapibus id massa. Ut in magna est. Cras in nisl nunc. Integer vehicula leo enim, in scelerisque enim viverra ac. Morbi interdum elit vel laoreet accumsan."
+  
   },
   {
     "id": 10,
@@ -104,6 +121,9 @@
     "effectiveDate": "2032-05-01",
     "terminationMatter": "789-012",
     "revisionDate": "2032-02-15"
+    ,
+    "text":"Donec vel ullamcorper leo. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Integer felis magna, pharetra ac lectus eget, mattis placerat quam. Mauris nec mauris cursus, malesuada lorem quis, malesuada sem. Nullam a interdum libero. Integer auctor porttitor sagittis. Ut vel commodo risus. Nunc eu porttitor eros, nec efficitur tellus. Integer feugiat nulla vitae porttitor eleifend.Suspendisse eget faucibus elit, ac malesuada arcu. Cras non porttitor massa, vel vehicula est. Vestibulum sed tincidunt turpis. Nulla eu suscipit dui. Suspendisse eu tincidunt quam, eget lacinia nisi. In hac habitasse platea dictumst. Duis velit mauris, pharetra quis tempor eu, blandit ut diam. Etiam justo dui, commodo nec vulputate sit amet, dapibus id massa. Ut in magna est. Cras in nisl nunc. Integer vehicula leo enim, in scelerisque enim viverra ac. Morbi interdum elit vel laoreet accumsan."
+  
   },
   {
     "id": 11,
@@ -114,6 +134,9 @@
     "effectiveDate": "2034-02-01",
     "terminationMatter": "901-234",
     "revisionDate": "2033-11-20"
+    ,
+    "text":"Donec vel ullamcorper leo. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Integer felis magna, pharetra ac lectus eget, mattis placerat quam. Mauris nec mauris cursus, malesuada lorem quis, malesuada sem. Nullam a interdum libero. Integer auctor porttitor sagittis. Ut vel commodo risus. Nunc eu porttitor eros, nec efficitur tellus. Integer feugiat nulla vitae porttitor eleifend.Suspendisse eget faucibus elit, ac malesuada arcu. Cras non porttitor massa, vel vehicula est. Vestibulum sed tincidunt turpis. Nulla eu suscipit dui. Suspendisse eu tincidunt quam, eget lacinia nisi. In hac habitasse platea dictumst. Duis velit mauris, pharetra quis tempor eu, blandit ut diam. Etiam justo dui, commodo nec vulputate sit amet, dapibus id massa. Ut in magna est. Cras in nisl nunc. Integer vehicula leo enim, in scelerisque enim viverra ac. Morbi interdum elit vel laoreet accumsan."
+  
   },
   {
     "id": 12,
@@ -124,6 +147,9 @@
     "effectiveDate": "2036-07-01",
     "terminationMatter": "012-345",
     "revisionDate": "2036-04-10"
+    ,
+    "text":"Donec vel ullamcorper leo. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Integer felis magna, pharetra ac lectus eget, mattis placerat quam. Mauris nec mauris cursus, malesuada lorem quis, malesuada sem. Nullam a interdum libero. Integer auctor porttitor sagittis. Ut vel commodo risus. Nunc eu porttitor eros, nec efficitur tellus. Integer feugiat nulla vitae porttitor eleifend.Suspendisse eget faucibus elit, ac malesuada arcu. Cras non porttitor massa, vel vehicula est. Vestibulum sed tincidunt turpis. Nulla eu suscipit dui. Suspendisse eu tincidunt quam, eget lacinia nisi. In hac habitasse platea dictumst. Duis velit mauris, pharetra quis tempor eu, blandit ut diam. Etiam justo dui, commodo nec vulputate sit amet, dapibus id massa. Ut in magna est. Cras in nisl nunc. Integer vehicula leo enim, in scelerisque enim viverra ac. Morbi interdum elit vel laoreet accumsan."
+  
   },
   {
     "id": 13,
@@ -134,6 +160,9 @@
     "effectiveDate": "2038-04-01",
     "terminationMatter": "345-678",
     "revisionDate": "2037-12-15"
+    ,
+    "text":"Donec vel ullamcorper leo. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Integer felis magna, pharetra ac lectus eget, mattis placerat quam. Mauris nec mauris cursus, malesuada lorem quis, malesuada sem. Nullam a interdum libero. Integer auctor porttitor sagittis. Ut vel commodo risus. Nunc eu porttitor eros, nec efficitur tellus. Integer feugiat nulla vitae porttitor eleifend.Suspendisse eget faucibus elit, ac malesuada arcu. Cras non porttitor massa, vel vehicula est. Vestibulum sed tincidunt turpis. Nulla eu suscipit dui. Suspendisse eu tincidunt quam, eget lacinia nisi. In hac habitasse platea dictumst. Duis velit mauris, pharetra quis tempor eu, blandit ut diam. Etiam justo dui, commodo nec vulputate sit amet, dapibus id massa. Ut in magna est. Cras in nisl nunc. Integer vehicula leo enim, in scelerisque enim viverra ac. Morbi interdum elit vel laoreet accumsan."
+  
   },
   {
     "id": 14,
@@ -144,6 +173,9 @@
     "effectiveDate": "2040-10-01",
     "terminationMatter": "678-901",
     "revisionDate": "2040-07-15"
+    ,
+    "text":"Donec vel ullamcorper leo. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Integer felis magna, pharetra ac lectus eget, mattis placerat quam. Mauris nec mauris cursus, malesuada lorem quis, malesuada sem. Nullam a interdum libero. Integer auctor porttitor sagittis. Ut vel commodo risus. Nunc eu porttitor eros, nec efficitur tellus. Integer feugiat nulla vitae porttitor eleifend.Suspendisse eget faucibus elit, ac malesuada arcu. Cras non porttitor massa, vel vehicula est. Vestibulum sed tincidunt turpis. Nulla eu suscipit dui. Suspendisse eu tincidunt quam, eget lacinia nisi. In hac habitasse platea dictumst. Duis velit mauris, pharetra quis tempor eu, blandit ut diam. Etiam justo dui, commodo nec vulputate sit amet, dapibus id massa. Ut in magna est. Cras in nisl nunc. Integer vehicula leo enim, in scelerisque enim viverra ac. Morbi interdum elit vel laoreet accumsan."
+  
   },
   {
     "id": 15,
@@ -154,6 +186,9 @@
     "effectiveDate": "2043-01-01",
     "terminationMatter": "789-012",
     "revisionDate": "2042-10-15"
+    ,
+    "text":"Donec vel ullamcorper leo. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Integer felis magna, pharetra ac lectus eget, mattis placerat quam. Mauris nec mauris cursus, malesuada lorem quis, malesuada sem. Nullam a interdum libero. Integer auctor porttitor sagittis. Ut vel commodo risus. Nunc eu porttitor eros, nec efficitur tellus. Integer feugiat nulla vitae porttitor eleifend.Suspendisse eget faucibus elit, ac malesuada arcu. Cras non porttitor massa, vel vehicula est. Vestibulum sed tincidunt turpis. Nulla eu suscipit dui. Suspendisse eu tincidunt quam, eget lacinia nisi. In hac habitasse platea dictumst. Duis velit mauris, pharetra quis tempor eu, blandit ut diam. Etiam justo dui, commodo nec vulputate sit amet, dapibus id massa. Ut in magna est. Cras in nisl nunc. Integer vehicula leo enim, in scelerisque enim viverra ac. Morbi interdum elit vel laoreet accumsan."
+  
   },
   {
     "id": 16,
@@ -164,6 +199,9 @@
     "effectiveDate": "2045-04-01",
     "terminationMatter": "901-234",
     "revisionDate": "2045-01-15"
+    ,
+    "text":"Donec vel ullamcorper leo. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Integer felis magna, pharetra ac lectus eget, mattis placerat quam. Mauris nec mauris cursus, malesuada lorem quis, malesuada sem. Nullam a interdum libero. Integer auctor porttitor sagittis. Ut vel commodo risus. Nunc eu porttitor eros, nec efficitur tellus. Integer feugiat nulla vitae porttitor eleifend.Suspendisse eget faucibus elit, ac malesuada arcu. Cras non porttitor massa, vel vehicula est. Vestibulum sed tincidunt turpis. Nulla eu suscipit dui. Suspendisse eu tincidunt quam, eget lacinia nisi. In hac habitasse platea dictumst. Duis velit mauris, pharetra quis tempor eu, blandit ut diam. Etiam justo dui, commodo nec vulputate sit amet, dapibus id massa. Ut in magna est. Cras in nisl nunc. Integer vehicula leo enim, in scelerisque enim viverra ac. Morbi interdum elit vel laoreet accumsan."
+  
   },
   {
     "id": 17,
@@ -174,6 +212,9 @@
     "effectiveDate": "2047-06-01",
     "terminationMatter": "234-567",
     "revisionDate": "2047-03-10"
+    ,
+    "text":"Donec vel ullamcorper leo. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Integer felis magna, pharetra ac lectus eget, mattis placerat quam. Mauris nec mauris cursus, malesuada lorem quis, malesuada sem. Nullam a interdum libero. Integer auctor porttitor sagittis. Ut vel commodo risus. Nunc eu porttitor eros, nec efficitur tellus. Integer feugiat nulla vitae porttitor eleifend.Suspendisse eget faucibus elit, ac malesuada arcu. Cras non porttitor massa, vel vehicula est. Vestibulum sed tincidunt turpis. Nulla eu suscipit dui. Suspendisse eu tincidunt quam, eget lacinia nisi. In hac habitasse platea dictumst. Duis velit mauris, pharetra quis tempor eu, blandit ut diam. Etiam justo dui, commodo nec vulputate sit amet, dapibus id massa. Ut in magna est. Cras in nisl nunc. Integer vehicula leo enim, in scelerisque enim viverra ac. Morbi interdum elit vel laoreet accumsan."
+  
   },
   {
     "id": 18,
@@ -184,6 +225,9 @@
     "effectiveDate": "2048-09-01",
     "terminationMatter": "345-678",
     "revisionDate": "2048-06-15"
+    ,
+    "text":"Donec vel ullamcorper leo. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Integer felis magna, pharetra ac lectus eget, mattis placerat quam. Mauris nec mauris cursus, malesuada lorem quis, malesuada sem. Nullam a interdum libero. Integer auctor porttitor sagittis. Ut vel commodo risus. Nunc eu porttitor eros, nec efficitur tellus. Integer feugiat nulla vitae porttitor eleifend.Suspendisse eget faucibus elit, ac malesuada arcu. Cras non porttitor massa, vel vehicula est. Vestibulum sed tincidunt turpis. Nulla eu suscipit dui. Suspendisse eu tincidunt quam, eget lacinia nisi. In hac habitasse platea dictumst. Duis velit mauris, pharetra quis tempor eu, blandit ut diam. Etiam justo dui, commodo nec vulputate sit amet, dapibus id massa. Ut in magna est. Cras in nisl nunc. Integer vehicula leo enim, in scelerisque enim viverra ac. Morbi interdum elit vel laoreet accumsan."
+  
   },
   {
     "id": 19,
@@ -194,6 +238,9 @@
     "effectiveDate": "2050-11-01",
     "terminationMatter": "456-789",
     "revisionDate": "2050-08-20"
+    ,
+    "text":"Donec vel ullamcorper leo. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Integer felis magna, pharetra ac lectus eget, mattis placerat quam. Mauris nec mauris cursus, malesuada lorem quis, malesuada sem. Nullam a interdum libero. Integer auctor porttitor sagittis. Ut vel commodo risus. Nunc eu porttitor eros, nec efficitur tellus. Integer feugiat nulla vitae porttitor eleifend.Suspendisse eget faucibus elit, ac malesuada arcu. Cras non porttitor massa, vel vehicula est. Vestibulum sed tincidunt turpis. Nulla eu suscipit dui. Suspendisse eu tincidunt quam, eget lacinia nisi. In hac habitasse platea dictumst. Duis velit mauris, pharetra quis tempor eu, blandit ut diam. Etiam justo dui, commodo nec vulputate sit amet, dapibus id massa. Ut in magna est. Cras in nisl nunc. Integer vehicula leo enim, in scelerisque enim viverra ac. Morbi interdum elit vel laoreet accumsan."
+  
   },
   {
     "id": 20,
@@ -204,6 +251,9 @@
     "effectiveDate": "2053-01-01",
     "terminationMatter": "789-012",
     "revisionDate": "2052-10-10"
+    ,
+    "text":"Donec vel ullamcorper leo. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Integer felis magna, pharetra ac lectus eget, mattis placerat quam. Mauris nec mauris cursus, malesuada lorem quis, malesuada sem. Nullam a interdum libero. Integer auctor porttitor sagittis. Ut vel commodo risus. Nunc eu porttitor eros, nec efficitur tellus. Integer feugiat nulla vitae porttitor eleifend.Suspendisse eget faucibus elit, ac malesuada arcu. Cras non porttitor massa, vel vehicula est. Vestibulum sed tincidunt turpis. Nulla eu suscipit dui. Suspendisse eu tincidunt quam, eget lacinia nisi. In hac habitasse platea dictumst. Duis velit mauris, pharetra quis tempor eu, blandit ut diam. Etiam justo dui, commodo nec vulputate sit amet, dapibus id massa. Ut in magna est. Cras in nisl nunc. Integer vehicula leo enim, in scelerisque enim viverra ac. Morbi interdum elit vel laoreet accumsan."
+  
   },
   {
     "id": 21,
@@ -214,6 +264,9 @@
     "effectiveDate": "2018-06-10",
     "terminationMatter": "123-123",
     "revisionDate": "2017-01-12"
+    ,
+    "text":"Donec vel ullamcorper leo. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Integer felis magna, pharetra ac lectus eget, mattis placerat quam. Mauris nec mauris cursus, malesuada lorem quis, malesuada sem. Nullam a interdum libero. Integer auctor porttitor sagittis. Ut vel commodo risus. Nunc eu porttitor eros, nec efficitur tellus. Integer feugiat nulla vitae porttitor eleifend.Suspendisse eget faucibus elit, ac malesuada arcu. Cras non porttitor massa, vel vehicula est. Vestibulum sed tincidunt turpis. Nulla eu suscipit dui. Suspendisse eu tincidunt quam, eget lacinia nisi. In hac habitasse platea dictumst. Duis velit mauris, pharetra quis tempor eu, blandit ut diam. Etiam justo dui, commodo nec vulputate sit amet, dapibus id massa. Ut in magna est. Cras in nisl nunc. Integer vehicula leo enim, in scelerisque enim viverra ac. Morbi interdum elit vel laoreet accumsan."
+  
   },
 
   {
@@ -225,6 +278,9 @@
     "effectiveDate": "2020-04-01",
     "terminationMatter": "567-890",
     "revisionDate": "2019-12-20"
+    ,
+    "text":"Donec vel ullamcorper leo. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Integer felis magna, pharetra ac lectus eget, mattis placerat quam. Mauris nec mauris cursus, malesuada lorem quis, malesuada sem. Nullam a interdum libero. Integer auctor porttitor sagittis. Ut vel commodo risus. Nunc eu porttitor eros, nec efficitur tellus. Integer feugiat nulla vitae porttitor eleifend.Suspendisse eget faucibus elit, ac malesuada arcu. Cras non porttitor massa, vel vehicula est. Vestibulum sed tincidunt turpis. Nulla eu suscipit dui. Suspendisse eu tincidunt quam, eget lacinia nisi. In hac habitasse platea dictumst. Duis velit mauris, pharetra quis tempor eu, blandit ut diam. Etiam justo dui, commodo nec vulputate sit amet, dapibus id massa. Ut in magna est. Cras in nisl nunc. Integer vehicula leo enim, in scelerisque enim viverra ac. Morbi interdum elit vel laoreet accumsan."
+  
   },
   {
     "id": 23,
@@ -235,175 +291,8 @@
     "effectiveDate": "2021-09-01",
     "terminationMatter": "789-012",
     "revisionDate": "2021-05-15"
-  },
-  {
-    "id": 24,
-    "name": "Про внесення змін до постанови Кабінету Міністрів України від 10 жовтня 2022 р. №567",
-    "publisher": "Кабінет Міністрів України",
-    "number": 567,
-    "acceptDate": "2023-05-20",
-    "effectiveDate": "2023-06-01",
-    "terminationMatter": "901-234",
-    "revisionDate": "2023-03-10"
-  },
-  {
-    "id": 25,
-    "name": "Про внесення змін до постанови Кабінету Міністрів України від 5 грудня 2023 р. №678",
-    "publisher": "Кабінет Міністрів України",
-    "number": 678,
-    "acceptDate": "2024-01-10",
-    "effectiveDate": "2024-02-01",
-    "terminationMatter": "123-456",
-    "revisionDate": "2023-11-15"
-  },
-  {
-    "id": 26,
-    "name": "Про внесення змін до постанови Кабінету Міністрів України від 20 травня 2025 р. №789",
-    "publisher": "Кабінет Міністрів України",
-    "number": 789,
-    "acceptDate": "2026-02-15",
-    "effectiveDate": "2026-03-01",
-    "terminationMatter": "234-567",
-    "revisionDate": "2025-12-20"
-  },
-  {
-    "id": 27,
-    "name": "Про внесення змін до постанови Кабінету Міністрів України від 1 січня 2027 р. №890",
-    "publisher": "Кабінет Міністрів України",
-    "number": 890,
-    "acceptDate": "2027-10-10",
-    "effectiveDate": "2027-11-01",
-    "terminationMatter": "567-890",
-    "revisionDate": "2027-08-15"
-  },
-  {
-    "id": 28,
-    "name": "Про внесення змін до постанови Кабінету Міністрів України від 15 березня 2028 р. №901",
-    "publisher": "Кабінет Міністрів України",
-    "number": 901,
-    "acceptDate": "2028-12-18",
-    "effectiveDate": "2029-01-01",
-    "terminationMatter": "890-123",
-    "revisionDate": "2028-10-15"
-  },
-  {
-    "id": 29,
-    "name": "Про внесення змін до постанови Кабінету Міністрів України від 25 квітня 2029 р. №012",
-    "publisher": "Кабінет Міністрів України",
-    "number": 12,
-    "acceptDate": "2030-07-20",
-    "effectiveDate": "2030-08-01",
-    "terminationMatter": "456-789",
-    "revisionDate": "2030-05-10"
-  },
-  {
-    "id": 30,
-    "name": "Про внесення змін до постанови Кабінету Міністрів України від 30 червня 2031 р. №123",
-    "publisher": "Кабінет Міністрів України",
-    "number": 123,
-    "acceptDate": "2032-04-22",
-    "effectiveDate": "2032-05-01",
-    "terminationMatter": "789-012",
-    "revisionDate": "2032-02-15"
-  },
-  {
-    "id": 31,
-    "name": "Про внесення змін до постанови Кабінету Міністрів України від 10 серпня 2033 р. №234",
-    "publisher": "Кабінет Міністрів України",
-    "number": 234,
-    "acceptDate": "2034-01-05",
-    "effectiveDate": "2034-02-01",
-    "terminationMatter": "901-234",
-    "revisionDate": "2033-11-20"
-  },
-  {
-    "id": 32,
-    "name": "Про внесення змін до постанови Кабінету Міністрів України від 15 вересня 2035 р. №345",
-    "publisher": "Кабінет Міністрів України",
-    "number": 345,
-    "acceptDate": "2036-06-08",
-    "effectiveDate": "2036-07-01",
-    "terminationMatter": "012-345",
-    "revisionDate": "2036-04-10"
-  },
-  {
-    "id": 33,
-    "name": "Про внесення змін до постанови Кабінету Міністрів України від 20 жовтня 2037 р. №456",
-    "publisher": "Кабінет Міністрів України",
-    "number": 456,
-    "acceptDate": "2038-03-10",
-    "effectiveDate": "2038-04-01",
-    "terminationMatter": "345-678",
-    "revisionDate": "2037-12-15"
-  },
-  {
-    "id": 34,
-    "name": "Про внесення змін до постанови Кабінету Міністрів України від 5 листопада 2039 р. №567",
-    "publisher": "Кабінет Міністрів України",
-    "number": 567,
-    "acceptDate": "2040-09-12",
-    "effectiveDate": "2040-10-01",
-    "terminationMatter": "678-901",
-    "revisionDate": "2040-07-15"
-  },
-  {
-    "id": 35,
-    "name": "Про внесення змін до постанови Кабінету Міністрів України від 10 грудня 2041 р. №678",
-    "publisher": "Кабінет Міністрів України",
-    "number": 678,
-    "acceptDate": "2042-12-18",
-    "effectiveDate": "2043-01-01",
-    "terminationMatter": "789-012",
-    "revisionDate": "2042-10-15"
-  },
-  {
-    "id": 36,
-    "name": "Про внесення змін до постанови Кабінету Міністрів України від 15 січня 2044 р. №789",
-    "publisher": "Кабінет Міністрів України",
-    "number": 789,
-    "acceptDate": "2045-03-22",
-    "effectiveDate": "2045-04-01",
-    "terminationMatter": "901-234",
-    "revisionDate": "2045-01-15"
-  },
-  {
-    "id": 37,
-    "name": "Про внесення змін до постанови Кабінету Міністрів України від 20 лютого 2046 р. №890",
-    "publisher": "Кабінет Міністрів України",
-    "number": 890,
-    "acceptDate": "2047-05-15",
-    "effectiveDate": "2047-06-01",
-    "terminationMatter": "234-567",
-    "revisionDate": "2047-03-10"
-  },
-  {
-    "id": 38,
-    "name": "Про внесення змін до постанови Кабінету Міністрів України від 25 березня 2048 р. №901",
-    "publisher": "Кабінет Міністрів України",
-    "number": 901,
-    "acceptDate": "2048-08-20",
-    "effectiveDate": "2048-09-01",
-    "terminationMatter": "345-678",
-    "revisionDate": "2048-06-15"
-  },
-  {
-    "id": 39,
-    "name": "Про внесення змін до постанови Кабінету Міністрів України від 30 квітня 2049 р. №012",
-    "publisher": "Кабінет Міністрів України",
-    "number": 12,
-    "acceptDate": "2050-10-05",
-    "effectiveDate": "2050-11-01",
-    "terminationMatter": "456-789",
-    "revisionDate": "2050-08-20"
-  },
-  {
-    "id": 40,
-    "name": "Про внесення змін до постанови Кабінету Міністрів України від 5 червня 2051 р. №123",
-    "publisher": "Кабінет Міністрів України",
-    "number": 123,
-    "acceptDate": "2052-12-15",
-    "effectiveDate": "2053-01-01",
-    "terminationMatter": "789-012",
-    "revisionDate": "2052-10-10"
+    ,
+    "text":"Donec vel ullamcorper leo. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Integer felis magna, pharetra ac lectus eget, mattis placerat quam. Mauris nec mauris cursus, malesuada lorem quis, malesuada sem. Nullam a interdum libero. Integer auctor porttitor sagittis. Ut vel commodo risus. Nunc eu porttitor eros, nec efficitur tellus. Integer feugiat nulla vitae porttitor eleifend.Suspendisse eget faucibus elit, ac malesuada arcu. Cras non porttitor massa, vel vehicula est. Vestibulum sed tincidunt turpis. Nulla eu suscipit dui. Suspendisse eu tincidunt quam, eget lacinia nisi. In hac habitasse platea dictumst. Duis velit mauris, pharetra quis tempor eu, blandit ut diam. Etiam justo dui, commodo nec vulputate sit amet, dapibus id massa. Ut in magna est. Cras in nisl nunc. Integer vehicula leo enim, in scelerisque enim viverra ac. Morbi interdum elit vel laoreet accumsan."
+  
   }
 ]
