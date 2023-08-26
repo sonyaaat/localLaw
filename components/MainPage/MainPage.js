@@ -1,6 +1,6 @@
 import List from "../List/List";
 import Search from "../Search/Search";
-import css from "./MainPage.module.css"
+import css from "./MainPage.module.css";
 export default function MainPage() {
   return (
     <div className="container">
@@ -12,7 +12,7 @@ export default function MainPage() {
           </svg>
         </button>
       </div>
-      <Search/>
+      <Search />
       <List />
     </div>
   );

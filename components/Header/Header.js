@@ -1,43 +1,112 @@
+"use client";
 import Image from "next/image";
 import css from "../Header/Header.module.css";
+import { usePathname } from "next/navigation";
+import Link from "next/link";
 
 export default function Header() {
+  const currentRoute = usePathname();
   return (
-    <header className={css.header}>
-      <div className={css.header__container}>
-        <div className={css.header__iconspans}>
-          <a className={css.header__linklogo} href="/src/index.html">
-            <Image src="/src/images/film.svg" alt="logo" width="38" height="38" />
+    <div className={css.background__color}>
+      <header className="container">
+        <div className={css.header__container}>
+          <div className={css.header__iconspans}>
+            <a className={css.header__linklogo} href="/">
+              <Image src="/Logo.svg" alt="logo" width="38" height="38" />
+            </a>
             <div className={css.header_logospans}>
-              <span className={css.header__logotext}>Local</span>
-              <span className={css.header__logotextsecond}>Law</span>
+              <span className={css.header__logotext}>Dikretum</span>
+              {/* <span className={css.header__logotextsecond}>Law</span> */}
             </div>
-          </a>
-        </div>
-        <ul className={css.header__list}>
-          <li className={css.header__item}>
-            <a href="components/Prime">Головна</a>
-          </li>
-          <li className={css.header__item}>
-            <a href="components/Documentation">Документація</a>
-          </li>
-          <li className={css.header__item}>
-            <a href="components/Search">Пошук</a>
-          </li>
-          <li className={css.header__item}>
-            <a href="components/Rules">Правила користування</a>
-          </li>
-          <li className={css.header__item}>
-            <a href="components/Contacts">Контакти</a>
-          </li>
-        </ul>
-        <p className={css.header__language}>UA</p>
-        <button className={css.header__btn}>
-          <p className={css.header__registr}>Увійти/Зареєструватися</p>
-        </button>
-      </div>
-    </header>
-  );
-};
+          </div>
+          <ul className={css.header__list}>
+            <li
+              className={
+                currentRoute === "/"
+                  ? `${css.header__item} ${css.activeItem}`
+                  : `${css.header__item}`
+              }
+            >
+              <Link href="/" className={css.link}>
+                Головна
+              </Link>
+            </li>
 
-export { Header };
+            <li
+              className={
+                currentRoute === "/Documentation"
+                  ? `${css.header__item} ${css.activeItem}`
+                  : `${css.header__item}`
+              }
+            >
+              <Link href="/Documentation" className={css.link}>
+                Документація
+              </Link>
+            </li>
+            <li
+              className={
+                currentRoute === "/Search"
+                  ? `${css.header__item} ${css.activeItem}`
+                  : `${css.header__item}`
+              }
+            >
+              <Link href="/Search" className={css.link}>
+                Пошук
+              </Link>
+            </li>
+            <li
+              className={
+                currentRoute === "/Rules"
+                  ? `${css.header__item} ${css.activeItem}`
+                  : `${css.header__item}`
+              }
+            >
+              <Link href="/Rules" className={css.link}>
+                Правила користування
+              </Link>
+            </li>
+            <li
+              className={
+                currentRoute === "/Contacts"
+                  ? `${css.header__item} ${css.activeItem}`
+                  : `${css.header__item}`
+              }
+            >
+              <Link href="/Contacts" className={css.link}>
+                Контакти
+              </Link>
+            </li>
+          </ul>
+          <div className={css.header__groupLanguage}>
+            <svg className={css.header__languageSvg}>
+              <use href={`/sprite.svg#icon-language`}></use>
+            </svg>
+            <p className={css.header__language}>UA</p>
+            <button className={css.header__languageBtn}>
+              <svg className={css.header__iconDownSvg}>
+                <use href={`/sprite.svg#icon-down`}></use>
+              </svg>
+            </button>
+          </div>
+
+          <button className={css.header__btn}>
+            <p className={css.header__registr}>Увійти/Зареєструватися</p>
+          </button>
+        </div>
+      </header>
+      <div className={css.baner}>
+        <Image
+          src="/Map.svg"
+          alt="map"
+          width="459"
+          height="283"
+          className={css.baner__map}
+        />
+        <div className={css.baner__changed}>
+          <Image src="/Gerb.svg" alt="gerb" width="68" height="82" />
+          <p className={css.baner__text}>Харківська обласна рада</p>
+        </div>
+      </div>
+    </div>
+  );
+}

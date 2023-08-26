@@ -1,7 +1,19 @@
+.background__color {
+  height: 380px;
+  margin-bottom: 44px;
+  background: linear-gradient(
+    180deg,
+    rgba(0, 75, 70, 0.15) 0%,
+    rgba(0, 0, 0, 0) 100%
+  );
+  border: 1px solid red;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .header__container {
   display: flex;
-  padding: 32px 88px;
-  justify-content: space-between;
+  padding-top: 32px;
   align-items: center;
 }
 
@@ -13,13 +25,13 @@
   border-radius: 56px;
   background: var(--additional-blue-light, #eff5fb);
   backdrop-filter: blur(0px);
+  margin-left: auto;
+  margin-right: 51px;
 }
 
 .header__item {
   color: var(--text-secondary);
   text-align: center;
-
-  font-family: "Poppins",sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
@@ -28,6 +40,7 @@
 }
 .header__btn {
   display: flex;
+  margin-left: 16px;
   padding: 17px 32px;
   justify-content: center;
   align-items: center;
@@ -41,7 +54,7 @@
   color: var(--text-quaternary);
   text-align: center;
 
-  font-family: "Poppins",sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
@@ -75,4 +88,65 @@
 }
 .header__iconspans {
   display: flex;
+  flex-direction: row;
+}
+.header__linklogo {
+  margin-right: 12px;
+}
+.header__languageSvg {
+  width: 20px;
+  height: 20px;
+  margin-right: 4px;
+}
+.header__languageBtn {
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+  background-color: inherit;
+  border: none;
+}
+.header__groupLanguage {
+  display: flex;
+  align-items: center;
+  /* margin-right: 16px; */
+}
+.header__language {
+  width: 23px;
+  height: 23px;
+  margin-right: 8px;
+}
+.header__iconDownSvg {
+  width: 16px;
+  height: 16px;
+}
+
+.baner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* margin-top: 64px; */
+  /* margin-left: 32px; */
+}
+.baner__text {
+  color: var(--text-primary);
+  text-align: center;
+  font-family: "Merriweather", serif;
+  /* font-family: "Poppins", sans-serif; */
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 1.5;
+  margin-left: 32px;
+}
+.baner__map {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.baner__changed {
+  display: flex;
+  position: absolute;
+}
+.activeItem {
+  color: black;
 }
