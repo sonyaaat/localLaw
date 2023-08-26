@@ -12,6 +12,8 @@
   --brand-primary-dark: #5C8689;
   --background-senary: #F5F8FE;
   --additional-blue-light: #EFF5FB;
+  --brand-primary-light-max: #DAECED;
+  --text-secondary: #6C6D78;
 }
 * {
   box-sizing: border-box;
