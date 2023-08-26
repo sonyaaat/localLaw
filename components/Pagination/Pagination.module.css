@@ -1,0 +1,80 @@
+.pagination {
+    
+    /* background-color: #0fbcf9; */
+    background-color: transparent;
+    display: flex;
+    gap: 4px;
+    flex-direction: row;
+    height: 60px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    list-style-type: none;
+    position: relative;
+    width: 1000px;
+    margin-top: 60px;
+    /* width: 288px; */
+  }
+  .prevSvg,.nextSvg{
+    width: 24px;
+    height: 24px;
+
+  }
+  .prevSvg{
+    margin-right: 24px;
+  }
+  .nextSvg{
+margin-left: 24px;
+  }
+  .prevSvg:hover,.prevSvg:focus,.nextSvg:hover,.nextSvg:focus{
+    fill: var(--brand-primary-dark);
+  }
+  /* .itemPagination {
+    align-items: center;
+    color: #FFF;
+    cursor: pointer;
+    display: flex;
+    font-size: 14px;
+    height: 40px;
+    justify-content: center;
+    width: 40px;
+  } */
+  .itemPagination {
+    width: 32px;
+    height: 32px;
+
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 32px;
+border: 1px solid var(--background-quinary, #E4E7EA);
+background: var(--background-octonary, #FFF);
+
+font-family: "Poppins",sans-serif;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height:  171.429% ;
+letter-spacing: 0.014px;
+
+  }
+  .activeItemPag{
+    border-radius: 32px;
+background: var(--brand-primary-dark, #5C8689);
+color: var(--text-quaternary);
+  }
+  .breakPagination{
+    color: var(--background-primary);
+    margin-right: 14.5px;
+    margin-left: 14.5px;
+font-family: Euclid Circular A;
+font-size: 13px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+  }
+  .wrapper{
+    display: flex;
+    flex-direction: column;
+  }

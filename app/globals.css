@@ -1,11 +1,16 @@
-:root {
-  --text-primary: #17181b;
-  --text-secondary: #6c6d78;
-  --brand-primary-normal: #83bfc4;
-  --background-octonary: #fff;
-  --background-light-senary: #f5f5f5;
-  --brand-primary-dark: #5c8689;
-  --text-quaternary: #fff;
+
+
+
+:root{
+  --text-primary: #17181B;
+  --text-secondary:#6C6D78;
+  --text-quaternary: #FFF;
+  --brand-primary-normal: #83BFC4;
+  --background-primary: #17181B;
+  --background-octonary:#FFF;
+  --background-light-senary:#F5F5F5;
+  --brand-primary-dark: #5C8689;
+  --background-senary: #F5F8FE;
 }
 * {
   box-sizing: border-box;
