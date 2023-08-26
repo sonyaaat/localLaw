@@ -13,7 +13,7 @@ export default function PaginatedItems({ itemsPerPage, items }) {
     const endOffset = itemOffset + itemsPerPage;
     setCurrentItems(items.slice(itemOffset, endOffset));
     setPageCount(Math.ceil(items.length / itemsPerPage));
-  }, [itemOffset, itemsPerPage,items]);
+  }, [itemOffset, itemsPerPage, items]);
 
   // Invoke when user click to request another page.
   const handlePageClick = (event) => {
@@ -26,7 +26,7 @@ export default function PaginatedItems({ itemsPerPage, items }) {
   };
 
   return (
-    <div >
+    <div>
       <List data={currentItems} />
       <ReactPaginate
         onPageChange={handlePageClick}
