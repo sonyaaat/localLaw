@@ -1,5 +1,7 @@
 .header {
+
   font-family: "Merriweather", serif;
+
   font-size: 24px;
   font-style: normal;
   font-weight: 400;
@@ -39,7 +41,7 @@
     /* justify-content: center; */
     flex-direction: row;
     gap: 32px;
-    
+
 }
 .mainWrapperBorder{
   padding: 44px 20px;

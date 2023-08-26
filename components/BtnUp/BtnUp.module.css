@@ -1,0 +1,17 @@
+.BtnUpSvg {
+  width: 24px;
+  height: 24px;
+}
+.BtnUp {
+  width: 64px;
+  height: 64px;
+  bottom: 80px;
+  right: 10%;
+  background-color: white;
+  border: 1px solid;
+  border-radius: 50%;
+  border-color: #143254;
+  margin-left: auto;
+  position: fixed;
+  cursor: pointer;
+}

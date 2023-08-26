@@ -20,7 +20,7 @@ setPageNumber((itemOffset)/itemsPerPage)
     const endOffset = itemOffset + itemsPerPage;
     setCurrentItems(items.slice(itemOffset, endOffset));
     setPageCount(Math.ceil(items.length / itemsPerPage));
-  }, [itemOffset, itemsPerPage,items]);
+  }, [itemOffset, itemsPerPage, items]);
 
   // Invoke when user click to request another page.
   const handlePageClick = (event) => {
@@ -33,6 +33,7 @@ setPageNumber((itemOffset)/itemsPerPage)
   };
 
   return (
+
     <div className={!isMenuOpen? ``: `${css.paginationWrapperOpen}`}>
        {React.cloneElement(list, {
         data: currentItems,
