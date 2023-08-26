@@ -1,5 +1,7 @@
 .header {
+
   font-family: "Merriweather", serif;
+
   font-size: 24px;
   font-style: normal;
   font-weight: 400;
@@ -34,7 +36,7 @@
     display: flex;
     justify-content: center;
     flex-direction: row;
-    
+
 }
 .openWrapper{
     

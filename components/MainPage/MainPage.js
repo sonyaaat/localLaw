@@ -4,8 +4,10 @@ import { useState } from "react";
 
 import Search from "../Search/Search";
 import css from "./MainPage.module.css";
+
 import PaginatedItems from "../Pagination/Pagination";
 import ModalNav from "../ModalNav/ModalNav";
+
 export default function MainPage() {
   const [searchWord, setSearchWord] = useState("");
   const [searchParams, setSearchParams] = useState("");
@@ -32,12 +34,14 @@ export default function MainPage() {
           </button>
         )}
       </div>
+
       {data && (
         <div className={isMenuOpen ? `${css.mainWrapper}` : ""}>
           <PaginatedItems itemsPerPage={10} items={filterFunction()} />
           {isMenuOpen && <ModalNav changeMenu={changeMenu} />}
         </div>
       )}
+
     </div>
   );
 }
