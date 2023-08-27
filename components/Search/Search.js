@@ -3,7 +3,6 @@ import { useRouter } from "next/navigation";
 import { useState, useEffect } from "react";
 import css from "./Search.module.css";
 import RadioButton from "../RadioButton/RadioButton";
-import Link from "next/link";
 
 export default function Search({ setSearchParams, setSearchWord }) {
   const router = useRouter();
@@ -29,9 +28,13 @@ export default function Search({ setSearchParams, setSearchWord }) {
   useEffect(() => {
     setSelectedSearch("inName");
   }, []);
-  useEffect(() => {
-    console.log(searchText);
-  }, [searchText]);
+
+  const handleKeyDown = (event) => {
+    if (event.key === "Enter") {
+      event.preventDefault(); // Prevent the default form submission behavior
+      onSubmit(event);
+    }
+  };
 
   return (
     <form className={css.form} onSubmit={onSubmit}>
@@ -46,6 +49,7 @@ export default function Search({ setSearchParams, setSearchWord }) {
             className={css.input}
             value={searchText}
             onChange={(e) => setSearchText(e.target.value)}
+            onKeyDown={handleKeyDown} // Use onKeyDown instead of onKeyPress
           />
           {searchText && (
             <button className={css.clearButton} onClick={handleClearClick}>
@@ -56,9 +60,7 @@ export default function Search({ setSearchParams, setSearchWord }) {
           )}
 
           <button className={`${css.button} ${css.submitButton}`} type="submit">
-            {/* <Link  href={searchText ? { pathname: '/search', query: { text: searchText,params:selectedSearch } }:"/search"} > */}
             Знайти
-            {/* </Link> */}
           </button>
         </div>
 

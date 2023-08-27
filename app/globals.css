@@ -9,9 +9,13 @@
   --background-primary: #17181B;
   --background-octonary:#FFF;
   --background-light-senary:#F5F5F5;
+  --background-quaternary:#9CA3AF ;
   --brand-primary-dark: #5C8689;
   --background-senary: #F5F8FE;
   --additional-blue-light: #EFF5FB;
+  --brand-primary-light-max: #DAECED;
+  --text-secondary: #6C6D78;
+
 }
 * {
   box-sizing: border-box;
@@ -52,4 +56,3 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
-/* //// */
