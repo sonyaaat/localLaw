@@ -21,42 +21,43 @@ export default function SearchPage() {
   useEffect(() => {
     console.log("filterOption", filterOption);
   }, [filterOption]);
-  
+
   useEffect(() => {
     console.log("searchField", searchField);
   }, [searchField]);
- 
-  useEffect(()=>{
-    const filterFunc = () => {
 
+  useEffect(() => {
+    const filterFunc = () => {
       if (filterOption === "inAlphabet") {
-        console.log(1)
-        const sorted = [...filteredData].sort((a, b) => a.name.localeCompare(b.name));
+        console.log(1);
+        const sorted = [...filteredData].sort((a, b) =>
+          a.name.localeCompare(b.name)
+        );
         setResData(sorted);
       } else if (filterOption === "notAlphabet") {
-        console.log(2)
+        console.log(2);
         const inReversedOrder = [...filteredData].sort((a, b) =>
           b.name.localeCompare(a.name)
         );
         setResData(inReversedOrder);
       } else if (filterOption === "dateIncrease") {
-        console.log(3)
+        console.log(3);
         const inAscending = [...filteredData].sort(
           (a, b) => new Date(a.acceptDate) - new Date(b.acceptDate)
         );
         console.log("dateIncrease", inAscending);
         setResData(inAscending);
       } else if (filterOption === "dateDecreasing") {
-        console.log(4)
+        console.log(4);
         const inDecreasing = [...filteredData].sort(
           (a, b) => new Date(b.acceptDate) - new Date(a.acceptDate)
         );
         console.log("inDecreasing", inDecreasing);
         setResData(inDecreasing);
-      } 
+      }
     };
-    filterFunc()
-  },[filterOption,filteredData])
+    filterFunc();
+  }, [filterOption, filteredData]);
   useEffect(() => {
     console.log("resData", resData);
   }, [resData]);
@@ -74,26 +75,14 @@ export default function SearchPage() {
       setFilteredData(filter);
     }
     if (searchField === "all") {
-      console.log("all")
+      console.log("all");
       const filter = data.filter(
         (el) =>
           el.name.toLowerCase().includes(searchText.toLowerCase()) ||
           el.text.includes(searchText)
       );
-      // if (filterOption === "dateIncrease") {
-      //   console.log(3)
-      //   const inAscending = [...filteredData].sort(
-      //     (a, b) => new Date(a.acceptDate) - new Date(b.acceptDate)
-      //   );
-      //   console.log("dateIncrease", inAscending);
-      //   setResData(inAscending);
-      //   setFilteredData(inAscending);
-      //   return
-      // }
       setFilteredData(filter);
-      
     }
-    // filterFunc();
   }, [searchText, searchField]);
   return (
     <div className="container">
@@ -121,12 +110,9 @@ export default function SearchPage() {
               isMenuOpen={isMenuOpen}
               itemsPerPage={10}
               items={resData}
+              filterOption={filterOption}
               list={
-                <SearchList
-                  searchField={searchField}
-                  searchText={searchText}
-                  filterOption={filterOption}
-                />
+                <SearchList searchField={searchField} searchText={searchText} />
               }
             />
           </div>

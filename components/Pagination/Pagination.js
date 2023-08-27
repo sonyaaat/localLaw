@@ -1,7 +1,6 @@
 "use client";
 import React, { useEffect, useState } from "react";
 import ReactPaginate from "react-paginate";
-import List from "../List/List";
 import css from "./Pagination.module.css";
 
 export default function PaginatedItems({
@@ -9,17 +8,17 @@ export default function PaginatedItems({
   items,
   list,
   isMenuOpen,
-
+  filterOption,
 }) {
-
   const [currentItems, setCurrentItems] = useState(null);
   const [pageCount, setPageCount] = useState(0);
   const [itemOffset, setItemOffset] = useState(0);
   const [pageNumber, setPageNumber] = useState(itemOffset / itemsPerPage);
+  const [currentPage, setCurrentPage] = useState(0);
   useEffect(() => {
-  
     setPageNumber(itemOffset / itemsPerPage);
   }, [itemOffset]);
+
   useEffect(() => {
     // Fetch items from another resources.
     const endOffset = itemOffset + itemsPerPage;
@@ -35,15 +34,21 @@ export default function PaginatedItems({
       top: 0,
       behavior: "smooth",
     });
+    setCurrentPage(event.selected);
   };
+  useEffect(() => {
+    setItemOffset(0);
+
+    setCurrentPage(0);
+  }, [filterOption]);
 
   return (
     <div className={!isMenuOpen ? `` : `${css.paginationWrapperOpen}`}>
       {React.cloneElement(list, {
         data: currentItems,
         pageNumber: pageNumber,
+        filterOption: filterOption,
       })}
-      {/* <List data={currentItems} pageNumber={pageNumber}/> */}
       {currentItems && currentItems.length > 0 && (
         <ReactPaginate
           onPageChange={handlePageClick}
@@ -58,6 +63,7 @@ export default function PaginatedItems({
             </svg>
           }
           previousClassName={""}
+          forcePage={currentPage}
           nextClassName="page-item"
           activeClassName={`${css.itemPagination} ${css.activeItemPag} `}
           breakClassName={`${css.breakPagination}`}

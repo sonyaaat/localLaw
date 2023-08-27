@@ -1,17 +1,11 @@
 import { useState, useEffect } from "react";
 import css from "./SearchResults.module.css";
 const data = [
-  { id: 0, label: "За датою прийняття1", type: "dateIncrease" },
-  { id: 1, label: "За датою прийняття2", type: "dateDecreasing" },
-  { id: 2, label: "За назвою1", type: "inAlphabet" },
-  { id: 3, label: "За назвою2", type: "notAlphabet" },
+  { id: 0, label: "За датою прийняття", type: "dateIncrease" },
+  { id: 1, label: "За датою прийняття", type: "dateDecreasing" },
+  { id: 2, label: "За назвою", type: "inAlphabet" },
+  { id: 3, label: "За назвою", type: "notAlphabet" },
 ];
-// const data = [
-//   { id: "dateAscending", label: "За датою прийняття1" },
-//   { id: "dateDecreasing", label: "За датою прийняття2" },
-//   { id: "inAlphabet", label: "За назвою1" },
-//   { id: "notAlphabet", label: "За назвою2" },
-// ];
 export default function SearchResults({
   searchField,
   searchText,
@@ -82,8 +76,6 @@ export default function SearchResults({
                   <use href={`/sprite.svg#icon-arrow-down`}></use>
                 </svg>
               )}
-
-              {/* <i className={`fa fa-chevron-right icon ${isOpen && "open"}`}></i> */}
             </div>
             <div className={`${css.dropdownBody} ${isOpen && `${css.open}`}`}>
               {items
@@ -98,7 +90,6 @@ export default function SearchResults({
                     }}
                     id={item.id}
                   >
-                    {/* <span className={`dropdown-item-dot ${item.id == selectedItem && 'selected'}`}>• </span> */}
                     {item.label}
                     {(item.id === 0 || item.id == 2) && (
                       <svg className={css.arrowSelect}>

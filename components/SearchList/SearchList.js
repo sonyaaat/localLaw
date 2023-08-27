@@ -1,17 +1,13 @@
 import Link from "next/link";
 import SearchItem from "../SearchItem/SearchItem";
 import css from "./SearchList.module.css";
-import { useEffect, useState } from "react";
 export default function SearchList({
   data,
   searchField,
   searchText,
   pageNumber,
-  // filterOption,
 }) {
  
-  
-
   return (
     <>
       {data &&

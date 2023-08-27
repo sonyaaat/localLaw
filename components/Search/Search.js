@@ -3,7 +3,6 @@ import { useRouter } from "next/navigation";
 import { useState, useEffect } from "react";
 import css from "./Search.module.css";
 import RadioButton from "../RadioButton/RadioButton";
-import Link from "next/link";
 
 export default function Search({ setSearchParams, setSearchWord }) {
   const router = useRouter();
@@ -29,7 +28,7 @@ export default function Search({ setSearchParams, setSearchWord }) {
   useEffect(() => {
     setSelectedSearch("inName");
   }, []);
- 
+
   const handleKeyDown = (event) => {
     if (event.key === "Enter") {
       event.preventDefault(); // Prevent the default form submission behavior
