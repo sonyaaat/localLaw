@@ -1,3 +1,4 @@
+import Link from "next/link";
 import css from "../Item/Item.module.css";
 import React from "react";
 export default function SearchItem({
@@ -22,7 +23,7 @@ export default function SearchItem({
   }
   return (
     <li>
-      <a className={css.item} href="#">
+      <Link className={css.item} href={"/[docId]"} as={`/${data.id}`}>
         <div className={css.circle}> {index + pageNumber * 10}</div>
         <div className={css.wrapper}>
           {(searchField === "inName" || searchField === "all") && (
@@ -51,7 +52,7 @@ export default function SearchItem({
           </svg>
           <span className={css.fileSize}>2MB</span>
         </div>
-      </a>
+      </Link>
     </li>
   );
 }

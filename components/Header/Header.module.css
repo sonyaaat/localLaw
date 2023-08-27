@@ -1,6 +1,6 @@
 .background__color {
   height: 380px;
-  margin-bottom: 44px;
+  /* margin-bottom: 44px; */
   background: linear-gradient(
     180deg,
     rgba(0, 75, 70, 0.15) 0%,
