@@ -1,10 +1,10 @@
 import { useState, useEffect } from "react";
 import css from "./SearchResults.module.css";
 const data = [
-  { id: 0, label: "За датою прийняття1",type:"dateIncrease" },
-  { id: 1, label: "За датою прийняття2",type: "dateDecreasing"},
-  { id: 2, label: "За назвою1",type:"inAlphabet" },
-  { id: 3, label: "За назвою2",type: "notAlphabet"},
+  { id: 0, label: "За датою прийняття1", type: "dateIncrease" },
+  { id: 1, label: "За датою прийняття2", type: "dateDecreasing" },
+  { id: 2, label: "За назвою1", type: "inAlphabet" },
+  { id: 3, label: "За назвою2", type: "notAlphabet" },
 ];
 // const data = [
 //   { id: "dateAscending", label: "За датою прийняття1" },
@@ -12,15 +12,18 @@ const data = [
 //   { id: "inAlphabet", label: "За назвою1" },
 //   { id: "notAlphabet", label: "За назвою2" },
 // ];
-export default function SearchResults({ searchField, searchText ,searchLenght,setFilterOption}) {
- 
+export default function SearchResults({
+  searchField,
+  searchText,
+  searchLenght,
+  setFilterOption,
+}) {
   const [isOpen, setOpen] = useState(false);
   const [items, setItem] = useState(data);
   const [selectedItem, setSelectedItem] = useState("0");
-  useEffect(()=>{
-    setFilterOption(findItem(selectedItem).type)
-    
-      },[selectedItem])
+  useEffect(() => {
+    setFilterOption(findItem(selectedItem).type);
+  }, [selectedItem]);
   const searchWhere = (searchField) => {
     if (searchField === "all") {
       return "Cлова всюди";
@@ -45,9 +48,28 @@ export default function SearchResults({ searchField, searchText ,searchLenght,se
         <div className={css.dropdown}>
           <div className={css.dropdownWrapper}>
             <div className={css.dropdownHeader} onClick={toggleDropdown}>
-              {selectedItem
-                ? findItem(selectedItem).label
-                : "Select sort option"}
+              {selectedItem ? (
+                <div className={css.selectedFilterWrapper}>
+                  <p>{findItem(selectedItem).label}</p>
+                  {(findItem(selectedItem).type === "dateIncrease" ||
+                    findItem(selectedItem).type == "inAlphabet") && (
+                    <svg className={css.arrowActive}>
+                      <use href={`/sprite.svg#icon-arrow-up`}></use>
+                    </svg>
+                  )}
+                  {(findItem(selectedItem).type == "dateDecreasing" ||
+                    findItem(selectedItem).type == "notAlphabet") && (
+                    <svg className={css.arrowActive}>
+                      <use href={`/sprite.svg#icon-arrow-down`}></use>
+                    </svg>
+                  )}
+                  <svg className={css.arrowDown}>
+                    <use href={`/sprite.svg#icon-down`}></use>
+                  </svg>
+                </div>
+              ) : (
+                "Select sort option"
+              )}
               {(findItem(selectedItem).id === "dateAscending" ||
                 findItem(selectedItem).id == "inAlphabet") && (
                 <svg className={css.arrowActive}>
@@ -55,7 +77,7 @@ export default function SearchResults({ searchField, searchText ,searchLenght,se
                 </svg>
               )}
               {(findItem(selectedItem).id == "dateDecreasing" ||
-                findItem(selectedItem).id ==  "notAlphabet") && (
+                findItem(selectedItem).id == "notAlphabet") && (
                 <svg className={css.arrowActive}>
                   <use href={`/sprite.svg#icon-arrow-down`}></use>
                 </svg>
@@ -106,7 +128,8 @@ export default function SearchResults({ searchField, searchText ,searchLenght,se
         <div
           className={`${css.dropdownHeader} ${css.dropdownSmall} ${css.dropdownHeaderActive}`}
         >
-          Знайдено <span className={css.searchResActive}> {searchLenght} </span> документів
+          Знайдено <span className={css.searchResActive}> {searchLenght} </span>{" "}
+          документів
         </div>
       </div>{" "}
     </div>

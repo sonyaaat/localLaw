@@ -20,7 +20,7 @@ export default function SearchItem({ data, searchText, searchField,pageNumber ,i
         <div className={css.circle}> {index+(pageNumber*10)}</div>
         <div className={css.wrapper}>
           {(searchField === "inName" || searchField === "all") && (
-            <h3 className={css.title}>{getHighlightedText(data.name)}</h3>
+            <h3 className={css.title}>{getHighlightedText(data.name)} { data.acceptDate}</h3>
           )}
           {searchField === "inText" && (
             <h3 className={css.title}>{data.name}</h3>

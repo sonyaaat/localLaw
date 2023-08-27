@@ -11,13 +11,13 @@ export default function PaginatedItems({
   isMenuOpen,
 
 }) {
-  console.log("items1", items);
+
   const [currentItems, setCurrentItems] = useState(null);
   const [pageCount, setPageCount] = useState(0);
   const [itemOffset, setItemOffset] = useState(0);
   const [pageNumber, setPageNumber] = useState(itemOffset / itemsPerPage);
   useEffect(() => {
-    console.log(itemOffset);
+  
     setPageNumber(itemOffset / itemsPerPage);
   }, [itemOffset]);
   useEffect(() => {

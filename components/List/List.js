@@ -3,9 +3,7 @@ import { useEffect } from "react";
 import Item from "../Item/Item";
 import css from "./List.module.css"
 export default function List({data,pageNumber}) {
-  useEffect(()=>{
-console.log("pc",pageNumber)
-  },[pageNumber])
+
   return (
    <>
    {data &&  <ul className={css.list}>

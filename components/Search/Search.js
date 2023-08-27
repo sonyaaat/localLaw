@@ -29,9 +29,7 @@ export default function Search({ setSearchParams, setSearchWord }) {
   useEffect(() => {
     setSelectedSearch("inName");
   }, []);
-  useEffect(() => {
-    console.log(searchText);
-  }, [searchText]);
+ 
   const handleKeyDown = (event) => {
     if (event.key === "Enter") {
       event.preventDefault(); // Prevent the default form submission behavior

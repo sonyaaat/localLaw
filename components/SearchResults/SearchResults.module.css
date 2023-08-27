@@ -15,6 +15,7 @@ box-shadow: 0px 0px 25px 0px rgba(43, 89, 255, 0.04); */
    fill: #9CA3AF;
    stroke: #9CA3AF;
 }
+
 .arrowActive{
     width: 20px;
     height: 20px; 
@@ -22,6 +23,14 @@ box-shadow: 0px 0px 25px 0px rgba(43, 89, 255, 0.04); */
     fill: #17181B;
    stroke:  #17181B;
    
+}
+.arrowDown{
+  position: absolute;
+  right: 20px;
+  width: 20px;
+  height: 20px; 
+  fill: var(--background-quaternary);
+  
 }
 .label{
     display: block;
@@ -70,6 +79,7 @@ text-decoration-line: underline;
   
   }
   .dropdownHeader {
+    position: relative;
     border-radius: 8px;
   border: 1px solid #F3F3F3;
   background: var(--background-octonary, #FFF);
@@ -118,4 +128,9 @@ text-decoration-line: underline;
   
   .icon.open {
     transform: rotate(90deg);
+  }.selectedFilterWrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
   }

@@ -16,70 +16,85 @@ export default function SearchPage() {
   const searchParams = useSearchParams();
   const searchText = searchParams.get("text");
   const searchField = searchParams.get("params");
-  const [resData, setResData] = useState(data);
-  useEffect(() => {
-    console.log("data", data);
-  }, [data]);
-  const filter=()=>{
-    if (filterOption === "inAlphabet") {
-      const sorted = [...data].sort((a, b) => a.name.localeCompare(b.name));
-      console.log("inAlphabetOrder",sorted)
-      setResData(sorted);
-    }
-    else if(filterOption==="notAlphabet"){
-      const inReversedOrder = [...data].sort((a, b) => b.name.localeCompare(a.name));
-      setResData(inReversedOrder);
-    }
-    else{
-      setResData(data);
-    }
-  }
-  // useEffect(() => {
-  //   if (filterOption === "inAlphabet") {
-  //     const sorted = [...data].sort((a, b) => a.name.localeCompare(b.name));
-  //     console.log("inAlphabetOrder",sorted)
-  //     setResData(sorted);
-  //   }
-  //   else if(filterOption==="notAlphabet"){
-  //     const inReversedOrder = [...data].sort((a, b) => b.name.localeCompare(a.name));
-  //     setResData(inReversedOrder);
-  //   }
-  //   else{
-  //     setResData(data);
-  //   }
-  // }, [data, filterOption]);
-
+  const [resData, setResData] = useState();
   const [filteredData, setFilteredData] = useState(data);
   useEffect(() => {
     console.log("filterOption", filterOption);
   }, [filterOption]);
+  
   useEffect(() => {
-    console.log("filter")
+    console.log("searchField", searchField);
+  }, [searchField]);
+ 
+  useEffect(()=>{
+    const filterFunc = () => {
+
+      if (filterOption === "inAlphabet") {
+        console.log(1)
+        const sorted = [...filteredData].sort((a, b) => a.name.localeCompare(b.name));
+        setResData(sorted);
+      } else if (filterOption === "notAlphabet") {
+        console.log(2)
+        const inReversedOrder = [...filteredData].sort((a, b) =>
+          b.name.localeCompare(a.name)
+        );
+        setResData(inReversedOrder);
+      } else if (filterOption === "dateIncrease") {
+        console.log(3)
+        const inAscending = [...filteredData].sort(
+          (a, b) => new Date(a.acceptDate) - new Date(b.acceptDate)
+        );
+        console.log("dateIncrease", inAscending);
+        setResData(inAscending);
+      } else if (filterOption === "dateDecreasing") {
+        console.log(4)
+        const inDecreasing = [...filteredData].sort(
+          (a, b) => new Date(b.acceptDate) - new Date(a.acceptDate)
+        );
+        console.log("inDecreasing", inDecreasing);
+        setResData(inDecreasing);
+      } 
+    };
+    filterFunc()
+  },[filterOption,filteredData])
+  useEffect(() => {
+    console.log("resData", resData);
+  }, [resData]);
+  useEffect(() => {
     if (searchField === "inName") {
-      console.log(2);
       const filter = data.filter((el) =>
         el.name.toLowerCase().includes(searchText.toLowerCase())
       );
       setFilteredData(filter);
     }
     if (searchField === "inText") {
-      console.log(3);
       const filter = data.filter((el) =>
         el.text.toLowerCase().includes(searchText.toLowerCase())
       );
       setFilteredData(filter);
     }
     if (searchField === "all") {
-      console.log(4);
+      console.log("all")
       const filter = data.filter(
         (el) =>
           el.name.toLowerCase().includes(searchText.toLowerCase()) ||
           el.text.includes(searchText)
       );
+      // if (filterOption === "dateIncrease") {
+      //   console.log(3)
+      //   const inAscending = [...filteredData].sort(
+      //     (a, b) => new Date(a.acceptDate) - new Date(b.acceptDate)
+      //   );
+      //   console.log("dateIncrease", inAscending);
+      //   setResData(inAscending);
+      //   setFilteredData(inAscending);
+      //   return
+      // }
       setFilteredData(filter);
+      
     }
-    filter()
-  }, [searchText, searchField,filterOption]);
+    // filterFunc();
+  }, [searchText, searchField]);
   return (
     <div className="container">
       {!isMenuOpen && (
@@ -100,15 +115,18 @@ export default function SearchPage() {
               setFilterOption={setFilterOption}
               searchField={searchField}
               searchText={searchText}
-              searchLenght={filteredData.length}
+              searchLenght={resData.length}
             />
             <PaginatedItems
-            
               isMenuOpen={isMenuOpen}
               itemsPerPage={10}
               items={resData}
               list={
-                <SearchList searchField={searchField} searchText={searchText} filterOption={filterOption} />
+                <SearchList
+                  searchField={searchField}
+                  searchText={searchText}
+                  filterOption={filterOption}
+                />
               }
             />
           </div>
