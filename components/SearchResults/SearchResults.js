@@ -18,6 +18,9 @@ export default function SearchResults({
   useEffect(() => {
     setFilterOption(findItem(selectedItem).type);
   }, [selectedItem]);
+  useEffect(()=>{
+    localStorage.setItem("searchResNumber", searchLenght);
+  },[searchLenght])
   const searchWhere = (searchField) => {
     if (searchField === "all") {
       return "Cлова всюди";

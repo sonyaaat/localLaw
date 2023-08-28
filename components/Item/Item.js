@@ -1,8 +1,9 @@
+import Link from "next/link";
 import css from "./Item.module.css"
 export default function Item({ data,index,pageNumber }) {
   return (
     <li >
-     <a className={css.item} href="#">
+     <Link className={css.item}  href={"/[docId]"} as={`/${data.id}`}>
      <div className={css.circle}> {index+(pageNumber*10)}</div>
       <div className={css.wrapper}>
         <h3 className={css.title}>{data.name}</h3>
@@ -16,7 +17,7 @@ export default function Item({ data,index,pageNumber }) {
           <use href={`/sprite.svg#icon-download`}></use>
         </svg>
       </div>
-     </a>
+     </Link>
     </li>
   );
 }

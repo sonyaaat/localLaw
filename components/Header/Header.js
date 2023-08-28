@@ -94,7 +94,7 @@ export default function Header() {
           </button>
         </div>
       </header>
-      <div className={css.baner}>
+      {/* <div className={css.baner}>
         <Image
           src="/Map.svg"
           alt="map"
@@ -106,7 +106,7 @@ export default function Header() {
           <Image src="/Gerb.svg" alt="gerb" width="68" height="82" />
           <p className={css.baner__text}>Харківська обласна рада</p>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 }

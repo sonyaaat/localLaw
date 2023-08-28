@@ -1,3 +1,4 @@
+import Link from "next/link";
 import css from "../Item/Item.module.css";
 import React from "react";
 export default function SearchItem({
@@ -22,17 +23,17 @@ export default function SearchItem({
   }
   return (
     <li>
-      <a className={css.item} href="#">
+      <Link className={css.item} href={"/[docId]"} as={`/${data.id}`}>
         <div className={css.circle}> {index + pageNumber * 10}</div>
         <div className={css.wrapper}>
           {(searchField === "inName" || searchField === "all") && (
             <h3 className={css.title}>
-              {getHighlightedText(data.name)} {data.acceptDate}
+              {getHighlightedText(data.name)} 
             </h3>
           )}
           {searchField === "inText" && (
             <h3 className={css.title}>
-              {data.name} {data.acceptDate}
+              {data.name} 
             </h3>
           )}
           {(searchField === "inText" || searchField === "all") && (
@@ -42,7 +43,7 @@ export default function SearchItem({
           <p className={css.text}>
             <span className={css.textBold}>{data.publisher}</span> №{" "}
             {data.number}/ Редакція від {data.revisionDate} (усього редакцій -{" "}
-            {data.revisionNumber ? data.revisionNumber : 1})
+            {data.revisionNumber ? data.revisionNumber : 1}) / Постанова від {data.acceptDate}
           </p>
         </div>
         <div className={`${css.circle} ${css.download}`}>
@@ -51,7 +52,7 @@ export default function SearchItem({
           </svg>
           <span className={css.fileSize}>2MB</span>
         </div>
-      </a>
+      </Link>
     </li>
   );
 }
