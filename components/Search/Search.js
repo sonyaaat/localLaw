@@ -38,7 +38,7 @@ export default function Search({ setSearchParams, setSearchWord }) {
     }
   };
   const  notify = () => {
-    Notify.warning("Даний функціонал находиться у розробці");
+    Notify.warning("Даний функціонал знаходиться у розробці");
   }; 
 
   return (

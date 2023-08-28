@@ -6,7 +6,7 @@ export default function DetailsNav({ changeMenu }) {
   const currentRoute = usePathname();
 
   const notify = () => {
-    Notify.warning("Даний функціонал находиться у розробці");
+    Notify.warning("Даний функціонал знаходиться у розробці");
   };
   return (
     <>

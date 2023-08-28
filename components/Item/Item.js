@@ -4,7 +4,7 @@ import { Notify } from 'notiflix/build/notiflix-notify-aio';
 export default function Item({ data,index,pageNumber }) {
 
   const  notify = () => {
-    Notify.warning("Даний функціонал находиться у розробці");
+    Notify.warning("Даний функціонал знаходиться у розробці");
   }; 
 
   return (

@@ -24,7 +24,7 @@ export default function SearchItem({
     
   }
   const  notify = () => {
-    Notify.warning("Даний функціонал находиться у розробці");
+    Notify.warning("Даний функціонал знаходиться у розробці");
   }; 
   return (
     <li className={css.item}>

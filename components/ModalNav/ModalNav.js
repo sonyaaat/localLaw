@@ -7,7 +7,7 @@ import { Notify } from 'notiflix/build/notiflix-notify-aio';
 export default function ModalNav({changeMenu,toTop=false}) {
   const currentRoute = usePathname();
   const  notify = () => {
-    Notify.warning("Даний функціонал находиться у розробці");
+    Notify.warning("Даний функціонал знаходиться у розробці");
   }; 
   
   return (
