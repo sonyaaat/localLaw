@@ -64,7 +64,7 @@ export default function Search({ setSearchParams, setSearchWord }) {
           </button>
         </div>
 
-        <button className={`${css.button} ${css.fullSearchButton}`}>
+        <button className={`${css.button} ${css.fullSearchButton}`} type="button">
           Розширений пошук
         </button>
       </div>
