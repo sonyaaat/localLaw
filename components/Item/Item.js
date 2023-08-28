@@ -1,9 +1,15 @@
 import Link from "next/link";
 import css from "./Item.module.css"
+import { Notify } from 'notiflix/build/notiflix-notify-aio';
 export default function Item({ data,index,pageNumber }) {
+
+  const  notify = () => {
+    Notify.warning("Даний функціонал находиться у розробці");
+  }; 
+
   return (
-    <li >
-     <Link className={css.item}  href={"/[docId]"} as={`/${data.id}`}>
+    <li  className={css.item}>
+     <Link  href={"/[docId]"} as={`/${data.id}`} className={css.link}>
      <div className={css.circle}> {index+(pageNumber*10)}</div>
       <div className={css.wrapper}>
         <h3 className={css.title}>{data.name}</h3>
@@ -12,12 +18,13 @@ export default function Item({ data,index,pageNumber }) {
           {data.number}
         </p>
       </div>
-      <div className={`${css.circle} ${css.download}`}>
-        <svg className={css.downloadSvg}>
+      
+     </Link>
+     <div className={`${css.circle} ${css.download}`} onClick={notify} id="downloadButton">
+        <svg className={css.downloadSvg} id="svg">
           <use href={`/sprite.svg#icon-download`}></use>
         </svg>
       </div>
-     </Link>
     </li>
   );
 }

@@ -3,6 +3,8 @@ import { useRouter } from "next/navigation";
 import { useState, useEffect } from "react";
 import css from "./Search.module.css";
 import RadioButton from "../RadioButton/RadioButton";
+import { Notify } from 'notiflix/build/notiflix-notify-aio';
+import Link from "next/link";
 
 export default function Search({ setSearchParams, setSearchWord }) {
   const router = useRouter();
@@ -35,6 +37,9 @@ export default function Search({ setSearchParams, setSearchWord }) {
       onSubmit(event);
     }
   };
+  const  notify = () => {
+    Notify.warning("Даний функціонал находиться у розробці");
+  }; 
 
   return (
     <form className={css.form} onSubmit={onSubmit}>
@@ -64,9 +69,9 @@ export default function Search({ setSearchParams, setSearchWord }) {
           </button>
         </div>
 
-        <button className={`${css.button} ${css.fullSearchButton}`} type="button">
+        <Link href="#" className={`${css.button} ${css.fullSearchButton}`}  onClick={notify}>
           Розширений пошук
-        </button>
+        </Link>
       </div>
       <div className={css.radioButtons}>
         <RadioButton
