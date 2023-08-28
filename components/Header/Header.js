@@ -3,9 +3,14 @@ import Image from "next/image";
 import css from "../Header/Header.module.css";
 import { usePathname } from "next/navigation";
 import Link from "next/link";
+import { Notify } from 'notiflix/build/notiflix-notify-aio';
+
 
 export default function Header() {
   const currentRoute = usePathname();
+  const notify = () => {
+    Notify.warning("Даний функціонал находиться у розробці");
+  };
   return (
     <div className={css.background__color}>
       <header className="container">
@@ -26,6 +31,7 @@ export default function Header() {
                   ? `${css.header__item} ${css.activeItem}`
                   : `${css.header__item}`
               }
+              onClick={notify}
             >
               <Link href="/" className={css.link}>
                 Головна
@@ -38,8 +44,9 @@ export default function Header() {
                   ? `${css.header__item} ${css.activeItem}`
                   : `${css.header__item}`
               }
+              onClick={notify}
             >
-              <Link href="/Documentation" className={css.link}>
+              <Link href="#" className={css.link}>
                 Документація
               </Link>
             </li>
@@ -49,8 +56,9 @@ export default function Header() {
                   ? `${css.header__item} ${css.activeItem}`
                   : `${css.header__item}`
               }
+              onClick={notify}
             >
-              <Link href="/Search" className={css.link}>
+              <Link href="#" className={css.link}>
                 Пошук
               </Link>
             </li>
@@ -60,8 +68,9 @@ export default function Header() {
                   ? `${css.header__item} ${css.activeItem}`
                   : `${css.header__item}`
               }
+              onClick={notify}
             >
-              <Link href="/Rules" className={css.link}>
+              <Link href="#" className={css.link}>
                 Правила користування
               </Link>
             </li>
@@ -71,8 +80,9 @@ export default function Header() {
                   ? `${css.header__item} ${css.activeItem}`
                   : `${css.header__item}`
               }
+              onClick={notify}
             >
-              <Link href="/Contacts" className={css.link}>
+              <Link href="#" className={css.link}>
                 Контакти
               </Link>
             </li>
@@ -89,7 +99,7 @@ export default function Header() {
             </button>
           </div>
 
-          <button className={css.header__btn}>
+          <button className={css.header__btn} type="button" onClick={notify}>
             <p className={css.header__registr}>Увійти/Зареєструватися</p>
           </button>
         </div>

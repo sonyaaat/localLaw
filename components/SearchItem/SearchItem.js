@@ -1,6 +1,7 @@
 import Link from "next/link";
 import css from "../Item/Item.module.css";
 import React from "react";
+import { Notify } from 'notiflix/build/notiflix-notify-aio';
 export default function SearchItem({
   data,
   searchText,
@@ -20,10 +21,14 @@ export default function SearchItem({
         )}
       </React.Fragment>
     ));
+    
   }
+  const  notify = () => {
+    Notify.warning("Даний функціонал находиться у розробці");
+  }; 
   return (
-    <li>
-      <Link className={css.item} href={"/[docId]"} as={`/${data.id}`}>
+    <li className={css.item}>
+      <Link className={css.link} href={"/[docId]"} as={`/${data.id}`}>
         <div className={css.circle}> {index + pageNumber * 10}</div>
         <div className={css.wrapper}>
           {(searchField === "inName" || searchField === "all") && (
@@ -46,13 +51,14 @@ export default function SearchItem({
             {data.revisionNumber ? data.revisionNumber : 1}) / Постанова від {data.acceptDate}
           </p>
         </div>
-        <div className={`${css.circle} ${css.download}`}>
+       
+      </Link>
+      <div className={`${css.circle} ${css.download}`} onClick={notify}>
           <svg className={`${css.downloadGrey}`}>
             <use href={`/sprite.svg#icon-file-download`}></use>
           </svg>
           <span className={css.fileSize}>2MB</span>
         </div>
-      </Link>
     </li>
   );
 }

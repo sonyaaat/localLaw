@@ -9,6 +9,8 @@ import Pagination from "../Pagination/Pagination";
 import ModalNav from "../ModalNav/ModalNav";
 import { useEffect } from "react";
 import List from "../List/List";
+
+
 export default function MainPage() {
   const [searchWord, setSearchWord] = useState("");
   const [searchParams, setSearchParams] = useState("");
