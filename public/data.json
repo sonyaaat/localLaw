@@ -8,8 +8,9 @@
     "effectiveDate": "2018-06-10",
     "terminationMatter": "123-123",
     "revisionDate": "2017-01-12",
-    "text":"На виконання Закону України `Про правовий режим воєнного стану` постановляю: \n 1. Утворити Вільхуватську сільську військову адміністрацію Куп'янського району Харківської області; \n Савинську селищну військову адміністрацію Ізюмського району Харківської області; \n Старосалтівську селищну військову адміністрацію Чугуївського району Харківської області; \n Шевченківську селищну військову адміністрацію Куп'янського району Харківської області. \n 2. Генеральному штабу Збройних Сил України, Харківській обласній державній адміністрації здійснити відповідно до Закону України `Про правовий режим воєнного стану` заходи, пов'язані з утворенням військових адміністрацій, зазначених у статті 1 цього Указу. \n 3. Цей Указ набирає чинності з дня його опублікування.",
-    "revisionNumber":5
+    "text": "На виконання Закону України `Про правовий режим воєнного стану` постановляю: \n 1. Утворити Вільхуватську сільську військову адміністрацію Куп'янського району Харківської області; \n Савинську селищну військову адміністрацію Ізюмського району Харківської області; \n Старосалтівську селищну військову адміністрацію Чугуївського району Харківської області; \n Шевченківську селищну військову адміністрацію Куп'янського району Харківської області. \n 2. Генеральному штабу Збройних Сил України, Харківській обласній державній адміністрації здійснити відповідно до Закону України `Про правовий режим воєнного стану` заходи, пов'язані з утворенням військових адміністрацій, зазначених у статті 1 цього Указу. \n 3. Цей Указ набирає чинності з дня його опублікування.",
+    "revisionNumber": 5,
+    "documentType": "Указ"
   },
 
   {
@@ -21,9 +22,9 @@
     "effectiveDate": "2020-04-01",
     "terminationMatter": "567-890",
     "revisionDate": "2019-12-20",
-    "text":"На виконання положень Закону про розвиток місцевого самоврядування та з метою підвищення ефективності роботи органів влади, сторони угоди домовилися:1. Утворити міжміську робочу групу, що включатиме представників виконавчих органів влади з обох міст.2. Здійснювати обмін досвідом та кращими практиками у галузях житлово-комунального господарства, культури, екології та інших сферах.3. Організувати спільні навчальні заходи, семінари та тренінги для працівників місцевих органів влади.4. Регулярно проводити зустрічі для обговорення актуальних питань розвитку обох міст та пошуку спільних рішень.5. Ця угода набирає чинності з моменту підписання та діє протягом 2 років з можливістю подовження за згодою обох сторін.",
-    "revisionNumber":5
-
+    "text": "На виконання постанови Кабінету Міністрів України Про заходи щодо підтримки екологічно чистих технологій постановляю: \n 1. Запровадити податкові пільги для підприємств, що використовують альтернативні джерела енергії; \n 2. Створити спеціальний фонд для фінансування досліджень у галузі екологічних технологій; \n 3. Заборонити використання одноразових пластикових виробів на території міста; \n 4. Залучити міжнародних екологічних експертів для оцінки впливу нових технологій на довкілля.",
+    "revisionNumber": 5,
+    "documentType": "Постанова"
   },
   {
     "id": 3,
@@ -34,7 +35,8 @@
     "effectiveDate": "2021-09-01",
     "terminationMatter": "789-012",
     "revisionDate": "2021-05-15",
-    "text":"Vestibulum ornare rhoncus sapien sit amet euismod. Donec sollicitudin metus dui, id vestibulum dui tempus sed. Pellentesque orci neque, dapibus non elementum in, congue at velit. Etiam mollis lorem nec ex bibendum dignissim. Nulla ac velit rutrum mauris fringilla cursus at vel nisl. In metus turpis, mattis eu libero ac, posuere efficitur purus. Integer sed bibendum odio, eu sodales lectus. Nam non justo nec arcu sagittis posuere. Donec consequat tortor a pellentesque pharetra. In neque ipsum, dapibus sed neque id, lobortis ultrices sapien. Suspendisse ornare nunc justo, eu pretium quam tempor eu. Nulla nec dolor at quam cursus gravida. Vestibulum justo lectus, semper a ex ac, tincidunt molestie nulla. Donec felis lacus, iaculis ac facilisis sit amet, commodo at felis. Quisque dapibus mattis sodales. Duis non mi nunc. Integer pulvinar eleifend ex eget volutpat. Sed pharetra imperdiet felis et tincidunt. Integer efficitur, velit at aliquam ullamcorper, odio augue euismod velit, vel luctus mi libero fringilla dolor. Pellentesque euismod hendrerit eros at dictum. Nam elementum ex quis ullamcorper interdum. Sed mollis elementum mi, sit amet pretium nisi ornare at. Sed suscipit massa mi, eu iaculis risus mollis vitae."
+    "text": "На виконання розпорядження Президента України Про заходи з підтримки культурного спадку постановляю: \n 1. Відкрити новий музей національної історії в історичному центрі міста; \n 2. Запустити програму грантів для молодих художників на створення творчих проектів; \n 3. Оновити фонд літературних видань, виділивши кошти на перевидання класичних творів; \n 4. Організувати серію лекцій та семінарів з популяризації національної культури серед молоді.",
+    "documentType": "Указ"
   },
   {
     "id": 4,
@@ -45,7 +47,8 @@
     "effectiveDate": "2023-06-01",
     "terminationMatter": "901-234",
     "revisionDate": "2023-03-10",
-    "text":"Donec vel ullamcorper leo. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Integer felis magna, pharetra ac lectus eget, mattis placerat quam. Mauris nec mauris cursus, malesuada lorem quis, malesuada sem. Nullam a interdum libero. Integer auctor porttitor sagittis. Ut vel commodo risus. Nunc eu porttitor eros, nec efficitur tellus. Integer feugiat nulla vitae porttitor eleifend.Suspendisse eget faucibus elit, ac malesuada arcu. Cras non porttitor massa, vel vehicula est. Vestibulum sed tincidunt turpis. Nulla eu suscipit dui. Suspendisse eu tincidunt quam, eget lacinia nisi. In hac habitasse platea dictumst. Duis velit mauris, pharetra quis tempor eu, blandit ut diam. Etiam justo dui, commodo nec vulputate sit amet, dapibus id massa. Ut in magna est. Cras in nisl nunc. Integer vehicula leo enim, in scelerisque enim viverra ac. Morbi interdum elit vel laoreet accumsan."
+    "text": "На виконання розпорядження місцевої адміністрації Про розвиток інфраструктури місцевого парку постановляю: \n 1. Провести реконструкцію дитячих ігрових майданчиків у парку; \n 2. Встановити додаткові лавки та столики для відпочинку відвідувачів; \n 3. Впровадити безкоштовні велопрокат та прокат роликових ковзанів у літній період; \n 4. Організувати щотижневі культурні заходи в парку, такі як концерти та виставки місцевих художників.",
+    "documentType": "Постанова"
   },
   {
     "id": 5,
@@ -55,10 +58,9 @@
     "acceptDate": "2024-01-10",
     "effectiveDate": "2024-02-01",
     "terminationMatter": "123-456",
-    "revisionDate": "2023-11-15"
-    ,
-    "text":"Donec vel ullamcorper leo. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Integer felis magna, pharetra ac lectus eget, mattis placerat quam. Mauris nec mauris cursus, malesuada lorem quis, malesuada sem. Nullam a interdum libero. Integer auctor porttitor sagittis. Ut vel commodo risus. Nunc eu porttitor eros, nec efficitur tellus. Integer feugiat nulla vitae porttitor eleifend.Suspendisse eget faucibus elit, ac malesuada arcu. Cras non porttitor massa, vel vehicula est. Vestibulum sed tincidunt turpis. Nulla eu suscipit dui. Suspendisse eu tincidunt quam, eget lacinia nisi. In hac habitasse platea dictumst. Duis velit mauris, pharetra quis tempor eu, blandit ut diam. Etiam justo dui, commodo nec vulputate sit amet, dapibus id massa. Ut in magna est. Cras in nisl nunc. Integer vehicula leo enim, in scelerisque enim viverra ac. Morbi interdum elit vel laoreet accumsan."
-  
+    "revisionDate": "2023-11-15",
+    "text": "На виконання рішення суду Про заходи по покращенню умов утримання тварин в притулках постановляю: \n 1. Збільшити фінансування притулків для бездомних тварин з місцевого бюджету; \n 2. Встановити обов'язкову стерилізацію всіх тварин перед виходом з притулку; \n 3. Провести регулярні медичні огляди для всіх тварин, що перебувають в притулку; \n 4. Організувати програму волонтерської допомоги у догляді за тваринами в притулках.",
+    "documentType": "Указ"
   },
   {
     "id": 6,
@@ -68,10 +70,9 @@
     "acceptDate": "2026-02-15",
     "effectiveDate": "2026-03-01",
     "terminationMatter": "234-567",
-    "revisionDate": "2025-12-20"
-    ,
-    "text":"Donec vel ullamcorper leo. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Integer felis magna, pharetra ac lectus eget, mattis placerat quam. Mauris nec mauris cursus, malesuada lorem quis, malesuada sem. Nullam a interdum libero. Integer auctor porttitor sagittis. Ut vel commodo risus. Nunc eu porttitor eros, nec efficitur tellus. Integer feugiat nulla vitae porttitor eleifend.Suspendisse eget faucibus elit, ac malesuada arcu. Cras non porttitor massa, vel vehicula est. Vestibulum sed tincidunt turpis. Nulla eu suscipit dui. Suspendisse eu tincidunt quam, eget lacinia nisi. In hac habitasse platea dictumst. Duis velit mauris, pharetra quis tempor eu, blandit ut diam. Etiam justo dui, commodo nec vulputate sit amet, dapibus id massa. Ut in magna est. Cras in nisl nunc. Integer vehicula leo enim, in scelerisque enim viverra ac. Morbi interdum elit vel laoreet accumsan."
-  
+    "revisionDate": "2025-12-20",
+    "text": "На виконання рішення суду Про заходи по забезпеченню безпеки на дорогах постановляю: \n 1. Збільшити кількість патрульних поліцейських на вулицях міста в період пікового руху; \n 2. Встановити додаткові світлофори на небезпечних перехрестях; \n 3. Провести роз'яснювальну кампанію серед водіїв щодо дотримання правил дорожнього руху; \n 4. Запровадити програму з безкоштовної перевірки технічного стану автотранспорту для мешканців міста.",
+    "documentType": "Постанова"
   },
   {
     "id": 7,
@@ -81,10 +82,9 @@
     "acceptDate": "2027-10-10",
     "effectiveDate": "2027-11-01",
     "terminationMatter": "567-890",
-    "revisionDate": "2027-08-15"
-    ,
-    "text":"Donec vel ullamcorper leo. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Integer felis magna, pharetra ac lectus eget, mattis placerat quam. Mauris nec mauris cursus, malesuada lorem quis, malesuada sem. Nullam a interdum libero. Integer auctor porttitor sagittis. Ut vel commodo risus. Nunc eu porttitor eros, nec efficitur tellus. Integer feugiat nulla vitae porttitor eleifend.Suspendisse eget faucibus elit, ac malesuada arcu. Cras non porttitor massa, vel vehicula est. Vestibulum sed tincidunt turpis. Nulla eu suscipit dui. Suspendisse eu tincidunt quam, eget lacinia nisi. In hac habitasse platea dictumst. Duis velit mauris, pharetra quis tempor eu, blandit ut diam. Etiam justo dui, commodo nec vulputate sit amet, dapibus id massa. Ut in magna est. Cras in nisl nunc. Integer vehicula leo enim, in scelerisque enim viverra ac. Morbi interdum elit vel laoreet accumsan."
-  
+    "revisionDate": "2027-08-15",
+    "text": "На виконання постанови органів охорони здоров'я Про протидію поширенню заразних захворювань постановляю: \n 1. Оголосити карантин на території шкіл та дитячих садків у зв'язку з епідемією грипу; \n 2. Забезпечити обов'язкову вакцинацію медичних працівників проти заразних хвороб; \n 3. Запровадити тимчасовий заборону на масові заходи та зібрання громадян; \n 4. Забезпечити посилену дезінфекцію громадських місць та транспорту для запобігання поширенню інфекцій.",
+    "documentType": "Указ"
   },
   {
     "id": 8,
@@ -94,10 +94,9 @@
     "acceptDate": "2028-12-18",
     "effectiveDate": "2029-01-01",
     "terminationMatter": "890-123",
-    "revisionDate": "2028-10-15"
-    ,
-    "text":"Donec vel ullamcorper leo. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Integer felis magna, pharetra ac lectus eget, mattis placerat quam. Mauris nec mauris cursus, malesuada lorem quis, malesuada sem. Nullam a interdum libero. Integer auctor porttitor sagittis. Ut vel commodo risus. Nunc eu porttitor eros, nec efficitur tellus. Integer feugiat nulla vitae porttitor eleifend.Suspendisse eget faucibus elit, ac malesuada arcu. Cras non porttitor massa, vel vehicula est. Vestibulum sed tincidunt turpis. Nulla eu suscipit dui. Suspendisse eu tincidunt quam, eget lacinia nisi. In hac habitasse platea dictumst. Duis velit mauris, pharetra quis tempor eu, blandit ut diam. Etiam justo dui, commodo nec vulputate sit amet, dapibus id massa. Ut in magna est. Cras in nisl nunc. Integer vehicula leo enim, in scelerisque enim viverra ac. Morbi interdum elit vel laoreet accumsan."
-  
+    "revisionDate": "2028-10-15",
+    "text": "На виконання рішення місцевої ради Про підтримку підприємництва та створення нових робочих місць постановляю: \n 1. Виділити земельні ділянки для створення індустріального парку з метою залучення інвесторів; \n 2. Надати пільги для малих та середніх підприємств, що розвивають інноваційні напрямки; \n 3. Запустити навчальні програми з підприємництва для молоді; \n 4. Створити центр підтримки підприємництва для консультацій та підготовки бізнес-планів.",
+    "documentType": "Постанова"
   },
   {
     "id": 9,
@@ -107,10 +106,9 @@
     "acceptDate": "2030-07-20",
     "effectiveDate": "2030-08-01",
     "terminationMatter": "456-789",
-    "revisionDate": "2030-05-10"
-    ,
-    "text":"Donec vel ullamcorper leo. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Integer felis magna, pharetra ac lectus eget, mattis placerat quam. Mauris nec mauris cursus, malesuada lorem quis, malesuada sem. Nullam a interdum libero. Integer auctor porttitor sagittis. Ut vel commodo risus. Nunc eu porttitor eros, nec efficitur tellus. Integer feugiat nulla vitae porttitor eleifend.Suspendisse eget faucibus elit, ac malesuada arcu. Cras non porttitor massa, vel vehicula est. Vestibulum sed tincidunt turpis. Nulla eu suscipit dui. Suspendisse eu tincidunt quam, eget lacinia nisi. In hac habitasse platea dictumst. Duis velit mauris, pharetra quis tempor eu, blandit ut diam. Etiam justo dui, commodo nec vulputate sit amet, dapibus id massa. Ut in magna est. Cras in nisl nunc. Integer vehicula leo enim, in scelerisque enim viverra ac. Morbi interdum elit vel laoreet accumsan."
-  
+    "revisionDate": "2030-05-10",
+    "text": "На виконання розпорядження місцевого екологічного комітету Про збереження водних ресурсів постановляю: \n 1. Запровадити систему контролю за використанням води у промисловості та побутовому секторі; \n 2. Впровадити програму по збору та переробці пластикових відходів на берегах річок; \n 3. Заборонити виливання стоків у водоймища без попередньої очистки; \n 4. Організувати акції з прибирання берегів річок та озер спільнотами містян.",
+    "documentType": "Указ"
   },
   {
     "id": 10,
@@ -120,10 +118,9 @@
     "acceptDate": "2032-04-22",
     "effectiveDate": "2032-05-01",
     "terminationMatter": "789-012",
-    "revisionDate": "2032-02-15"
-    ,
-    "text":"Donec vel ullamcorper leo. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Integer felis magna, pharetra ac lectus eget, mattis placerat quam. Mauris nec mauris cursus, malesuada lorem quis, malesuada sem. Nullam a interdum libero. Integer auctor porttitor sagittis. Ut vel commodo risus. Nunc eu porttitor eros, nec efficitur tellus. Integer feugiat nulla vitae porttitor eleifend.Suspendisse eget faucibus elit, ac malesuada arcu. Cras non porttitor massa, vel vehicula est. Vestibulum sed tincidunt turpis. Nulla eu suscipit dui. Suspendisse eu tincidunt quam, eget lacinia nisi. In hac habitasse platea dictumst. Duis velit mauris, pharetra quis tempor eu, blandit ut diam. Etiam justo dui, commodo nec vulputate sit amet, dapibus id massa. Ut in magna est. Cras in nisl nunc. Integer vehicula leo enim, in scelerisque enim viverra ac. Morbi interdum elit vel laoreet accumsan."
-  
+    "revisionDate": "2032-02-15",
+    "text": "На виконання рішення суду Про заходи по покращенню умов утримання тварин в притулках постановляю: \n 1. Збільшити фінансування притулків для бездомних тварин з місцевого бюджету; \n 2. Встановити обов'язкову стерилізацію всіх тварин перед виходом з притулку; \n 3. Провести регулярні медичні огляди для всіх тварин, що перебувають в притулку; \n 4. Організувати програму волонтерської допомоги у догляді за тваринами в притулках.",
+    "documentType": "Закон"
   },
   {
     "id": 11,
@@ -133,10 +130,9 @@
     "acceptDate": "2034-01-05",
     "effectiveDate": "2034-02-01",
     "terminationMatter": "901-234",
-    "revisionDate": "2033-11-20"
-    ,
-    "text":"Donec vel ullamcorper leo. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Integer felis magna, pharetra ac lectus eget, mattis placerat quam. Mauris nec mauris cursus, malesuada lorem quis, malesuada sem. Nullam a interdum libero. Integer auctor porttitor sagittis. Ut vel commodo risus. Nunc eu porttitor eros, nec efficitur tellus. Integer feugiat nulla vitae porttitor eleifend.Suspendisse eget faucibus elit, ac malesuada arcu. Cras non porttitor massa, vel vehicula est. Vestibulum sed tincidunt turpis. Nulla eu suscipit dui. Suspendisse eu tincidunt quam, eget lacinia nisi. In hac habitasse platea dictumst. Duis velit mauris, pharetra quis tempor eu, blandit ut diam. Etiam justo dui, commodo nec vulputate sit amet, dapibus id massa. Ut in magna est. Cras in nisl nunc. Integer vehicula leo enim, in scelerisque enim viverra ac. Morbi interdum elit vel laoreet accumsan."
-  
+    "revisionDate": "2033-11-20",
+    "text": "На виконання Закону України `Про правовий режим воєнного стану` постановляю: \n 1. Утворити Вільхуватську сільську військову адміністрацію Куп'янського району Харківської області; \n Савинську селищну військову адміністрацію Ізюмського району Харківської області; \n Старосалтівську селищну військову адміністрацію Чугуївського району Харківської області; \n Шевченківську селищну військову адміністрацію Куп'янського району Харківської області. \n 2. Генеральному штабу Збройних Сил України, Харківській обласній державній адміністрації здійснити відповідно до Закону України `Про правовий режим воєнного стану` заходи, пов'язані з утворенням військових адміністрацій, зазначених у статті 1 цього Указу. \n 3. Цей Указ набирає чинності з дня його опублікування.",
+    "documentType": "Указ"
   },
   {
     "id": 12,
@@ -146,10 +142,9 @@
     "acceptDate": "2036-06-08",
     "effectiveDate": "2036-07-01",
     "terminationMatter": "012-345",
-    "revisionDate": "2036-04-10"
-    ,
-    "text":"Donec vel ullamcorper leo. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Integer felis magna, pharetra ac lectus eget, mattis placerat quam. Mauris nec mauris cursus, malesuada lorem quis, malesuada sem. Nullam a interdum libero. Integer auctor porttitor sagittis. Ut vel commodo risus. Nunc eu porttitor eros, nec efficitur tellus. Integer feugiat nulla vitae porttitor eleifend.Suspendisse eget faucibus elit, ac malesuada arcu. Cras non porttitor massa, vel vehicula est. Vestibulum sed tincidunt turpis. Nulla eu suscipit dui. Suspendisse eu tincidunt quam, eget lacinia nisi. In hac habitasse platea dictumst. Duis velit mauris, pharetra quis tempor eu, blandit ut diam. Etiam justo dui, commodo nec vulputate sit amet, dapibus id massa. Ut in magna est. Cras in nisl nunc. Integer vehicula leo enim, in scelerisque enim viverra ac. Morbi interdum elit vel laoreet accumsan."
-  
+    "revisionDate": "2036-04-10",
+    "text": "На виконання Закону України Про заходи соціальної підтримки дітей постановляю: \n 1. Створити Робототехнічний центр для дітей при Міському Палаці культури; \n 2. Затвердити програму безкоштовних майстер-класів з програмування для школярів; \n 3. Утворити робочу групу з розробки пакету заходів щодо підтримки обдарованих дітей. \n 4. Залучити місцевих підприємців для фінансування стипендій для дітей з малозабезпечених родин.",
+    "documentType": "Закон"
   },
   {
     "id": 13,
@@ -159,10 +154,9 @@
     "acceptDate": "2038-03-10",
     "effectiveDate": "2038-04-01",
     "terminationMatter": "345-678",
-    "revisionDate": "2037-12-15"
-    ,
-    "text":"Donec vel ullamcorper leo. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Integer felis magna, pharetra ac lectus eget, mattis placerat quam. Mauris nec mauris cursus, malesuada lorem quis, malesuada sem. Nullam a interdum libero. Integer auctor porttitor sagittis. Ut vel commodo risus. Nunc eu porttitor eros, nec efficitur tellus. Integer feugiat nulla vitae porttitor eleifend.Suspendisse eget faucibus elit, ac malesuada arcu. Cras non porttitor massa, vel vehicula est. Vestibulum sed tincidunt turpis. Nulla eu suscipit dui. Suspendisse eu tincidunt quam, eget lacinia nisi. In hac habitasse platea dictumst. Duis velit mauris, pharetra quis tempor eu, blandit ut diam. Etiam justo dui, commodo nec vulputate sit amet, dapibus id massa. Ut in magna est. Cras in nisl nunc. Integer vehicula leo enim, in scelerisque enim viverra ac. Morbi interdum elit vel laoreet accumsan."
-  
+    "revisionDate": "2037-12-15",
+    "text": "На виконання постанови Кабінету Міністрів України Про заходи щодо підтримки екологічно чистих технологій постановляю: \n 1. Запровадити податкові пільги для підприємств, що використовують альтернативні джерела енергії; \n 2. Створити спеціальний фонд для фінансування досліджень у галузі екологічних технологій; \n 3. Заборонити використання одноразових пластикових виробів на території міста; \n 4. Залучити міжнародних екологічних експертів для оцінки впливу нових технологій на довкілля.",
+    "documentType": "Указ"
   },
   {
     "id": 14,
@@ -172,10 +166,9 @@
     "acceptDate": "2040-09-12",
     "effectiveDate": "2040-10-01",
     "terminationMatter": "678-901",
-    "revisionDate": "2040-07-15"
-    ,
-    "text":"Donec vel ullamcorper leo. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Integer felis magna, pharetra ac lectus eget, mattis placerat quam. Mauris nec mauris cursus, malesuada lorem quis, malesuada sem. Nullam a interdum libero. Integer auctor porttitor sagittis. Ut vel commodo risus. Nunc eu porttitor eros, nec efficitur tellus. Integer feugiat nulla vitae porttitor eleifend.Suspendisse eget faucibus elit, ac malesuada arcu. Cras non porttitor massa, vel vehicula est. Vestibulum sed tincidunt turpis. Nulla eu suscipit dui. Suspendisse eu tincidunt quam, eget lacinia nisi. In hac habitasse platea dictumst. Duis velit mauris, pharetra quis tempor eu, blandit ut diam. Etiam justo dui, commodo nec vulputate sit amet, dapibus id massa. Ut in magna est. Cras in nisl nunc. Integer vehicula leo enim, in scelerisque enim viverra ac. Morbi interdum elit vel laoreet accumsan."
-  
+    "revisionDate": "2040-07-15",
+    "text": "На виконання розпорядження Президента України Про заходи з підтримки культурного спадку постановляю: \n 1. Відкрити новий музей національної історії в історичному центрі міста; \n 2. Запустити програму грантів для молодих художників на створення творчих проектів; \n 3. Оновити фонд літературних видань, виділивши кошти на перевидання класичних творів; \n 4. Організувати серію лекцій та семінарів з популяризації національної культури серед молоді.",
+    "documentType": "Указ"
   },
   {
     "id": 15,
@@ -185,10 +178,9 @@
     "acceptDate": "2042-12-18",
     "effectiveDate": "2043-01-01",
     "terminationMatter": "789-012",
-    "revisionDate": "2042-10-15"
-    ,
-    "text":"Donec vel ullamcorper leo. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Integer felis magna, pharetra ac lectus eget, mattis placerat quam. Mauris nec mauris cursus, malesuada lorem quis, malesuada sem. Nullam a interdum libero. Integer auctor porttitor sagittis. Ut vel commodo risus. Nunc eu porttitor eros, nec efficitur tellus. Integer feugiat nulla vitae porttitor eleifend.Suspendisse eget faucibus elit, ac malesuada arcu. Cras non porttitor massa, vel vehicula est. Vestibulum sed tincidunt turpis. Nulla eu suscipit dui. Suspendisse eu tincidunt quam, eget lacinia nisi. In hac habitasse platea dictumst. Duis velit mauris, pharetra quis tempor eu, blandit ut diam. Etiam justo dui, commodo nec vulputate sit amet, dapibus id massa. Ut in magna est. Cras in nisl nunc. Integer vehicula leo enim, in scelerisque enim viverra ac. Morbi interdum elit vel laoreet accumsan."
-  
+    "revisionDate": "2042-10-15",
+    "text": "На виконання розпорядження місцевої адміністрації Про розвиток інфраструктури місцевого парку постановляю: \n 1. Провести реконструкцію дитячих ігрових майданчиків у парку; \n 2. Встановити додаткові лавки та столики для відпочинку відвідувачів; \n 3. Впровадити безкоштовні велопрокат та прокат роликових ковзанів у літній період; \n 4. Організувати щотижневі культурні заходи в парку, такі як концерти та виставки місцевих художників.",
+    "documentType": "Закон"
   },
   {
     "id": 16,
@@ -198,10 +190,9 @@
     "acceptDate": "2045-03-22",
     "effectiveDate": "2045-04-01",
     "terminationMatter": "901-234",
-    "revisionDate": "2045-01-15"
-    ,
-    "text":"Donec vel ullamcorper leo. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Integer felis magna, pharetra ac lectus eget, mattis placerat quam. Mauris nec mauris cursus, malesuada lorem quis, malesuada sem. Nullam a interdum libero. Integer auctor porttitor sagittis. Ut vel commodo risus. Nunc eu porttitor eros, nec efficitur tellus. Integer feugiat nulla vitae porttitor eleifend.Suspendisse eget faucibus elit, ac malesuada arcu. Cras non porttitor massa, vel vehicula est. Vestibulum sed tincidunt turpis. Nulla eu suscipit dui. Suspendisse eu tincidunt quam, eget lacinia nisi. In hac habitasse platea dictumst. Duis velit mauris, pharetra quis tempor eu, blandit ut diam. Etiam justo dui, commodo nec vulputate sit amet, dapibus id massa. Ut in magna est. Cras in nisl nunc. Integer vehicula leo enim, in scelerisque enim viverra ac. Morbi interdum elit vel laoreet accumsan."
-  
+    "revisionDate": "2045-01-15",
+    "text": "На виконання рішення суду Про заходи по забезпеченню безпеки на дорогах постановляю: \n 1. Збільшити кількість патрульних поліцейських на вулицях міста в період пікового руху; \n 2. Встановити додаткові світлофори на небезпечних перехрестях; \n 3. Провести роз'яснювальну кампанію серед водіїв щодо дотримання правил дорожнього руху; \n 4. Запровадити програму з безкоштовної перевірки технічного стану автотранспорту для мешканців міста.",
+    "documentType": "Указ"
   },
   {
     "id": 17,
@@ -211,10 +202,9 @@
     "acceptDate": "2047-05-15",
     "effectiveDate": "2047-06-01",
     "terminationMatter": "234-567",
-    "revisionDate": "2047-03-10"
-    ,
-    "text":"Donec vel ullamcorper leo. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Integer felis magna, pharetra ac lectus eget, mattis placerat quam. Mauris nec mauris cursus, malesuada lorem quis, malesuada sem. Nullam a interdum libero. Integer auctor porttitor sagittis. Ut vel commodo risus. Nunc eu porttitor eros, nec efficitur tellus. Integer feugiat nulla vitae porttitor eleifend.Suspendisse eget faucibus elit, ac malesuada arcu. Cras non porttitor massa, vel vehicula est. Vestibulum sed tincidunt turpis. Nulla eu suscipit dui. Suspendisse eu tincidunt quam, eget lacinia nisi. In hac habitasse platea dictumst. Duis velit mauris, pharetra quis tempor eu, blandit ut diam. Etiam justo dui, commodo nec vulputate sit amet, dapibus id massa. Ut in magna est. Cras in nisl nunc. Integer vehicula leo enim, in scelerisque enim viverra ac. Morbi interdum elit vel laoreet accumsan."
-  
+    "revisionDate": "2047-03-10",
+    "text": "На виконання постанови органів охорони здоров'я Про протидію поширенню заразних захворювань постановляю: \n 1. Оголосити карантин на території шкіл та дитячих садків у зв'язку з епідемією грипу; \n 2. Забезпечити обов'язкову вакцинацію медичних працівників проти заразних хвороб; \n 3. Запровадити тимчасовий заборону на масові заходи та зібрання громадян; \n 4. Забезпечити посилену дезінфекцію громадських місць та транспорту для запобігання поширенню інфекцій.",
+    "documentType": "Указ"
   },
   {
     "id": 18,
@@ -224,10 +214,9 @@
     "acceptDate": "2048-08-20",
     "effectiveDate": "2048-09-01",
     "terminationMatter": "345-678",
-    "revisionDate": "2048-06-15"
-    ,
-    "text":"Donec vel ullamcorper leo. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Integer felis magna, pharetra ac lectus eget, mattis placerat quam. Mauris nec mauris cursus, malesuada lorem quis, malesuada sem. Nullam a interdum libero. Integer auctor porttitor sagittis. Ut vel commodo risus. Nunc eu porttitor eros, nec efficitur tellus. Integer feugiat nulla vitae porttitor eleifend.Suspendisse eget faucibus elit, ac malesuada arcu. Cras non porttitor massa, vel vehicula est. Vestibulum sed tincidunt turpis. Nulla eu suscipit dui. Suspendisse eu tincidunt quam, eget lacinia nisi. In hac habitasse platea dictumst. Duis velit mauris, pharetra quis tempor eu, blandit ut diam. Etiam justo dui, commodo nec vulputate sit amet, dapibus id massa. Ut in magna est. Cras in nisl nunc. Integer vehicula leo enim, in scelerisque enim viverra ac. Morbi interdum elit vel laoreet accumsan."
-  
+    "revisionDate": "2048-06-15",
+    "text": "На виконання рішення місцевої ради Про підтримку підприємництва та створення нових робочих місць постановляю: \n 1. Виділити земельні ділянки для створення індустріального парку з метою залучення інвесторів; \n 2. Надати пільги для малих та середніх підприємств, що розвивають інноваційні напрямки; \n 3. Запустити навчальні програми з підприємництва для молоді; \n 4. Створити центр підтримки підприємництва для консультацій та підготовки бізнес-планів.",
+    "documentType": "Закон"
   },
   {
     "id": 19,
@@ -237,10 +226,9 @@
     "acceptDate": "2050-10-05",
     "effectiveDate": "2050-11-01",
     "terminationMatter": "456-789",
-    "revisionDate": "2050-08-20"
-    ,
-    "text":"Donec vel ullamcorper leo. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Integer felis magna, pharetra ac lectus eget, mattis placerat quam. Mauris nec mauris cursus, malesuada lorem quis, malesuada sem. Nullam a interdum libero. Integer auctor porttitor sagittis. Ut vel commodo risus. Nunc eu porttitor eros, nec efficitur tellus. Integer feugiat nulla vitae porttitor eleifend.Suspendisse eget faucibus elit, ac malesuada arcu. Cras non porttitor massa, vel vehicula est. Vestibulum sed tincidunt turpis. Nulla eu suscipit dui. Suspendisse eu tincidunt quam, eget lacinia nisi. In hac habitasse platea dictumst. Duis velit mauris, pharetra quis tempor eu, blandit ut diam. Etiam justo dui, commodo nec vulputate sit amet, dapibus id massa. Ut in magna est. Cras in nisl nunc. Integer vehicula leo enim, in scelerisque enim viverra ac. Morbi interdum elit vel laoreet accumsan."
-  
+    "revisionDate": "2050-08-20",
+    "text": "На виконання розпорядження місцевого екологічного комітету Про збереження водних ресурсів постановляю: \n 1. Запровадити систему контролю за використанням води у промисловості та побутовому секторі; \n 2. Впровадити програму по збору та переробці пластикових відходів на берегах річок; \n 3. Заборонити виливання стоків у водоймища без попередньої очистки; \n 4. Організувати акції з прибирання берегів річок та озер спільнотами містян.",
+    "documentType": "Указ"
   },
   {
     "id": 20,
@@ -250,10 +238,9 @@
     "acceptDate": "2052-12-15",
     "effectiveDate": "2053-01-01",
     "terminationMatter": "789-012",
-    "revisionDate": "2052-10-10"
-    ,
-    "text":"Donec vel ullamcorper leo. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Integer felis magna, pharetra ac lectus eget, mattis placerat quam. Mauris nec mauris cursus, malesuada lorem quis, malesuada sem. Nullam a interdum libero. Integer auctor porttitor sagittis. Ut vel commodo risus. Nunc eu porttitor eros, nec efficitur tellus. Integer feugiat nulla vitae porttitor eleifend.Suspendisse eget faucibus elit, ac malesuada arcu. Cras non porttitor massa, vel vehicula est. Vestibulum sed tincidunt turpis. Nulla eu suscipit dui. Suspendisse eu tincidunt quam, eget lacinia nisi. In hac habitasse platea dictumst. Duis velit mauris, pharetra quis tempor eu, blandit ut diam. Etiam justo dui, commodo nec vulputate sit amet, dapibus id massa. Ut in magna est. Cras in nisl nunc. Integer vehicula leo enim, in scelerisque enim viverra ac. Morbi interdum elit vel laoreet accumsan."
-  
+    "revisionDate": "2052-10-10",
+    "text": "На виконання рішення суду Про заходи по покращенню умов утримання тварин в притулках постановляю: \n 1. Збільшити фінансування притулків для бездомних тварин з місцевого бюджету; \n 2. Встановити обов'язкову стерилізацію всіх тварин перед виходом з притулку; \n 3. Провести регулярні медичні огляди для всіх тварин, що перебувають в притулку; \n 4. Організувати програму волонтерської допомоги у догляді за тваринами в притулках.",
+    "documentType": "Указ"
   },
   {
     "id": 21,
@@ -263,10 +250,9 @@
     "acceptDate": "2018-01-10",
     "effectiveDate": "2018-06-10",
     "terminationMatter": "123-123",
-    "revisionDate": "2017-01-12"
-    ,
-    "text":"Donec vel ullamcorper leo. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Integer felis magna, pharetra ac lectus eget, mattis placerat quam. Mauris nec mauris cursus, malesuada lorem quis, malesuada sem. Nullam a interdum libero. Integer auctor porttitor sagittis. Ut vel commodo risus. Nunc eu porttitor eros, nec efficitur tellus. Integer feugiat nulla vitae porttitor eleifend.Suspendisse eget faucibus elit, ac malesuada arcu. Cras non porttitor massa, vel vehicula est. Vestibulum sed tincidunt turpis. Nulla eu suscipit dui. Suspendisse eu tincidunt quam, eget lacinia nisi. In hac habitasse platea dictumst. Duis velit mauris, pharetra quis tempor eu, blandit ut diam. Etiam justo dui, commodo nec vulputate sit amet, dapibus id massa. Ut in magna est. Cras in nisl nunc. Integer vehicula leo enim, in scelerisque enim viverra ac. Morbi interdum elit vel laoreet accumsan."
-  
+    "revisionDate": "2017-01-12",
+    "text": "На виконання рішення суду Про заходи по покращенню умов утримання тварин в притулках постановляю: \n 1. Збільшити фінансування притулків для бездомних тварин з місцевого бюджету; \n 2. Встановити обов'язкову стерилізацію всіх тварин перед виходом з притулку; \n 3. Провести регулярні медичні огляди для всіх тварин, що перебувають в притулку; \n 4. Організувати програму волонтерської допомоги у догляді за тваринами в притулках.",
+    "documentType": "Указ"
   },
 
   {
@@ -277,10 +263,9 @@
     "acceptDate": "2020-03-15",
     "effectiveDate": "2020-04-01",
     "terminationMatter": "567-890",
-    "revisionDate": "2019-12-20"
-    ,
-    "text":"Donec vel ullamcorper leo. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Integer felis magna, pharetra ac lectus eget, mattis placerat quam. Mauris nec mauris cursus, malesuada lorem quis, malesuada sem. Nullam a interdum libero. Integer auctor porttitor sagittis. Ut vel commodo risus. Nunc eu porttitor eros, nec efficitur tellus. Integer feugiat nulla vitae porttitor eleifend.Suspendisse eget faucibus elit, ac malesuada arcu. Cras non porttitor massa, vel vehicula est. Vestibulum sed tincidunt turpis. Nulla eu suscipit dui. Suspendisse eu tincidunt quam, eget lacinia nisi. In hac habitasse platea dictumst. Duis velit mauris, pharetra quis tempor eu, blandit ut diam. Etiam justo dui, commodo nec vulputate sit amet, dapibus id massa. Ut in magna est. Cras in nisl nunc. Integer vehicula leo enim, in scelerisque enim viverra ac. Morbi interdum elit vel laoreet accumsan."
-  
+    "revisionDate": "2019-12-20",
+    "text": "На виконання рішення суду Про заходи по покращенню умов утримання тварин в притулках постановляю: \n 1. Збільшити фінансування притулків для бездомних тварин з місцевого бюджету; \n 2. Встановити обов'язкову стерилізацію всіх тварин перед виходом з притулку; \n 3. Провести регулярні медичні огляди для всіх тварин, що перебувають в притулку; \n 4. Організувати програму волонтерської допомоги у догляді за тваринами в притулках.",
+    "documentType": "Указ"
   },
   {
     "id": 23,
@@ -290,9 +275,8 @@
     "acceptDate": "2021-08-10",
     "effectiveDate": "2021-09-01",
     "terminationMatter": "789-012",
-    "revisionDate": "2021-05-15"
-    ,
-    "text":"Donec vel ullamcorper leo. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Integer felis magna, pharetra ac lectus eget, mattis placerat quam. Mauris nec mauris cursus, malesuada lorem quis, malesuada sem. Nullam a interdum libero. Integer auctor porttitor sagittis. Ut vel commodo risus. Nunc eu porttitor eros, nec efficitur tellus. Integer feugiat nulla vitae porttitor eleifend.Suspendisse eget faucibus elit, ac malesuada arcu. Cras non porttitor massa, vel vehicula est. Vestibulum sed tincidunt turpis. Nulla eu suscipit dui. Suspendisse eu tincidunt quam, eget lacinia nisi. In hac habitasse platea dictumst. Duis velit mauris, pharetra quis tempor eu, blandit ut diam. Etiam justo dui, commodo nec vulputate sit amet, dapibus id massa. Ut in magna est. Cras in nisl nunc. Integer vehicula leo enim, in scelerisque enim viverra ac. Morbi interdum elit vel laoreet accumsan."
-  
+    "revisionDate": "2021-05-15",
+    "text": "На виконання рішення суду Про заходи по покращенню умов утримання тварин в притулках постановляю: \n 1. Збільшити фінансування притулків для бездомних тварин з місцевого бюджету; \n 2. Встановити обов'язкову стерилізацію всіх тварин перед виходом з притулку; \n 3. Провести регулярні медичні огляди для всіх тварин, що перебувають в притулку; \n 4. Організувати програму волонтерської допомоги у догляді за тваринами в притулках.",
+    "documentType": "Указ"
   }
 ]

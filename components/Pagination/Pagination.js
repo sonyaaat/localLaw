@@ -74,6 +74,7 @@ export default function PaginatedItems({
           pageClassName={css.itemPagination}
           pageRangeDisplayed={3}
           marginPagesDisplayed={1}
+          pageLinkClassName={css.pageLink}
         />
       )}
     </div>

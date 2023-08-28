@@ -28,12 +28,12 @@ export default function SearchItem({
         <div className={css.wrapper}>
           {(searchField === "inName" || searchField === "all") && (
             <h3 className={css.title}>
-              {getHighlightedText(data.name)} {data.acceptDate}
+              {getHighlightedText(data.name)} 
             </h3>
           )}
           {searchField === "inText" && (
             <h3 className={css.title}>
-              {data.name} {data.acceptDate}
+              {data.name} 
             </h3>
           )}
           {(searchField === "inText" || searchField === "all") && (
@@ -43,7 +43,7 @@ export default function SearchItem({
           <p className={css.text}>
             <span className={css.textBold}>{data.publisher}</span> №{" "}
             {data.number}/ Редакція від {data.revisionDate} (усього редакцій -{" "}
-            {data.revisionNumber ? data.revisionNumber : 1})
+            {data.revisionNumber ? data.revisionNumber : 1}) / Постанова від {data.acceptDate}
           </p>
         </div>
         <div className={`${css.circle} ${css.download}`}>

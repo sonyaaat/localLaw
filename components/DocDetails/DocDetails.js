@@ -19,7 +19,21 @@ export default function DocDetails({ document }) {
     ));
     return formattedLines;
   }
+  
   const formattedContent = formatContentWithLineBreaks(document.text);
+  function transformDate(dateString) {
+    const months = [
+      "січня", "лютого", "березня", "квітня", "травня", "червня",
+      "липня", "серпня", "вересня", "жовтня", "листопада", "грудня"
+    ];
+  
+    const [year, month, day] = dateString.split('-').map(Number);
+  
+    const transformedDate = `${day} ${months[month - 1]} ${year} року`;
+  
+    return transformedDate;
+  }
+  const transformedDate = transformDate(document.acceptDate);
   return (
     <div className={isMenuOpen && `${css.backgroundModalOpen}`}>
       <div className={css.headerWrapper}>
@@ -32,16 +46,16 @@ export default function DocDetails({ document }) {
           {document.effectiveDate}
         </p>
       </div>
-      {formattedContent && (
+      {formattedContent && transformedDate && (
         <div className={`container ${css.container}`}>
           <div className={css.mainWrapper}>
             <h2 className={css.title}>
-              Указ <br /> {document.publisher} <br /> {document.name}
+              {document.documentType} <br /> {document.publisher} <br /> {document.name}
             </h2>
             <p className={css.mainText}>{formattedContent}</p>
             <p className={css.publisherContent}> {document.publisher}</p>
             <div className={css.bottomContent}>
-              <p> {document.acceptDate}</p>
+              <p> {transformedDate}</p>
               <p> № {document.number}</p>
             </div>
           </div>
