@@ -9,9 +9,6 @@ import Pagination from "../Pagination/Pagination";
 import ModalNav from "../ModalNav/ModalNav";
 import { useEffect } from "react";
 import List from "../List/List";
-import SearchList from "../SearchList/SearchList";
-import SearchResults from "../SearchResults/SearchResults";
-
 export default function MainPage() {
   const [searchWord, setSearchWord] = useState("");
   const [searchParams, setSearchParams] = useState("");
@@ -20,16 +17,13 @@ export default function MainPage() {
   const changeMenu = () => {
     setIsMenuOpen((prev) => !prev);
   };
-  const filterFunction = () => {
-    // if (!searchWord) {
-    return data;
-    // }
-  };
+  useEffect(()=>{
+    localStorage.setItem("searchResNumber", "");
+  },[])
+
 
   return (
     <div className="container">
-
-      {/* <ModalNav/> */}
      <Search setSearchWord={setSearchWord} setSearchParams={setSearchParams} />
 
       <div className={css.top}>
@@ -45,7 +39,7 @@ export default function MainPage() {
 
       {data && (
         <div className={isMenuOpen ? `${css.mainWrapper}` : ""}>
-          <Pagination itemsPerPage={10} items={filterFunction()} list={<List/>} isMenuOpen={isMenuOpen}/>
+          <Pagination itemsPerPage={10} items={data} list={<List/>} isMenuOpen={isMenuOpen}/>
           {isMenuOpen && <ModalNav changeMenu={changeMenu} toTop={true} />}
         </div>
       )}

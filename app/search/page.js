@@ -7,6 +7,8 @@ import SearchResults from "@/components/SearchResults/SearchResults";
 import SearchList from "@/components/SearchList/SearchList";
 import ModalNav from "@/components/ModalNav/ModalNav";
 import PaginatedItems from "@/components/Pagination/Pagination";
+
+import HeaderBox from "@/components/Header/HeaderBox";
 export default function SearchPage() {
   const changeMenu = () => {
     setIsMenuOpen((prev) => !prev);
@@ -18,49 +20,38 @@ export default function SearchPage() {
   const searchField = searchParams.get("params");
   const [resData, setResData] = useState();
   const [filteredData, setFilteredData] = useState(data);
-  useEffect(() => {
-    console.log("filterOption", filterOption);
-  }, [filterOption]);
-
-  useEffect(() => {
-    console.log("searchField", searchField);
-  }, [searchField]);
 
   useEffect(() => {
     const filterFunc = () => {
       if (filterOption === "inAlphabet") {
-        console.log(1);
         const sorted = [...filteredData].sort((a, b) =>
           a.name.localeCompare(b.name)
         );
         setResData(sorted);
       } else if (filterOption === "notAlphabet") {
-        console.log(2);
         const inReversedOrder = [...filteredData].sort((a, b) =>
           b.name.localeCompare(a.name)
         );
         setResData(inReversedOrder);
       } else if (filterOption === "dateIncrease") {
-        console.log(3);
+
         const inAscending = [...filteredData].sort(
           (a, b) => new Date(a.acceptDate) - new Date(b.acceptDate)
         );
-        console.log("dateIncrease", inAscending);
+       
         setResData(inAscending);
       } else if (filterOption === "dateDecreasing") {
-        console.log(4);
+
         const inDecreasing = [...filteredData].sort(
           (a, b) => new Date(b.acceptDate) - new Date(a.acceptDate)
         );
-        console.log("inDecreasing", inDecreasing);
+      
         setResData(inDecreasing);
       }
     };
     filterFunc();
   }, [filterOption, filteredData]);
-  useEffect(() => {
-    console.log("resData", resData);
-  }, [resData]);
+  
   useEffect(() => {
     if (searchField === "inName") {
       const filter = data.filter((el) =>
@@ -75,7 +66,7 @@ export default function SearchPage() {
       setFilteredData(filter);
     }
     if (searchField === "all") {
-      console.log("all");
+
       const filter = data.filter(
         (el) =>
           el.name.toLowerCase().includes(searchText.toLowerCase()) ||
@@ -85,40 +76,46 @@ export default function SearchPage() {
     }
   }, [searchText, searchField]);
   return (
-    <div className="container">
-      {!isMenuOpen && (
-        <button
-          className={`${css.openMenuBtn} ${css.openMenuBtnAbsolute}`}
-          onClick={changeMenu}
-        >
-          <svg className={css.openSvg}>
-            <use href={`/sprite.svg#icon-left`}></use>
-          </svg>
-        </button>
-      )}
+    <>
+      {resData && <HeaderBox searchRes={resData.length} />}
+      <div className="container">
+        {!isMenuOpen && (
+          <button
+            className={`${css.openMenuBtn} ${css.openMenuBtnAbsolute}`}
+            onClick={changeMenu}
+          >
+            <svg className={css.openSvg}>
+              <use href={`/sprite.svg#icon-left`}></use>
+            </svg>
+          </button>
+        )}
 
-      {resData && (
-        <div className={isMenuOpen ? `${css.mainWrapper} ` : ""}>
-          <div className={css.mainWrapperBorder}>
-            <SearchResults
-              setFilterOption={setFilterOption}
-              searchField={searchField}
-              searchText={searchText}
-              searchLenght={resData.length}
-            />
-            <PaginatedItems
-              isMenuOpen={isMenuOpen}
-              itemsPerPage={10}
-              items={resData}
-              filterOption={filterOption}
-              list={
-                <SearchList searchField={searchField} searchText={searchText} />
-              }
-            />
+        {resData && (
+          <div className={isMenuOpen ? `${css.mainWrapper} ` : ""}>
+            <div className={css.mainWrapperBorder}>
+              <SearchResults
+                setFilterOption={setFilterOption}
+                searchField={searchField}
+                searchText={searchText}
+                searchLenght={resData.length}
+              />
+              <PaginatedItems
+                isMenuOpen={isMenuOpen}
+                itemsPerPage={10}
+                items={resData}
+                filterOption={filterOption}
+                list={
+                  <SearchList
+                    searchField={searchField}
+                    searchText={searchText}
+                  />
+                }
+              />
+            </div>
+            {isMenuOpen && <ModalNav changeMenu={changeMenu} />}
           </div>
-          {isMenuOpen && <ModalNav changeMenu={changeMenu} />}
-        </div>
-      )}
-    </div>
+        )}
+      </div>
+    </>
   );
 }
