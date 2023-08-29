@@ -9,27 +9,31 @@ import Pagination from "../Pagination/Pagination";
 import ModalNav from "../ModalNav/ModalNav";
 import { useEffect } from "react";
 import List from "../List/List";
-
+import Loader from "../Loader/Loader";
 
 export default function MainPage() {
   const [searchWord, setSearchWord] = useState("");
   const [searchParams, setSearchParams] = useState("");
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [actualData,setActualData]=useState()
 
   const changeMenu = () => {
     setIsMenuOpen((prev) => !prev);
   };
-  useEffect(()=>{
+  useEffect(() => {
     localStorage.setItem("searchResNumber", "");
-  },[])
-
+  }, []);
+  useEffect(()=>{
+setActualData(data)
+  },[data])
 
   return (
     <div className="container">
-     <Search setSearchWord={setSearchWord} setSearchParams={setSearchParams} />
+      <Search setSearchWord={setSearchWord} setSearchParams={setSearchParams} />
 
       <div className={css.top}>
-         <h2 className={css.header}>Останні новини</h2>
+        <h2 className={css.header}>Останні новини</h2>
+       
         {!isMenuOpen && (
           <button className={css.openMenuBtn} onClick={changeMenu}>
             <svg className={css.openSvg}>
@@ -39,12 +43,18 @@ export default function MainPage() {
         )}
       </div>
 
-      {data && (
+      {actualData && (
         <div className={isMenuOpen ? `${css.mainWrapper}` : ""}>
-          <Pagination itemsPerPage={10} items={data} list={<List/>} isMenuOpen={isMenuOpen}/>
+          <Pagination
+            itemsPerPage={10}
+            items={actualData}
+            list={<List />}
+            isMenuOpen={isMenuOpen}
+          />
           {isMenuOpen && <ModalNav changeMenu={changeMenu} toTop={true} />}
         </div>
       )}
+       {!actualData && <Loader />}
     </div>
   );
 }

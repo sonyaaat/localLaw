@@ -1,6 +1,7 @@
 import Link from "next/link";
 import SearchItem from "../SearchItem/SearchItem";
 import css from "./SearchList.module.css";
+import Loader from "../Loader/Loader";
 export default function SearchList({
   data,
   searchField,
@@ -10,7 +11,7 @@ export default function SearchList({
  
   return (
     <>
-      {data &&
+      {data ?
         (data.length === 0 ? (
           <div className={css.notFoundWrapper}>
             <p className={css.notFoundText}>Документів не знайдено</p>
@@ -32,7 +33,7 @@ export default function SearchList({
               </ul>
             ))}
           </ul>
-        ))}
+        )):<Loader/>}
     </>
   );
 }

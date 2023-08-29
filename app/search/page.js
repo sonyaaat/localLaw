@@ -9,6 +9,7 @@ import ModalNav from "@/components/ModalNav/ModalNav";
 import PaginatedItems from "@/components/Pagination/Pagination";
 
 import HeaderBox from "@/components/Header/HeaderBox";
+import Loader from "@/components/Loader/Loader";
 export default function SearchPage() {
   const changeMenu = () => {
     setIsMenuOpen((prev) => !prev);
@@ -77,7 +78,7 @@ export default function SearchPage() {
   }, [searchText, searchField]);
   return (
     <>
-      {resData && <HeaderBox searchRes={resData.length} />}
+      {resData ? <HeaderBox searchRes={resData.length} />: <Loader />}
       <div className="container">
         {!isMenuOpen && (
           <button
