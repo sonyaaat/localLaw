@@ -1,7 +1,7 @@
 import Footer from "@/components/Footer/Footer";
 import "./globals.css";
 import Header from "@/components/Header/Header";
-// import HeaderBox from "../components/Header/HeaderBox";
+import BtnUp from "@/components/BtnUp/BtnUp";
 
 export const metadata = {
   title: "Local Low App",
@@ -10,14 +10,12 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-
       <body>
+        <BtnUp />
         <Header />
-        {/* <HeaderBox /> */}
         {children}
         <Footer />
       </body>
-
     </html>
   );
 }
