@@ -1,6 +1,6 @@
 // CustomRadioButton.js
 "use client";
-import React, { useEffect ,useRef, useState} from "react";
+import React, {  useRef, useState} from "react";
 import css from "./RadioButton.module.css";
 
 function RadioButton({ value, checked, label, onChange, name }) {

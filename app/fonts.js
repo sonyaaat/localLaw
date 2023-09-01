@@ -8,3 +8,4 @@ export const merriweather = Merriweather({
   subsets: ["latin"],
   weight: ["400", "700"],
 });
+

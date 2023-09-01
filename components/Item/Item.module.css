@@ -1,13 +1,18 @@
 .item{
-    display: flex;
-    padding: 24px;
-
+    
+display: flex;
+align-items: center;
     border-radius: 16px;
 border: 1px solid #F3F3F3;
 background: var(--background-octonary, #FFF);
 box-shadow: 0px 0px 28px 0px rgba(43, 89, 255, 0.04);
 max-width: 1224px;
 
+}
+.link{
+    width: 100%;
+    display: flex;
+    padding: 24px;
 }
 .itemWithModal{
     width: 894px;
@@ -18,7 +23,8 @@ max-width: 1224px;
     font-style: normal;
     font-weight: 400;
     line-height: 150%; 
-
+display: flex;
+flex-direction: column;
     width: 40px;
 height: 40px;
 border-radius: 50%;
@@ -63,13 +69,49 @@ font-weight: 600;
     height: 20px;
     
 }
+.downloadGrey{
+    stroke: var(--text-secondary);
+/* fill: white; */
+}
+.download:hover,.download:focus .downloadGrey{
+    stroke:var(--brand-primary-dark);
+    fill:var(--brand-primary-dark);
+}
 .download{
     margin-left: auto;
     cursor: pointer;
 }
 .download:hover,.download:focus .downloadSvg{
-    fill:var(--brand-primary-dark)
+   
+    stroke:var(--brand-primary-dark);
 }
-.highlight{
-    color: red;
+
+
+
+.activeText{
+    color: var(--brand-primary-dark);
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: 22px;
+letter-spacing: 0.048px;
+text-decoration-line: underline;
+background-color: var(--brand-primary-light-max);
+
+}
+.fileSize{
+    color: var(--text-secondary);
+font-size: 10px;
+font-style: normal;
+font-weight: 400;
+line-height:  145% ;
+letter-spacing: 0.02px;
+}
+
+.circle:hover .fileSize,.circle:focus.fileSize{
+    color:var(--brand-primary-dark)
+ }
+ .circle:hover .downloadGrey,
+.circle:focus .downloadGrey {
+  stroke: var(--brand-primary-dark) /* Color on hover and focus */
 }

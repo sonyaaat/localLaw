@@ -1,9 +1,15 @@
 import Link from "next/link";
 import css from "./ModalNav.module.css";
 import { usePathname } from "next/navigation";
+import { Notify } from 'notiflix/build/notiflix-notify-aio';
+
 
 export default function ModalNav({changeMenu,toTop=false}) {
   const currentRoute = usePathname();
+  const  notify = () => {
+    Notify.warning("Даний функціонал знаходиться у розробці");
+  }; 
+  
   return (
     <div className={toTop?`${css.modal} ${css.modalToTop}`:`${css.modal}`}>
       <button onClick={changeMenu} className={css.crossButton} >
@@ -15,7 +21,7 @@ export default function ModalNav({changeMenu,toTop=false}) {
 
       <nav>
         <ul className={css.list}>
-          <li className={css.item}>
+          <li className={css.item} >
             <Link
               href="/"
               className={
@@ -30,9 +36,9 @@ export default function ModalNav({changeMenu,toTop=false}) {
               <span className={css.text}>Головна</span>
             </Link>
           </li>
-          <li className={css.item}>
+          <li className={css.item} onClick={notify}>
             <Link
-              href="/"
+              href="#"
               className={
                 currentRoute === "/docs"
                   ? `${css.link} ${css.activeLink}`
@@ -45,9 +51,9 @@ export default function ModalNav({changeMenu,toTop=false}) {
               <span className={css.text}>Документація</span>
             </Link>
           </li>
-          <li className={css.item}>
+          <li className={css.item} onClick={notify}>
             <Link
-              href="/"
+               href="#"
               className={
                 currentRoute === "/search"
                   ? `${css.link} ${css.activeLink}`
@@ -60,9 +66,9 @@ export default function ModalNav({changeMenu,toTop=false}) {
               <span className={css.text}>Пошук</span>
             </Link>
           </li>
-          <li className={css.item}>
+          <li className={css.item} onClick={notify}>
             <Link
-              href="/"
+              href="#"
               className={
                 currentRoute === "/rules"
                   ? `${css.link} ${css.activeLink}`
@@ -75,14 +81,15 @@ export default function ModalNav({changeMenu,toTop=false}) {
               <span className={css.text}>Правила використання</span>
             </Link>
           </li>
-          <li className={css.item}>
+          <li className={css.item} onClick={notify}>
             <Link
-              href="/"
+              href="#"
               className={
                 currentRoute === "/contacts"
                   ? `${css.link} ${css.activeLink}`
                   : `${css.link}`
               }
+              
             >
               <svg className={css.svgIcon}>
                 <use href={`/sprite.svg#icon-profile1`}></use>

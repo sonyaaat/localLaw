@@ -1,5 +1,4 @@
 .header {
-
   font-family: "Merriweather", serif;
 
   font-size: 24px;
@@ -28,42 +27,30 @@
 
   margin-left: auto;
 }
-.openMenuBtn:hover,
+.openMenuBtn:hover .openSvg,
 .openMenuBtn:focus .openSvg {
   fill: var(--brand-primary-dark);
 }
-.openMenuBtnAbsolute{
+.openMenuBtnAbsolute {
   position: absolute;
   right: 100px;
 }
-.mainWrapper{
-    display: flex;
-    /* justify-content: center; */
-    flex-direction: row;
-    gap: 32px;
-
+.mainWrapper {
+  display: flex;
+  flex-direction: row;
+  gap: 32px;
 }
-.mainWrapperBorder{
-  padding: 44px 20px;
-    border-radius: 16px;
-border: 1px solid #F5F5F5;
-background: var(--background-octonary, #FFF);
-box-shadow: 0px 0px 25px 0px rgba(43, 89, 255, 0.04);
-
-}
-.borderWrapper{
+.mainWrapperBorder {
+  padding: 44px 20px 0px 20px;
   border-radius: 16px;
-border: 1px solid #F5F5F5;
-background: var(--background-octonary, #FFF);
-box-shadow: 0px 0px 25px 0px rgba(43, 89, 255, 0.04);
-
-/* display: flex;
-flex-direction: column;
-padding: 20px;
-gap: 16px;  */
-/* width: 1264px;*/
+  border: 1px solid #f5f5f5;
+  background: var(--background-octonary, #fff);
+  box-shadow: 0px 0px 25px 0px rgba(43, 89, 255, 0.04);
+  margin-bottom: 162px;
 }
-
-.openMenuBtnAbsolute:hover{
-/* border: 1px solid var(--brand-primary-dark); */
+.borderWrapper {
+  border-radius: 16px;
+  border: 1px solid #f5f5f5;
+  background: var(--background-octonary, #fff);
+  box-shadow: 0px 0px 25px 0px rgba(43, 89, 255, 0.04);
 }

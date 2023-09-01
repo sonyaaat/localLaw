@@ -29,16 +29,9 @@ margin-left: 24px;
   .prevSvg:hover,.prevSvg:focus,.nextSvg:hover,.nextSvg:focus{
     fill: var(--brand-primary-dark);
   }
-  /* .itemPagination {
-    align-items: center;
-    color: #FFF;
-    cursor: pointer;
-    display: flex;
-    font-size: 14px;
-    height: 40px;
-    justify-content: center;
-    width: 40px;
-  } */
+  .pageLink{
+    padding: 10px;
+  }
   .itemPagination {
     width: 32px;
     height: 32px;
