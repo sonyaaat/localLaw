@@ -1,6 +1,5 @@
 .background__color {
   background: var(--additional-blue-dark, #143254);
-
   margin-left: auto;
   margin-right: auto;
 }
@@ -107,11 +106,6 @@
   align-items: center;
   margin-bottom: 24px;
 }
-/* .footer__iconSocial {
-  width: auto;
-  height: auto;
-  color: inherit;
-} */
 .footer__social {
   margin-bottom: 24px;
 }
@@ -164,7 +158,7 @@
 }
 .footer__zakonwhite {
   color: #fff;
-  font-family: "Poppins", serif;
+  font-family: "Poppins", sans-serif;
   font-size: 14px;
   font-weight: 500;
   line-height: 1.43;

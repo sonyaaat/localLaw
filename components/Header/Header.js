@@ -16,13 +16,15 @@ export default function Header() {
       <header className="container">
         <div className={css.header__container}>
           <div className={css.header__iconspans}>
-            <a className={css.header__linklogo} href="/">
+            <Link className={css.header__linklogo} href="/">
               <Image src="/Logo.svg" alt="logo" width="38" height="38" />
-            </a>
-            <div className={css.header_logospans}>
-              <span className={css.header__logotext}>Dikretum</span>
-              {/* <span className={css.header__logotextsecond}>Law</span> */}
-            </div>
+            </Link>
+            {/* <div className={css.header_logospans}> */}
+            <Link className={css.header__logotext} href="/">
+              Dikretum
+            </Link>
+            {/* <span className={css.header__logotextsecond}>Law</span> */}
+            {/* </div> */}
           </div>
           <ul className={css.header__list}>
             <li
