@@ -18,6 +18,9 @@
   line-height: 1.5;
   letter-spacing: 0.016px;
 }
+.footer__item :hover {
+  color: var(--brand-primary-normal);
+}
 
 .footer__item:not(:last-of-type) {
   margin-bottom: 16px;
@@ -32,6 +35,9 @@
   line-height: 100%; /* 20px */
   letter-spacing: -1px;
   text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  margin-left: 12px;
 }
 .footer__logotextsecond {
   color: var(--text-quaternary, #fff);
@@ -42,18 +48,15 @@
   line-height: 100%; /* 16px */
   letter-spacing: -1px;
 }
-.footer_logospans {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  margin-bottom: 32px;
-}
+
 .footer__iconspans {
   display: flex;
   flex-direction: row;
+  margin-bottom: 32px;
+  align-items: center;
 }
 .footer__linklogo {
-  margin-right: 12px;
+  display: flex;
 }
 .footer__languageSvg {
   width: 20px;
@@ -65,7 +68,11 @@
   height: 16px;
   cursor: pointer;
   background-color: inherit;
+  fill: var(--background-octonary);
   border: none;
+}
+.footer__languageBtn:hover {
+  fill: var(--brand-primary-normal);
 }
 .footer__groupLanguage {
   display: flex;
@@ -91,23 +98,47 @@
   width: 20px;
   height: 20px;
   margin-right: 16px;
+  fill: var(--text-quaternary);
 }
-
 .footer__mail {
+  display: flex;
   color: #fff;
   font-family: "Poppins", sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.016px;
+  align-items: center;
+}
+
+.footer__mail:hover {
+  color: var(--brand-primary-normal);
+}
+
+.footer__mail:hover .footer__iconMail,
+.footer__mail:focus .footer__iconMail {
+  fill: var(--brand-primary-normal);
 }
 .footer__mailBox {
   display: flex;
-  align-items: center;
+  /* align-items: center; */
   margin-bottom: 24px;
 }
+
 .footer__social {
   margin-bottom: 24px;
+}
+/* .footer__iconSocial {
+  fill: inherit;
+  background-color: #fff;
+} */
+.footer__iconSocialLink {
+  fill: var(--background-octonary);
+  width: 40px;
+  height: 40px;
+}
+.footer__iconSocialLink:hover {
+  fill: var(--brand-primary-dark);
 }
 .footer__line {
   width: 100%;
@@ -142,7 +173,7 @@
   display: flex;
 }
 .footer__itemprivacy {
-  color: #94959f;
+  color: var(--text-tertiary);
   text-align: center;
   font-family: "Poppins", sans-serif;
   font-size: 14px;
@@ -153,11 +184,14 @@
 .footer__itemprivacy:not(:last-of-type) {
   margin-right: 32px;
 }
+.footer__itemprivacy:hover {
+  color: var(--text-quaternary);
+}
 .footer__zakon {
   display: flex;
 }
 .footer__zakonwhite {
-  color: #fff;
+  color: var(--text-quaternary);
   font-family: "Poppins", sans-serif;
   font-size: 14px;
   font-weight: 500;
@@ -165,7 +199,7 @@
   letter-spacing: -0.028px;
 }
 .footer__zakonall {
-  color: #94959f;
+  color: var(--text-tertiary);
   font-family: "Poppins", sans-serif;
   font-size: 14px;
   font-weight: 500;

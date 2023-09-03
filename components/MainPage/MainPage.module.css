@@ -16,6 +16,9 @@
   height: 24px;
 }
 .openMenuBtn {
+  outline: none;
+  position: absolute;
+  right: 88px;
   width: 56px;
   height: 56px;
   cursor: pointer;
@@ -24,12 +27,22 @@
   background-color: white;
   border-radius: 50%;
   border: none;
-
+  border: 1px solid white;
   margin-left: auto;
+  transition: all 0.3s ease;
+}
+.openMenuBtn:focus {
+  outline: none;
 }
 .openMenuBtn:hover .openSvg,
 .openMenuBtn:focus .openSvg {
   fill: var(--brand-primary-dark);
+  outline: none;
+}
+.openMenuBtn:hover,
+.openMenuBtn:focus {
+  transition: all 0.3s ease;
+  border: 1px solid var(--brand-primary-dark);
 }
 .openMenuBtnAbsolute {
   position: absolute;
