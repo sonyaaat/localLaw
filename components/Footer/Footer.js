@@ -1,7 +1,12 @@
+"use client";
 import Image from "next/image";
 import css from "../Footer/Footer.module.css";
+import { Notify } from "notiflix/build/notiflix-notify-aio";
 
 export default function Footer() {
+  const notify = () => {
+    Notify.warning("Даний функціонал знаходиться у розробці");
+  };
   return (
     <div className={css.background__color}>
       <footer className="container">
@@ -16,55 +21,50 @@ export default function Footer() {
                     width="38"
                     height="38"
                   />
-                </a>
-                <div className={css.footer_logospans}>
                   <span className={css.footer__logotext}>Dikretum</span>
-                  {/* <span className={css.footer__logotextsecond}>Law</span> */}
-                </div>
+                </a>
+                {/* <div className={css.footer_logospans}> */}
+                {/* <span className={css.footer__logotextsecond}>Law</span> */}
+                {/* </div> */}
               </div>
               <div className={css.footer__groupLanguage}>
                 <svg className={css.footer__languageSvg}>
                   <use href={`/sprite.svg#icon-language`}></use>
                 </svg>
                 <p className={css.footer__language}>UA</p>
-                <button className={css.footer__languageBtn}>
+                <button
+                  className={css.footer__languageBtn}
+                  type="button"
+                  onClick={notify}
+                >
                   <svg className={css.footer__iconDownSvg}>
-                    <use href={`/sprite.svg#icon-downfooter`}></use>
+                    <use href={`/sprite.svg#icon-down`}></use>
                   </svg>
                 </button>
               </div>
               <div className={css.footer__mailBox}>
-                <svg className={css.footer__iconMail}>
-                  <use href={`/sprite.svg#icon-mail`}></use>
-                </svg>
                 <a href="/" className={css.footer__mail}>
+                  <svg className={css.footer__iconMail}>
+                    <use href={`/sprite.svg#icon-Mail`}></use>
+                  </svg>
                   contact@zakon.com
                 </a>
               </div>
               <div className={css.footer__social}>
                 <a className={css.footer__iconSocial}>
-                  <Image
-                    src="/icon-facebook.svg"
-                    alt="icon-facebook"
-                    width="40"
-                    height="40"
-                  />
+                  <svg className={css.footer__iconSocialLink}>
+                    <use href={`/sprite.svg#icon-icon-facebook`}></use>
+                  </svg>
                 </a>
                 <a className={css.footer__iconSocial}>
-                  <Image
-                    src="/icon-instagram.svg"
-                    alt="icon-instagram"
-                    width="40"
-                    height="40"
-                  />
+                  <svg className={css.footer__iconSocialLink}>
+                    <use href={`/sprite.svg#icon-icon-instagram`}></use>
+                  </svg>
                 </a>
                 <a className={css.footer__iconSocial}>
-                  <Image
-                    src="/icon-twitter.svg"
-                    alt="icon-twitter"
-                    width="40"
-                    height="40"
-                  />
+                  <svg className={css.footer__iconSocialLink}>
+                    <use href={`/sprite.svg#icon-icon-twitter`}></use>
+                  </svg>
                 </a>
               </div>
             </div>

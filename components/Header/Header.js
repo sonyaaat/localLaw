@@ -3,8 +3,7 @@ import Image from "next/image";
 import css from "../Header/Header.module.css";
 import { usePathname } from "next/navigation";
 import Link from "next/link";
-import { Notify } from 'notiflix/build/notiflix-notify-aio';
-
+import { Notify } from "notiflix/build/notiflix-notify-aio";
 
 export default function Header() {
   const currentRoute = usePathname();
@@ -18,11 +17,11 @@ export default function Header() {
           <div className={css.header__iconspans}>
             <Link className={css.header__linklogo} href="/">
               <Image src="/Logo.svg" alt="logo" width="38" height="38" />
+              <span className={css.header__logotext} href="/">
+                Dikretum
+              </span>
             </Link>
             {/* <div className={css.header_logospans}> */}
-            <Link className={css.header__logotext} href="/">
-              Dikretum
-            </Link>
             {/* <span className={css.header__logotextsecond}>Law</span> */}
             {/* </div> */}
           </div>
@@ -94,7 +93,11 @@ export default function Header() {
               <use href={`/sprite.svg#icon-language`}></use>
             </svg>
             <p className={css.header__language}>UA</p>
-            <button className={css.header__languageBtn}>
+            <button
+              className={css.header__languageBtn}
+              type="button"
+              onClick={notify}
+            >
               <svg className={css.header__iconDownSvg}>
                 <use href={`/sprite.svg#icon-down`}></use>
               </svg>

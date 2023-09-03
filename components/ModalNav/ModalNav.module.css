@@ -4,17 +4,15 @@
   height: 392px;
   padding: 44px 24px 44px 24px;
   /* margin-left: 32px; */
-  
 
   border-radius: 16px;
   border: 1px solid #000;
   background: var(--color-6, #fff);
   /* 01 */
   box-shadow: 0px 4px 40px 0px rgba(43, 89, 255, 0.08);
-  
 }
-.modalToTop{
- margin-top: -60px; 
+.modalToTop {
+  margin-top: -60px;
 }
 .svgCross {
   width: 24px;
@@ -32,7 +30,7 @@
   display: flex;
 }
 .list {
-   width: 220px;
+  width: 220px;
   display: flex;
   flex-direction: column;
   gap: 37px;
@@ -40,11 +38,16 @@
 .svgIcon {
   width: 20px;
   height: 20px;
-  fill: #000;
+  display: inline-block;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: none;
 }
 .svgCross:hover,
 .svgCross:focus {
   fill: var(--brand-primary-dark);
+  border: 1px solid var(--brand-primary-dark);
+  border-radius: 50%;
 }
 .text {
   margin-left: 16px;
@@ -55,11 +58,13 @@
 }
 .link:hover .svgIcon,
 .link:focus .svgIcon {
-  fill: var(--brand-primary-dark);
+  fill: none;
+  stroke: var(--brand-primary-dark);
 }
 .activeLink {
   color: var(--brand-primary-dark);
 }
 .activeLink .svgIcon {
-  fill: var(--brand-primary-dark);
+  fill: none;
+  stroke: var(--brand-primary-dark);
 }
