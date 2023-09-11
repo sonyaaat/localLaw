@@ -101,10 +101,19 @@
   position: absolute;
   left: 16px;
   top: 50%;
-  transform: translateY(-50%);
   width: 20px;
   height: 20px;
+  display: inline-block;
+  stroke: gray;
+  fill: none;
+  transform: translateY(-50%);
 }
+/* .searchSvg {
+ 
+ 
+  width: 20px;
+  height: 20px;
+} */
 .clearButton {
   position: absolute;
   top: 50%;

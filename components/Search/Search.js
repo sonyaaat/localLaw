@@ -46,7 +46,7 @@ export default function Search({ setSearchParams, setSearchWord }) {
       <div className={css.formTop}>
         <div className={css.inputWrapper}>
           <svg className={css.searchSvg}>
-            <use href={`/sprite.svg#icon-search`}></use>
+            <use href={`/sprite.svg#icon-search-md`}></use>
           </svg>
           <input
             required
