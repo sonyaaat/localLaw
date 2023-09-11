@@ -1,5 +1,7 @@
 .mainContainer {
-  position: absolute;
+  top: 0;
+  position: fixed;
+  /* position: absolute; */
   right: 88px;
   display: flex;
   width: 450px;

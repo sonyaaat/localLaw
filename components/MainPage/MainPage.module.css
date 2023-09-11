@@ -22,12 +22,13 @@
   width: 56px;
   height: 56px;
   cursor: pointer;
+ 
 
   box-shadow: 0px 0px 25px 0px rgba(43, 89, 255, 0.04);
   background-color: white;
   border-radius: 50%;
   border: none;
-  border: 1px solid white;
+  border: 1px solid var(--brand-primary-dark);
   margin-left: auto;
   transition: all 0.3s ease;
 }

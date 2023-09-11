@@ -34,6 +34,7 @@ export default function PDFViewer({docFile}) {
               renderAnnotationLayer={false}
               renderTextLayer={false}
               className={css.zero}
+              width={1000}
             />
           ))}
         </Document>

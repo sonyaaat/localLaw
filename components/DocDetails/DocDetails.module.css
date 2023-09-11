@@ -99,7 +99,8 @@
 }
 .openMenuBtn {
   outline: none;
-  position: absolute;
+  /* position: absolute; */
+  position: fixed;
   right: 88px;
   width: 56px;
   height: 56px;
@@ -109,7 +110,7 @@
   background-color: white;
   border-radius: 50%;
   border: none;
-  border: 1px solid white;
+  border: 1px solid var(--brand-primary-dark);
   margin-left: auto;
   transition: all 0.3s ease;
 }
