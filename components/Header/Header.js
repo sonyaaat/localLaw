@@ -16,7 +16,12 @@ export default function Header() {
         <div className={css.header__container}>
           <div className={css.header__iconspans}>
             <Link className={css.header__linklogo} href="/">
-              <Image src="/Logo.svg" alt="logo" width="38" height="38" />
+            <Image
+                    src="/LogoFooter.svg"
+                    alt="logo"
+                    width="38"
+                    height="38"
+                  />
               <span className={css.header__logotext} href="/">
                 Dikretum
               </span>
@@ -32,7 +37,7 @@ export default function Header() {
                   ? `${css.header__item} ${css.activeItem}`
                   : `${css.header__item}`
               }
-              onClick={notify}
+            
             >
               <Link href="/" className={css.link}>
                 Головна
