@@ -23,8 +23,23 @@ export default function SearchItem({
     ));
     
   }
+  function getThreeSentences(text, higlight = searchText) {
+    const sentences = text.split(/[.!?]/);
+    const searchTextIndex = sentences.findIndex((sentence) =>
+      sentence.toLowerCase().includes(higlight.toLowerCase())
+    );
+
+    if (searchTextIndex === -1) {
+      return text; // Якщо слово searchText не знайдено, повертаємо весь текст
+    }
+
+    const start = Math.max(0, searchTextIndex - 3); // Початковий індекс для витягнення трьох речень до
+    const end = Math.min(sentences.length, searchTextIndex + 4); // Кінцевий індекс для витягнення трьох речень після
+
+    return sentences.slice(start, end).join(". ") + "."; // Об'єднуємо речення та додаємо крапку в кінці
+  }
   const  notify = () => {
-    Notify.warning("Даний функціонал знаходиться у розробці");
+    Notify.warning("Даний функціонал знаходиться у ");
   }; 
   return (
     <li className={css.item}>
@@ -42,7 +57,10 @@ export default function SearchItem({
             </h3>
           )}
           {(searchField === "inText" || searchField === "all") && (
-            <p className={css.title}>{getHighlightedText(data.text)} </p>
+            // <p className={css.title}>{getHighlightedText(data.text)} </p>
+            <p className={css.title}>
+              {getHighlightedText(getThreeSentences(data.text))}
+            </p>
           )}
 
           <p className={css.text}>
@@ -53,12 +71,12 @@ export default function SearchItem({
         </div>
        
       </Link>
-      <div className={`${css.circle} ${css.download}`} onClick={notify}>
+      <a href={data.file} download={data.file} className={`${css.circle} ${css.download}`} >
           <svg className={`${css.downloadGrey}`}>
             <use href={`/sprite.svg#icon-file-download`}></use>
           </svg>
           <span className={css.fileSize}>2MB</span>
-        </div>
+        </a>
     </li>
   );
 }

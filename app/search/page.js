@@ -71,7 +71,7 @@ export default function SearchPage() {
       const filter = data.filter(
         (el) =>
           el.name.toLowerCase().includes(searchText.toLowerCase()) ||
-          el.text.includes(searchText)
+          el.text.toLowerCase().includes(searchText)
       );
       setFilteredData(filter);
     }

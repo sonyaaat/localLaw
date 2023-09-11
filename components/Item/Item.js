@@ -1,11 +1,18 @@
 import Link from "next/link";
 import css from "./Item.module.css"
 import { Notify } from 'notiflix/build/notiflix-notify-aio';
+import { useEffect } from "react";
 export default function Item({ data,index,pageNumber }) {
 
-  const  notify = () => {
-    Notify.warning("Даний функціонал знаходиться у розробці");
-  }; 
+  // const  notify = () => {
+  //   Notify.warning("Даний функціонал знаходиться");
+  // }; 
+  function downloadFile() {
+    window.open(data.file)
+ }
+  useEffect(()=>{
+console.log("data",data.file)
+  },[data])
 
   return (
     <li  className={css.item}>
@@ -20,11 +27,12 @@ export default function Item({ data,index,pageNumber }) {
       </div>
       
      </Link>
-     <div className={`${css.circle} ${css.download}`} onClick={notify} id="downloadButton">
+     {/* <a href={data.file} download={data.file}>Download</a> */}
+     <a href={data.file} download={data.file} className={`${css.circle} ${css.download}`} onClick={downloadFile} id="downloadButton">
         <svg className={css.downloadSvg} id="svg">
           <use href={`/sprite.svg#icon-download`}></use>
         </svg>
-      </div>
+      </a>
     </li>
   );
 }
