@@ -15,12 +15,7 @@ export default function Footer() {
             <div className={css.footer__first}>
               <div className={css.footer__iconspans}>
                 <a className={css.footer__linklogo} href="/src/index.html">
-                  <Image
-                    src="/LogoFooter.svg"
-                    alt="logo"
-                    width="38"
-                    height="38"
-                  />
+                  <Image src="/Logo.svg" alt="logo" width="38" height="38" />
                   <span className={css.footer__logotext}>Dikretum</span>
                 </a>
                 {/* <div className={css.footer_logospans}> */}
