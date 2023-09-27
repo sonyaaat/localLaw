@@ -14,7 +14,7 @@ export default function HeaderBox({ text = "", searchRes, docName }) {
         />
       )}
       <div className={css.baner__changed}>
-        {text && <Image src="/Gerb.svg" alt="gerb" width="68" height="82" />}
+        {/* {text && <Image src="/Gerb.svg" alt="gerb" width="68" height="82" />} */}
         {text && <p className={css.baner__text_main}>{text}</p>}
         {(searchRes === 0 || searchRes) && (
           <h1 className={css.baner__text}>

@@ -5,9 +5,11 @@ import MainPage from "@/components/MainPage/MainPage";
 export default function Home() {
   return (
     <main>
-
-      <HeaderBox text={"Харківська обласна рада"}/>
-
+      <HeaderBox
+        text={
+          "Система створення, публікації, пошуку та аналізу актів органів місцевого самоврядування"
+        }
+      />
 
       <MainPage />
     </main>

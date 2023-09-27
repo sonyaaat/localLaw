@@ -18,7 +18,7 @@ export default function Header() {
             <Link className={css.header__linklogo} href="/">
               <Image src="/Logo.svg" alt="logo" width="38" height="38" />
               <span className={css.header__logotext} href="/">
-                Dikretum
+                DECRETUM
               </span>
             </Link>
             {/* <div className={css.header_logospans}> */}
