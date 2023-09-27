@@ -16,7 +16,7 @@ export default function Footer() {
               <div className={css.footer__iconspans}>
                 <a className={css.footer__linklogo} href="/src/index.html">
                   <Image src="/Logo.svg" alt="logo" width="38" height="38" />
-                  <span className={css.footer__logotext}>Dikretum</span>
+                  <span className={css.footer__logotext}>DECRETUM</span>
                 </a>
                 {/* <div className={css.footer_logospans}> */}
                 {/* <span className={css.footer__logotextsecond}>Law</span> */}
@@ -42,7 +42,7 @@ export default function Footer() {
                   <svg className={css.footer__iconMail}>
                     <use href={`/sprite.svg#icon-Mail`}></use>
                   </svg>
-                  contact@zakon.com
+                  decretum.centr@gmail.com
                 </a>
               </div>
               <div className={css.footer__social}>
@@ -114,9 +114,9 @@ export default function Footer() {
                     Популярні документи
                   </a>
                 </li>
-                <li className={css.footer__item}>
+                {/* <li className={css.footer__item}>
                   <a href="components/FirstLawer">Первинні законодавчі акти</a>
-                </li>
+                </li> */}
               </ul>
             </div>
           </div>
@@ -124,7 +124,7 @@ export default function Footer() {
             <div className={css.footer__line}></div>
             <div className={css.footer__allrights}>
               <div className={css.footer__zakon}>
-                <p className={css.footer__zakonwhite}>Zakon.ua |</p>
+                <p className={css.footer__zakonwhite}>Decretum.ua |</p>
                 <p className={css.footer__zakonall}>
                   All rights reserved. © 2023
                 </p>
