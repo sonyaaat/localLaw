@@ -151,12 +151,23 @@
   color: var(--text-primary);
   text-align: center;
   font-family: "Merriweather", serif;
-  font-size: 38px;
+  font-size: 30px;
   font-weight: 700;
-  line-height: 1.5;
   margin-left: 32px;
   font-style: normal;
-  line-height: 150%; /* 96px */
+  line-height: 150%; 
+}
+.big__text{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+   color: var(--text-primary);
+  font-family: "Merriweather", serif;
+  font-size: 38px;
+  font-weight: 700;
+  margin-left: 32px;
+  font-style: normal;
+  line-height: 150%; 
 }
 .baner__text {
   width: 603px;
@@ -174,7 +185,8 @@
   justify-content: center;
 }
 .baner__changed {
-  display: flex;
+  /* display: flex; */
+  max-width: 900px;
   position: absolute;
 }
 .activeItem {
